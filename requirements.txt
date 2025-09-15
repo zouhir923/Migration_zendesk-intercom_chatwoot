@@ -1,0 +1,8 @@
+requests
+python-dotenv
+pandas
+numpy
+python-dateutil
+ratelimit
+jsonschema
+requests-oauthlib
