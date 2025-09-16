@@ -45,6 +45,23 @@ class IntercomService:
         print(f"Conversations sauvées: {filename} ({get_file_size(filepath)}) - {len(conversations)} items")
         return filepath
     
+    def export_contacts(self) -> str:
+        """Exporter seulement les contacts"""
+        print("Export contacts...")
+        contacts = self.client.get_all_contacts()
+        
+        data = {
+            'metadata': {'exported_at': get_timestamp(include_time=True), 'count': len(contacts)},
+            'contacts': contacts
+        }
+        
+        filename = f"intercom_contacts_{get_timestamp()}.json"
+        filepath = os.path.join(self.output_dir, filename)
+        save_json(data, filepath)
+        
+        print(f"Contacts sauvés: {filename} ({get_file_size(filepath)}) - {len(contacts)} items")
+        return filepath
+    
 def test_intercom_service():
     """Test du service"""
     service = IntercomService()
@@ -54,7 +71,8 @@ def test_intercom_service():
         return
     
     # service.export_articles()
-    service.export_conversations()
+    # service.export_conversations()
+    service.export_contacts()
 
 if __name__ == "__main__":
     test_intercom_service()

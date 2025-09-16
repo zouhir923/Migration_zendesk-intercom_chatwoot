@@ -141,7 +141,7 @@ class IntercomClient:
         all_contacts = []
         endpoint = "contacts"
         
-        params = {"per_page": 150}  # Maximum autorisé
+        params = {"per_page": 150}
         page_count = 0
         
         while True:
@@ -153,16 +153,16 @@ class IntercomClient:
             page_count += 1
             print(f"Page {page_count}: {len(contacts)} contacts récupérés")
             
-            # Vérifier la pagination
+            # Fix pagination
             pages = data.get('pages', {})
-            if not pages.get('next'):
+            next_page = pages.get('next')
+            if not next_page:
                 break
             
-            # Préparer la page suivante
-            next_url = pages['next']
-            if 'starting_after' in next_url:
-                starting_after = next_url.split('starting_after=')[1].split('&')[0]
-                params['starting_after'] = starting_after
+            if isinstance(next_page, dict) and 'starting_after' in next_page:
+                params['starting_after'] = next_page['starting_after']
+            else:
+                break
         
         print(f"Total: {len(all_contacts)} contacts récupérés")
         return all_contacts
