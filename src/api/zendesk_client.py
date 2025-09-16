@@ -138,37 +138,62 @@ class ZendeskClient:
         return tickets
     
     def get_all_users(self) -> List[Dict]:
-        """Récupérer tous les contacts (utilisateurs end-user)"""
-        print("Récupération des contacts...")
+        """Récupérer tous les contacts (utilisateurs end-user) en utilisant uniquement l'API Incremental Users Export.
+        Récupère en blocs de 1000 jusqu'à ce que end_of_stream soit vrai.
+        """
+        from datetime import datetime
+        import time
+
+        print("Récupération des contacts (API Incremental Export uniquement)...")
         all_contacts = []
-        endpoint = "users"
-        
-        next_page = None
-        page_count = 0
-        
+        start_time = 0  # 0 = depuis le tout premier utilisateur
+        next_page_url = None
+
         while True:
-            if next_page:
-                response = requests.get(next_page, auth=self.session.auth)
+            try:
+                if next_page_url:
+                    response = requests.get(next_page_url, auth=self.session.auth)
+                else:
+                    response = self.session.get(
+                        f"{self.base_url}/incremental/users",
+                        params={"start_time": start_time, "per_page": 1000}
+                    )
+
+                # Gestion du rate-limit
+                if response.status_code == 429:
+                    retry_after = int(response.headers.get("Retry-After", 5))
+                    print(f"⏳ Limite atteinte. Attente {retry_after} sec...")
+                    time.sleep(retry_after)
+                    continue
+
                 response.raise_for_status()
                 data = response.json()
-            else:
-                data = self._make_request(endpoint)
-            
-            users = data.get('users', [])
-            # Filtrer pour garder seulement les contacts (end-users)
-            contacts = [user for user in users if user.get('role') == 'end-user']
-            all_contacts.extend(contacts)
-            
-            page_count += 1
-            print(f"Page {page_count}: {len(contacts)} contacts trouvés sur {len(users)} utilisateurs")
-            
-            next_page = data.get('next_page')
-            if not next_page:
-                break
-        
-        print(f"Total: {len(all_contacts)} contacts récupérés")
-        return all_contacts
-    
+
+                users = data.get("users", [])
+                contacts = [u for u in users if u.get("role") == "end-user" and u.get("active") is True]
+                all_contacts.extend(contacts)
+
+                print(f"🔄 Export incrémental: {len(contacts)} contacts récupérés (total {len(all_contacts)})")
+
+                # Fin de l'export
+                if data.get("end_of_stream"):
+                    print("✅ Fin de l'export incrémental atteinte.")
+                    break
+
+                # Suivre la pagination
+                next_page_url = data.get("next_page")
+                if not next_page_url:
+                    break
+
+            except requests.exceptions.RequestException as e:
+                print(f"⚠️ Erreur API: {e}, reprise après 5s...")
+                time.sleep(5)
+                continue
+
+        unique_contacts = {c["id"]: c for c in all_contacts}.values()
+        print(f"✅ Total final: {len(unique_contacts)} contacts uniques récupérés")
+        return list(unique_contacts)
+
     def get_all_articles(self) -> List[Dict]:
         """Récupérer tous les articles du Help Center"""
         print("Récupération des articles Help Center...")
@@ -252,7 +277,7 @@ class ZendeskClient:
 #         print(f"Tickets: {tickets_total}")
         
 #         # Test contacts
-#         users_response = client._make_request("users", {"per_page": 1})
+#         users_response = client._make_request("users")
 #         all_users_count = users_response.get('count', 'Inconnu')
 #         print(f"Utilisateurs total: {all_users_count}")
         

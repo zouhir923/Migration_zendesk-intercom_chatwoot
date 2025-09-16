@@ -1,0 +1,58 @@
+// L'ensemble de données contient 38 607 utilisateurs au total. Seul le premier enregistrement est affiché ici pour des raisons de concision. Le fichier original est trop volumineux (>25 Mo) pour être entièrement inclus dans le dépôt Git.
+
+{
+  "metadata": {
+    "exported_at": "20250916_131523",
+    "count": 38607
+  },
+  "users": [
+    {
+      "id": 509361801,
+      "url": "https://alphorm.zendesk.com/api/v2/users/509361801.json",
+      "name": "No-reply",
+      "email": "no-reply@pluralsight.com",
+      "created_at": "2014-06-18T21:44:52Z",
+      "updated_at": "2014-06-18T21:44:52Z",
+      "time_zone": "Paris",
+      "iana_time_zone": "Europe/Paris",
+      "phone": null,
+      "shared_phone_number": null,
+      "photo": null,
+      "locale_id": 16,
+      "locale": "fr",
+      "organization_id": null,
+      "role": "end-user",
+      "verified": false,
+      "external_id": null,
+      "tags": [],
+      "alias": null,
+      "active": true,
+      "shared": false,
+      "shared_agent": false,
+      "last_login_at": null,
+      "two_factor_auth_enabled": null,
+      "signature": null,
+      "details": null,
+      "notes": null,
+      "role_type": null,
+      "custom_role_id": null,
+      "moderator": false,
+      "ticket_restriction": "requested",
+      "only_private_comments": false,
+      "restricted_agent": true,
+      "suspended": false,
+      "default_group_id": null,
+      "report_csv": false,
+      "user_fields": {
+        "inscription_sur_alphorm": null,
+        "pays": null,
+        "segment": null,
+        "system::embeddable_last_seen": null,
+        "system::last_nps_survey_date": null,
+        "system::nps_comment": null,
+        "system::nps_rating": null
+      }
+    }
+    // ... 38606 autres utilisateurs non affichés.
+    ]
+}

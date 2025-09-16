@@ -29,6 +29,22 @@ class ZendeskService:
         print(f"Tickets sauvés: {filename} ({get_file_size(filepath)}) - {len(tickets)} items")
         return filepath
     
+    def export_users(self) -> str:
+        """Exporter seulement les contacts"""
+        print("Export contacts...")
+        users = self.client.get_all_users()
+        
+        data = {
+            'metadata': {'exported_at': get_timestamp(include_time=True), 'count': len(users)},
+            'users': users
+        }
+        
+        filename = f"zendesk_users_{get_timestamp()}.json"
+        filepath = os.path.join(self.output_dir, filename)
+        save_json(data, filepath)
+        
+        print(f"Contacts sauvés: {filename} ({get_file_size(filepath)}) - {len(users)} items")
+        return filepath
     
     def export_articles(self) -> str:
         """Exporter seulement les articles"""
@@ -82,7 +98,7 @@ def test_zendesk_service():
     print("4. export_macros()")
     print("5. export_all()")
 
-    service.export_macros()
+    service.export_users()
 
 
 if __name__ == "__main__":
