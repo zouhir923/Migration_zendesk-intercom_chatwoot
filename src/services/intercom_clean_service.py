@@ -242,13 +242,13 @@ def intercom_clean_all() -> Dict[str, str]:
     return files
 
 
-def test_intercom_clean_articles():
-    """Test de nettoyage des articles"""
-    # intercom_clean_articles()
-    # intercom_clean_contacts()
-    # intercom_clean_conversations()
-    intercom_clean_all()
+# def test_intercom_clean_articles():
+#     """Test de nettoyage des articles"""
+#     # intercom_clean_articles()
+#     # intercom_clean_contacts()
+#     # intercom_clean_conversations()
+#     intercom_clean_all()
 
 
-if __name__ == "__main__":
-    test_intercom_clean_articles()
+# if __name__ == "__main__":
+#     test_intercom_clean_articles()
