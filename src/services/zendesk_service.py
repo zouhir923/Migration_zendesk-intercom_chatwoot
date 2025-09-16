@@ -29,22 +29,6 @@ class ZendeskService:
         print(f"Tickets sauvés: {filename} ({get_file_size(filepath)}) - {len(tickets)} items")
         return filepath
     
-    def export_users(self) -> str:
-        """Exporter seulement les contacts"""
-        print("Export contacts...")
-        users = self.client.get_all_users()
-        
-        data = {
-            'metadata': {'exported_at': get_timestamp(include_time=True), 'count': len(users)},
-            'users': users
-        }
-        
-        filename = f"zendesk_users_{get_timestamp()}.json"
-        filepath = os.path.join(self.output_dir, filename)
-        save_json(data, filepath)
-        
-        print(f"Contacts sauvés: {filename} ({get_file_size(filepath)}) - {len(users)} items")
-        return filepath
     
     def export_articles(self) -> str:
         """Exporter seulement les articles"""
@@ -80,19 +64,7 @@ class ZendeskService:
         print(f"Macros sauvés: {filename} ({get_file_size(filepath)}) - {len(macros)} items")
         return filepath
     
-    def export_all(self) -> Dict[str, str]:
-        """Exporter toutes les données"""
-        print("Export complet Zendesk")
-        print("=" * 25)
-        
-        files = {}
-        files['tickets'] = self.export_tickets()
-        files['users'] = self.export_users()
-        files['articles'] = self.export_articles()
-        files['macros'] = self.export_macros()
-        
-        print(f"\nExport terminé - {len(files)} fichiers créés")
-        return files
+    
 
 
 def test_zendesk_service():
@@ -110,7 +82,7 @@ def test_zendesk_service():
     print("4. export_macros()")
     print("5. export_all()")
 
-    service.export_tickets()
+    service.export_macros()
 
 
 if __name__ == "__main__":
