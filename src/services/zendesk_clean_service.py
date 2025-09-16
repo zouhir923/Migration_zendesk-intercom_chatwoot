@@ -7,13 +7,11 @@ from configs.config import ZENDESK_OUTPUT_DIR
 
 def zendesk_clean_articles() -> str:
     """Nettoyer les articles Zendesk pour Chatwoot"""
-    # Construire le chemin automatiquement
     date_today = get_timestamp()  
     origin_file = f"{ZENDESK_OUTPUT_DIR}/origin_export/zendesk_articles_{date_today}.json"
     
     print(f"Nettoyage articles: {os.path.basename(origin_file)}")
     
-    # Charger les données
     with open(origin_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -84,7 +82,6 @@ def zendesk_clean_macros() -> str:
             elif field == 'group_id':
                 structured_actions['group_id'] = value
             else:
-                # Garder les autres actions telles quelles
                 structured_actions[field] = value
         
         cleaned_macro = {
