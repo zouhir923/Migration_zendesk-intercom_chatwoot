@@ -1,4 +1,6 @@
 import os
+
+from pyparsing import Dict
 from src.api.intercom_client import IntercomClient
 from src.utils.helpers import save_json, get_file_size, get_timestamp
 from configs.config import INTERCOM_OUTPUT_DIR
@@ -62,17 +64,31 @@ class IntercomService:
         print(f"Contacts sauvés: {filename} ({get_file_size(filepath)}) - {len(contacts)} items")
         return filepath
     
-def test_intercom_service():
-    """Test du service"""
-    service = IntercomService()
+    def export_all(self) -> Dict[str, str]:
+        """Exporter toutes les données"""
+        print("Export complet Intercom")
+        print("=" * 25)
+        
+        files = {}
+        files['conversations'] = self.export_conversations()
+        files['contacts'] = self.export_contacts()  
+        files['articles'] = self.export_articles()
+        
+        print(f"\nExport terminé - {len(files)} fichiers créés")
+        return files
     
-    if not service.client.test_connection():
-        print("Connexion échouée")
-        return
+# def test_intercom_service():
+#     """Test du service"""
+#     service = IntercomService()
     
-    # service.export_articles()
-    # service.export_conversations()
-    service.export_contacts()
+#     if not service.client.test_connection():
+#         print("Connexion échouée")
+#         return
+    
+#     # service.export_articles()
+#     # service.export_conversations()
+#     # service.export_contacts()
+#     service.export_all()
 
-if __name__ == "__main__":
-    test_intercom_service()
+# if __name__ == "__main__":
+#     test_intercom_service()
