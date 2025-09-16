@@ -1,6 +1,5 @@
 import os
-
-from pyparsing import Dict
+from typing import Dict
 from src.api.intercom_client import IntercomClient
 from src.utils.helpers import save_json, get_file_size, get_timestamp
 from configs.config import INTERCOM_OUTPUT_DIR
