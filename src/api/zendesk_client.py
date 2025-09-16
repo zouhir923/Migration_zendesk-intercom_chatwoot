@@ -101,10 +101,6 @@ class ZendeskClient:
             page_count += 1
             print(f"Page {page_count}: {len(tickets)} tickets récupérés")
             
-            # Vérifier s'il y a une page suivante
-            if not data.get('has_more', False):
-                break
-            
             next_page = data.get('next_page')
             if not next_page:
                 break
@@ -133,9 +129,9 @@ class ZendeskClient:
             ticket_id = ticket['id']
             comments = self.get_ticket_comments(ticket_id)
             ticket['comments'] = comments
-            
-            # Afficher le progrès tous les 10 tickets
-            if (i + 1) % 10 == 0:
+
+            # Afficher le progrès tous les 15 tickets
+            if (i + 1) % 15 == 0:
                 print(f"Traité {i + 1}/{len(tickets)} tickets")
         
         print("Commentaires récupérés pour tous les tickets")
@@ -165,9 +161,6 @@ class ZendeskClient:
             
             page_count += 1
             print(f"Page {page_count}: {len(contacts)} contacts trouvés sur {len(users)} utilisateurs")
-            
-            if not data.get('has_more', False):
-                break
             
             next_page = data.get('next_page')
             if not next_page:
@@ -199,9 +192,6 @@ class ZendeskClient:
             page_count += 1
             print(f"Page {page_count}: {len(articles)} articles récupérés")
             
-            if not data.get('has_more', False):
-                break
-            
             next_page = data.get('next_page')
             if not next_page:
                 break
@@ -232,9 +222,6 @@ class ZendeskClient:
             page_count += 1
             print(f"Page {page_count}: {len(macros)} macros récupérées")
             
-            if not data.get('has_more', False):
-                break
-            
             next_page = data.get('next_page')
             if not next_page:
                 break
@@ -242,54 +229,6 @@ class ZendeskClient:
         print(f"Total: {len(all_macros)} macros récupérées")
         return all_macros
     
-    def export_all_data(self) -> Dict[str, Any]:
-        """Exporter toutes les données Zendesk"""
-        print("Début de l'export complet des données Zendesk")
-        print("=" * 50)
-        
-        # Structure de données pour l'export
-        data = {
-            'metadata': {
-                'domain': self.domain,
-                'exported_at': time.strftime('%Y-%m-%d %H:%M:%S'),
-                'total_items': {}
-            }
-        }
-        
-        # 1. Export des tickets avec commentaires
-        print("1. Export des tickets avec commentaires...")
-        tickets = self.get_tickets_with_comments()
-        data['tickets'] = tickets
-        data['metadata']['total_items']['tickets'] = len(tickets)
-        
-        # 2. Export des contacts
-        print("\n2. Export des contacts...")
-        users = self.get_all_users()
-        data['users'] = users
-        data['metadata']['total_items']['users'] = len(users)
-        
-        # 3. Export des articles Help Center
-        print("\n3. Export des articles Help Center...")
-        articles = self.get_all_articles()
-        data['articles'] = articles
-        data['metadata']['total_items']['articles'] = len(articles)
-        
-        # 4. Export des macros
-        print("\n4. Export des macros...")
-        macros = self.get_all_macros()
-        data['macros'] = macros
-        data['metadata']['total_items']['macros'] = len(macros)
-        
-        # Résumé final
-        print("\n" + "=" * 50)
-        print("Export Zendesk terminé avec succès")
-        print("Résumé des données exportées:")
-        for item_type, count in data['metadata']['total_items'].items():
-            print(f"- {item_type}: {count}")
-        
-        return data
-
-
 # # Test avec comptage pour vérifier l'intégrité des données
 # def test_zendesk_client():
 #     """Test du client avec vérification des totaux"""
