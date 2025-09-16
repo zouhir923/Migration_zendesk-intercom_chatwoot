@@ -45,8 +45,8 @@ def zendesk_clean_articles() -> str:
     
     # Sauvegarder les données nettoyées
     output_dir = f"{ZENDESK_OUTPUT_DIR}/clean_export_data"
-    
-    filename = f"zendesk_articles_{date_today}.json"
+
+    filename = f"zendesk_articles_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     
@@ -113,8 +113,8 @@ def zendesk_clean_macros() -> str:
     
     output_dir = f"{ZENDESK_OUTPUT_DIR}/clean_export_data"
     os.makedirs(output_dir, exist_ok=True)
-    
-    filename = f"zendesk_macros_{date_today}.json"
+
+    filename = f"zendesk_macros_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     
@@ -181,19 +181,68 @@ def zendesk_clean_tickets() -> str:
     
     output_dir = f"{ZENDESK_OUTPUT_DIR}/clean_export_data"
     os.makedirs(output_dir, exist_ok=True)
-    
-    filename = f"zendesk_tickets_{date_today}.json"
+
+    filename = f"zendesk_tickets_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     
     print(f"Tickets nettoyés: {filename} ({get_file_size(filepath)}) - {len(cleaned_tickets)} items")
     return filepath
+
+def zendesk_clean_users() -> str:
+    """Nettoyer les contacts Zendesk pour Chatwoot"""
+    date_today = get_timestamp()
+    origin_file = f"{ZENDESK_OUTPUT_DIR}/origin_export/zendesk_users_{date_today}.json"
     
+    print(f"Nettoyage contacts: {os.path.basename(origin_file)}")
+    
+    with open(origin_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    users = data.get('users', [])
+    cleaned_users = []
+    
+    for user in users:
+        cleaned_user = {
+            'id': user.get('id'),
+            'name': user.get('name'),
+            'email': user.get('email'),
+            'phone': user.get('phone'),
+            'created_at': user.get('created_at'),
+            'updated_at': user.get('updated_at'),
+            'time_zone': user.get('time_zone'),
+            'locale': user.get('locale'),
+            'organization_id': user.get('organization_id'),
+            'active': user.get('active'),
+            'tags': user.get('tags', [])
+        }
+        cleaned_users.append(cleaned_user)
+    
+    cleaned_data = {
+        'metadata': {
+            'cleaned_at': get_timestamp(include_time=True),
+            'count': len(cleaned_users),
+            'source': 'zendesk_users'
+        },
+        'users': cleaned_users
+    }
+    
+    output_dir = f"{ZENDESK_OUTPUT_DIR}/clean_export_data"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    filename = f"zendesk_users_clean_{date_today}.json"
+    filepath = os.path.join(output_dir, filename)
+    save_json(cleaned_data, filepath)
+    
+    print(f"Contacts nettoyés: {filename} ({get_file_size(filepath)}) - {len(cleaned_users)} items")
+    return filepath
+
 def test_zendesk_clean():
     """Test de nettoyage des données Zendesk"""
     # zendesk_clean_articles()
     # zendesk_clean_macros()
-    zendesk_clean_tickets()
+    # zendesk_clean_tickets()
+    zendesk_clean_users()
 
 
 if __name__ == "__main__":
