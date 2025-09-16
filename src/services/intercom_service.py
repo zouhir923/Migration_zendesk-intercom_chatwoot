@@ -17,7 +17,7 @@ class IntercomService:
         articles = self.client.get_all_articles()
         
         data = {
-            'metadata': {'exported_at': get_timestamp(), 'count': len(articles)},
+            'metadata': {'exported_at': get_timestamp(include_time=True), 'count': len(articles)},
             'articles': articles
         }
         
@@ -28,7 +28,23 @@ class IntercomService:
         print(f"Articles sauvés: {filename} ({get_file_size(filepath)}) - {len(articles)} items")
         return filepath
 
-
+    def export_conversations(self) -> str:
+        """Exporter seulement les conversations avec messages"""
+        print("Export conversations...")
+        conversations = self.client.get_conversations_with_messages()
+        
+        data = {
+            'metadata': {'exported_at': get_timestamp(include_time=True), 'count': len(conversations)},
+            'conversations': conversations
+        }
+        
+        filename = f"intercom_conversations_{get_timestamp()}.json"
+        filepath = os.path.join(self.output_dir, filename)
+        save_json(data, filepath)
+        
+        print(f"Conversations sauvées: {filename} ({get_file_size(filepath)}) - {len(conversations)} items")
+        return filepath
+    
 def test_intercom_service():
     """Test du service"""
     service = IntercomService()
@@ -37,8 +53,8 @@ def test_intercom_service():
         print("Connexion échouée")
         return
     
-    service.export_articles()
-
+    # service.export_articles()
+    service.export_conversations()
 
 if __name__ == "__main__":
     test_intercom_service()

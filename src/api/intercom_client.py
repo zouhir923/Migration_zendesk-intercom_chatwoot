@@ -78,35 +78,32 @@ class IntercomClient:
         all_conversations = []
         endpoint = "conversations"
         
-        # Paramètres pour la pagination
-        params = {"per_page": 150}  # Maximum autorisé par Intercom
-        
+        params = {"per_page": 150}
         page_count = 0
         
         while True:
             data = self._make_request(endpoint, params)
             
-            conversations = data.get('data', [])
+            # Fix: conversations sont dans 'conversations' pas 'data'
+            conversations = data.get('conversations', [])
             all_conversations.extend(conversations)
             
             page_count += 1
             print(f"Page {page_count}: {len(conversations)} conversations récupérées")
             
-            # Vérifier la pagination
+            # Fix pagination
             pages = data.get('pages', {})
-            if not pages.get('next'):
+            next_page = pages.get('next')
+            if not next_page:
                 break
             
-            # Préparer la page suivante
-            next_url = pages['next']
-            # Extraire les paramètres de pagination de l'URL
-            if 'starting_after' in next_url:
-                starting_after = next_url.split('starting_after=')[1].split('&')[0]
-                params['starting_after'] = starting_after
+            if 'starting_after' in next_page:
+                params['starting_after'] = next_page['starting_after']
+            else:
+                break
         
         print(f"Total: {len(all_conversations)} conversations récupérées")
         return all_conversations
-    
     def get_conversation_messages(self, conversation_id: str) -> List[Dict]:
         """Récupérer tous les messages d'une conversation"""
         endpoint = f"conversations/{conversation_id}"
