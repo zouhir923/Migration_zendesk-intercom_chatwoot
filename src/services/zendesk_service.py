@@ -104,12 +104,12 @@ def test_zendesk_service():
         return
     
     print("Tests disponibles:")
-    print("1. export_tickets()")
-    print("2. export_users()")
+    print("1. export_users()")
+    print("2. export_tickets()")
     print("3. export_articles()")
     print("4. export_macros()")
     print("5. export_all()")
-    
+
     service.export_tickets()
 
 
