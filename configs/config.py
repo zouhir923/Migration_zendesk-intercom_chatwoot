@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(".env.local")
 
 # Zendesk Configuration
 ZENDESK_DOMAIN = os.getenv('ZENDESK_DOMAIN')
