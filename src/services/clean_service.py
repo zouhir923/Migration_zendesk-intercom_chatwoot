@@ -237,13 +237,28 @@ def zendesk_clean_users() -> str:
     print(f"Contacts nettoyés: {filename} ({get_file_size(filepath)}) - {len(cleaned_users)} items")
     return filepath
 
-def test_zendesk_clean():
-    """Test de nettoyage des données Zendesk"""
-    # zendesk_clean_articles()
-    # zendesk_clean_macros()
-    # zendesk_clean_tickets()
-    zendesk_clean_users()
+def zendesk_clean_all() -> Dict[str, str]:
+    """Nettoyer toutes les données Zendesk"""
+    print("Nettoyage complet Zendesk")
+    print("=" * 25)
+    
+    files = {}
+    files['tickets'] = zendesk_clean_tickets()
+    files['users'] = zendesk_clean_users()
+    files['articles'] = zendesk_clean_articles()
+    files['macros'] = zendesk_clean_macros()
+    
+    print(f"\nNettoyage terminé - {len(files)} fichiers créés")
+    return files
+
+# def test_zendesk_clean():
+#     """Test de nettoyage des données Zendesk"""
+#     zendesk_clean_all()
+#     # zendesk_clean_users()
+#     # zendesk_clean_tickets()
+#     # zendesk_clean_articles()
+#     # zendesk_clean_macros()
 
 
-if __name__ == "__main__":
-    test_zendesk_clean()
+# if __name__ == "__main__":
+#     test_zendesk_clean()
