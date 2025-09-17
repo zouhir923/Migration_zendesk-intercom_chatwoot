@@ -8,7 +8,7 @@ from configs.config import INTERCOM_OUTPUT_DIR
 def intercom_clean_articles() -> str:
     """Nettoyer les articles Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_articles_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_articles_clean_{date_today}.json"
     
     print(f"Nettoyage articles: {os.path.basename(origin_file)}")
     
@@ -63,7 +63,7 @@ def intercom_clean_articles() -> str:
 def intercom_clean_contacts() -> str:
     """Nettoyer les contacts Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_contacts_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_contacts_clean_{date_today}.json"
     
     print(f"Nettoyage contacts: {os.path.basename(origin_file)}")
     
@@ -140,7 +140,7 @@ def intercom_clean_contacts() -> str:
 def intercom_clean_conversations() -> str:
     """Nettoyer les conversations Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_conversations_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_conversations_clean_{date_today}.json"
     
     print(f"Nettoyage conversations: {os.path.basename(origin_file)}")
     
