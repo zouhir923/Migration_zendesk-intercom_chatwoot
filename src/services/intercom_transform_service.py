@@ -48,6 +48,7 @@ def intercom_transform_conversations() -> str:
                 'id': message.get('id'),
                 'author_id': message.get('author_id'),
                 'author_type': message.get('author_type'),
+                'message_type': message.get('message_type'),
                 'author_name': message.get('author_name'),
                 'author_email': message.get('author_email'),
                 'content': final_content,
@@ -130,10 +131,10 @@ def intercom_transform_conversations() -> str:
     return filepath
 
 
-# def test_intercom_transform():
-#     """Test de transformation"""
-#     intercom_transform_conversations()
+def test_intercom_transform():
+    """Test de transformation"""
+    intercom_transform_conversations()
 
 
-# if __name__ == "__main__":
-#     test_intercom_transform()
+if __name__ == "__main__":
+    test_intercom_transform()

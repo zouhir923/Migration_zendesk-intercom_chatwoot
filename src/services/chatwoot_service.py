@@ -1,134 +1,266 @@
 import json
 import os
-from typing import Dict, List, Tuple
-from src.utils.helpers import save_json, get_file_size, get_timestamp
-from configs.config import ZENDESK_OUTPUT_DIR, INTERCOM_OUTPUT_DIR, CHATWOOT_OUTPUT_DIR
+from typing import Dict, List
+from src.api.chatwoot_client import ChatwootClient
+from src.utils.helpers import get_timestamp
+from configs.config import CHATWOOT_OUTPUT_DIR
 
 
-def load_clean_data() -> Tuple[List[Dict], List[Dict]]:
-    """Charger les données nettoyées de Zendesk et Intercom"""
+def load_prepared_data():
+    """Charger les données préparées"""
     date = get_timestamp()
     
-    # Paths
-    zendesk_path = f"{ZENDESK_OUTPUT_DIR}/clean_export_data/zendesk_users_clean_{date}.json"
-    intercom_path = f"{INTERCOM_OUTPUT_DIR}/clean_export_data/intercom_contacts_clean_{date}.json"
+    contacts_path = f"{CHATWOOT_OUTPUT_DIR}/chatwoot_contacts_prepared_{date}.json"
+    conversations_path = f"{CHATWOOT_OUTPUT_DIR}/chatwoot_conversations_prepared_{date}.json"
     
-    # Load data
-    with open(zendesk_path, 'r', encoding='utf-8') as f:
-        zendesk_data = json.load(f).get('users', [])
+    with open(contacts_path, 'r', encoding='utf-8') as f:
+        contacts_data = json.load(f).get('contacts', [])
     
-    with open(intercom_path, 'r', encoding='utf-8') as f:
-        intercom_data = json.load(f).get('contacts', [])
+    with open(conversations_path, 'r', encoding='utf-8') as f:
+        conversations_data = json.load(f).get('conversations', [])
     
-    print(f"Chargé: {len(zendesk_data)} Zendesk, {len(intercom_data)} Intercom")
-    return zendesk_data, intercom_data
+    print(f"Chargé: {len(contacts_data)} contacts, {len(conversations_data)} conversations")
+    return contacts_data, conversations_data
 
 
-def format_contact(data: Dict, source: str, email: str = None) -> Dict:
-    """Formater un contact selon la source"""
-    final_email = email if email is not None else data.get('email')
-    base = {
-        "email": final_email,
-        "name": data.get('name'),
-        "phone_number": data.get('phone'),
-        "zendesk_id": data.get('id') if source == "zendesk" else None,
-        "intercom_id": data.get('id') if source == "intercom" else None,
-        "imported_from_zd_at": get_timestamp(True) if source == "zendesk" else None,
-        "imported_from_intercom_at": get_timestamp(True) if source == "intercom" else None
+def find_specific_conversations(conversations: List[Dict]) -> Dict:
+    """Trouver conversations spécifiques pour test"""
+    zendesk_conv = None
+    intercom_conv = None
+    
+    for conv in conversations:
+        # # Chercher conversation Alberto CAMACHO (Intercom)
+        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
+        #     intercom_conv = conv
+        
+        # Chercher conversation informatique (Zendesk)  
+        if conv.get('zendesk_ticket_id') and 'informatique_' in str(conv.get('contact_email', '')):
+            zendesk_conv = conv
+        
+        if zendesk_conv and intercom_conv:
+            break
+    
+    return {
+        'zendesk': zendesk_conv,
+        'intercom': intercom_conv
     }
-    
-    if source == "zendesk":
-        base.update({
-            "avatar_url": None,
-            "additional_attributes": {
-                "time_zone": data.get('time_zone'),
-                "locale": data.get('locale'),
-                "organization_id": data.get('organization_id'),
-                "created_at": data.get('created_at'),
-                "tags": data.get('tags', [])
-            }
-        })
-    else:  # intercom
-        location = data.get('location', {})
-        base.update({
-            "avatar_url": data.get('avatar'),
-            "additional_attributes": {
-                "external_id": data.get('external_id'),
-                "location_country": location.get('country'),
-                "location_city": location.get('city'),
-                "browser": data.get('browser'),
-                "os": data.get('os'),
-                "created_at": data.get('created_at'),
-                "custom_attributes": data.get('custom_attributes', {}),
-                "tags": data.get('tags', [])
-            }
-        })
-    
-    return base
 
 
-def merge_and_deduplicate(zendesk_data: List[Dict], intercom_data: List[Dict]) -> Tuple[List[Dict], Dict]:
-    """Fusionner contacts par email, Intercom prioritaire"""
-    contacts = {}
-    stats = {'zendesk': 0, 'intercom': 0, 'merged': 0, 'no_email': 0}
+def find_contacts_for_conversations(contacts: List[Dict], sample_conversations: Dict) -> Dict:
+    """Trouver les contacts des conversations échantillons"""
+    zendesk_contact = None
+    intercom_contact = None
     
-    # Process Zendesk first
-    for user in zendesk_data:
-        email = user.get('email')
-        if email is None:
-            email = f"no-email-zd-{user.get('id')}@migration.local"
-            stats['no_email'] += 1
-        contacts[email] = format_contact(user, "zendesk", email)
-        stats['zendesk'] += 1
+    zendesk_email = sample_conversations['zendesk']['contact_email'] if sample_conversations['zendesk'] else None
+    intercom_email = sample_conversations['intercom']['contact_email'] if sample_conversations['intercom'] else None
     
-    # Process Intercom (overrides if duplicate)
-    for contact in intercom_data:
+    for contact in contacts:
         email = contact.get('email')
-        if email is None:
-            email = f"no-email-ic-{contact.get('id')}@migration.local"
-            stats['no_email'] += 1
-
-        if email in contacts:
-            # Merge: keep Intercom data + Zendesk ID
-            new_contact = format_contact(contact, "intercom", email)
-            new_contact['zendesk_id'] = contacts[email]['zendesk_id']
-            new_contact['imported_from_zd_at'] = contacts[email]['imported_from_zd_at']
-            contacts[email] = new_contact
-            stats['merged'] += 1
-        else:
-            contacts[email] = format_contact(contact, "intercom", email)
-            stats['intercom'] += 1
+        
+        if email == zendesk_email:
+            zendesk_contact = contact
+        elif email == intercom_email:
+            intercom_contact = contact
+        
+        if zendesk_contact and intercom_contact:
+            break
     
-    return list(contacts.values()), stats
-
-
-def prepare_contacts_for_chatwoot() -> str:
-    """Préparer les contacts pour l'import Chatwoot"""
-    print("Préparation contacts Chatwoot")
-    print("=" * 30)
-    
-    # Load, merge, save
-    zendesk_data, intercom_data = load_clean_data()
-    contacts, stats = merge_and_deduplicate(zendesk_data, intercom_data)
-    
-    output_data = {
-        'metadata': {
-            'prepared_at': get_timestamp(True),
-            'total_contacts': len(contacts),
-            'stats': stats
-        },
-        'contacts': contacts
+    return {
+        'zendesk': zendesk_contact,
+        'intercom': intercom_contact
     }
-    
-    # Save
-    filepath = os.path.join(CHATWOOT_OUTPUT_DIR, f"chatwoot_contacts_prepared_{get_timestamp()}.json")
-    os.makedirs(CHATWOOT_OUTPUT_DIR, exist_ok=True)
-    save_json(output_data, filepath)
-    
-    print(f"Contacts préparés: {len(contacts)} ({get_file_size(filepath)})")
-    print(f"Stats: ZD:{stats['zendesk']}, IC:{stats['intercom']}, Fusionnés:{stats['merged']}")
-    return filepath
 
 
-# if __name__ == "__main__":
-#     prepare_contacts_for_chatwoot()
+def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: int) -> Dict:
+    """Importer un contact dans Chatwoot avec toutes ses infos (nom, email, téléphone, ville, pays...)."""
+    phone = contact.get("phone_number")
+
+    if phone and not (phone.startswith("+") and len(phone) > 5):
+        phone = None
+
+    attrs = contact.get("additional_attributes", {}) or {}
+
+    # Construire les custom_attributes
+    custom_attributes = {
+        **attrs,
+        "imported_from_zd_at": contact.get("imported_from_zd_at"),
+        "imported_from_intercom_at": contact.get("imported_from_intercom_at"),
+        "migration_source": "zendesk" if contact.get("zendesk_id") else "intercom",
+    }
+
+    # Construire payload final
+    contact_data = {
+        "inbox_id": inbox_id,
+        "name": contact.get("name"),
+        "email": contact.get("email"),
+        "identifier": f"migrated_{contact.get('zendesk_id', contact.get('intercom_id', 'unknown'))}",
+        "custom_attributes": custom_attributes,
+    }
+
+    # Ajouter champs natifs
+    if attrs.get("location_city"):
+        contact_data["city"] = attrs["location_city"]
+    if attrs.get("location_country"):
+        contact_data["country"] = attrs["location_country"]
+
+    if phone:
+        contact_data["phone_number"] = phone
+
+    if contact.get("avatar_url"):
+        contact_data["avatar_url"] = contact["avatar_url"]
+
+    print(f"Payload contact pour Chatwoot : {contact_data}")
+    return client.create_contact(contact_data)
+
+
+
+def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, contact_id: int, source_id: str, inbox_id: int) -> Dict:
+    """Importer une conversation dans Chatwoot"""
+    
+    # Créer la conversation
+    created_conv = client.create_conversation(
+        source_id=source_id,
+        inbox_id=inbox_id,
+        contact_id=contact_id
+    )
+    
+    conversation_id = created_conv.get('id')
+    if not conversation_id:
+        raise Exception("Conversation ID non reçu")
+    
+    # Ajouter les messages
+    messages_added = 0
+    for message in conversation.get('messages', []):
+        try:
+            client.create_message(
+                conversation_id=conversation_id,
+                content=message['content'],
+                message_type=message.get('message_type', 'incoming'),
+                private=True if message.get('content_type_msg') == 'note' else False
+            )
+            messages_added += 1
+        except Exception as e:
+            print(f"Erreur message: {e}")
+    
+    print(f"Conversation {conversation_id}: {messages_added} messages ajoutés")
+    return created_conv
+
+
+def test_import_sample_data():
+    """Test d'import avec échantillons Zendesk + Intercom"""
+    print("Test import échantillons Chatwoot")
+    print("=" * 35)
+    
+    # Configuration
+    INBOX_ID = 2  # Remplacez par votre inbox API ID
+    
+    # Initialiser client
+    client = ChatwootClient()
+    if not client.test_connection():
+        print("Connexion échouée")
+        return False
+    
+    try:
+        # Charger données préparées
+        contacts, conversations = load_prepared_data()
+        
+        # Sélectionner échantillons spécifiques
+        sample_conversations = find_specific_conversations(conversations)
+        sample_contacts = find_contacts_for_conversations(contacts, sample_conversations)
+        
+        print(f"\nÉchantillons sélectionnés:")
+        if sample_conversations['zendesk']:
+            print(f"Conversation Zendesk: {sample_conversations['zendesk']['title']}")
+            print(f"Contact: {sample_contacts['zendesk']['name'] if sample_contacts['zendesk'] else 'CONTACT NON TROUVÉ'}")
+        if sample_conversations['intercom']:
+            print(f"Conversation Intercom: {sample_conversations['intercom']['title']}")
+            print(f"Contact: {sample_contacts['intercom']['name'] if sample_contacts['intercom'] else 'CONTACT NON TROUVÉ'}")
+        
+        if not sample_conversations['zendesk'] and not sample_conversations['intercom']:
+            print("AUCUNE CONVERSATION TROUVÉE")
+            return False
+        
+        results = []
+        
+        # Test 1: Import contact + conversation Zendesk
+        if sample_contacts['zendesk'] and sample_conversations['zendesk']:
+            print(f"\n1. Import Zendesk: {sample_contacts['zendesk']['name']}")
+            
+            # Importer contact
+            created_contact = import_contact_to_chatwoot(
+                client, sample_contacts['zendesk'], INBOX_ID
+            )
+            
+            # Extraire infos contact
+            contact_payload = created_contact.get('payload', {}).get('contact', {})
+            contact_id = contact_payload.get('id')
+            contact_inboxes = contact_payload.get('contact_inboxes', [])
+            source_id = contact_inboxes[0].get('source_id') if contact_inboxes else None
+            
+            if contact_id and source_id:
+                # Importer conversation
+                created_conv = import_conversation_to_chatwoot(
+                    client, sample_conversations['zendesk'], 
+                    contact_id, source_id, INBOX_ID
+                )
+                
+                results.append({
+                    'platform': 'zendesk',
+                    'contact_name': sample_contacts['zendesk']['name'],
+                    'contact_id': contact_id,
+                    'conversation_id': created_conv.get('id'),
+                    'messages_count': len(sample_conversations['zendesk'].get('messages', []))
+                })
+        
+        # Test 2: Import contact + conversation Intercom
+        if sample_contacts['intercom'] and sample_conversations['intercom']:
+            print(f"\n2. Import Intercom: {sample_contacts['intercom']['name']}")
+            
+            # Importer contact
+            created_contact = import_contact_to_chatwoot(
+                client, sample_contacts['intercom'], INBOX_ID
+            )
+            
+            # Extraire infos contact
+            contact_payload = created_contact.get('payload', {}).get('contact', {})
+            contact_id = contact_payload.get('id')
+            contact_inboxes = contact_payload.get('contact_inboxes', [])
+            source_id = contact_inboxes[0].get('source_id') if contact_inboxes else None
+            
+            if contact_id and source_id:
+                # Importer conversation
+                created_conv = import_conversation_to_chatwoot(
+                    client, sample_conversations['intercom'],
+                    contact_id, source_id, INBOX_ID
+                )
+                
+                results.append({
+                    'platform': 'intercom',
+                    'contact_name': sample_contacts['intercom']['name'],
+                    'contact_id': contact_id,
+                    'conversation_id': created_conv.get('id'),
+                    'messages_count': len(sample_conversations['intercom'].get('messages', []))
+                })
+        
+        # Résumé
+        print(f"\nRésultats du test:")
+        print(f"=" * 20)
+        for result in results:
+            print(f"{result['platform'].upper()}:")
+            print(f"  Contact: {result['contact_name']} (ID: {result['contact_id']})")
+            print(f"  Conversation: ID {result['conversation_id']}")
+            print(f"  Messages: {result['messages_count']}")
+            print()
+        
+        print(f"Import test terminé: {len(results)} imports réussis")
+        return True
+        
+    except Exception as e:
+        print(f"Erreur durant le test: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+
+if __name__ == "__main__":
+    test_import_sample_data()

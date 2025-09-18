@@ -140,7 +140,7 @@ def intercom_clean_contacts() -> str:
 def intercom_clean_conversations() -> str:
     """Nettoyer les conversations Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_conversations_clean_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_conversations_{date_today}.json"
     
     print(f"Nettoyage conversations: {os.path.basename(origin_file)}")
     
@@ -164,12 +164,13 @@ def intercom_clean_conversations() -> str:
         cleaned_messages = []
         
         for message in messages:
-            # Garder seulement les vrais messages (comment)
-            if message.get('part_type') == 'comment':
+            # Garder seulement les vrais messages (comment/note)
+            if message.get('part_type') in ['comment', 'note']:
                 author = message.get('author', {})
                 cleaned_message = {
                     'id': message.get('id'),
                     'body': message.get('body'),
+                    'message_type': message.get('part_type'),
                     'author_id': author.get('id'),
                     'author_type': author.get('type'),
                     'author_name': author.get('name'),
@@ -221,7 +222,7 @@ def intercom_clean_conversations() -> str:
     output_dir = f"{INTERCOM_OUTPUT_DIR}/clean_export_data"
     os.makedirs(output_dir, exist_ok=True)
     
-    filename = f"intercom_conversations_{date_today}.json"
+    filename = f"intercom_conversations_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     
@@ -242,13 +243,13 @@ def intercom_clean_all() -> Dict[str, str]:
     return files
 
 
-# def test_intercom_clean_articles():
-#     """Test de nettoyage des articles"""
-#     # intercom_clean_articles()
-#     # intercom_clean_contacts()
-#     # intercom_clean_conversations()
-#     intercom_clean_all()
+def test_intercom_clean_articles():
+    """Test de nettoyage des articles"""
+    # intercom_clean_articles()
+    # intercom_clean_contacts()
+    intercom_clean_conversations()
+    # intercom_clean_all()
 
 
-# if __name__ == "__main__":
-#     test_intercom_clean_articles()
+if __name__ == "__main__":
+    test_intercom_clean_articles()

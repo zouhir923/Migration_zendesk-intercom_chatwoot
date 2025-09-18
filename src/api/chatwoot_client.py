@@ -138,8 +138,8 @@ class ChatwootClient:
         except Exception as e:
             print(f"Erreur création conversation: {e}")
             raise
-    
-    def create_message(self, conversation_id: int, content: str, message_type: str = "incoming") -> Dict:
+
+    def create_message(self, conversation_id: int, content: str, message_type: str = "incoming", private: bool = False) -> Dict:
         """
         Créer un message dans une conversation
         message_type: "incoming" (client) ou "outgoing" (agent)
@@ -149,7 +149,7 @@ class ChatwootClient:
         message_data = {
             "content": content,
             "message_type": message_type,
-            "private": False,
+            "private": private,
             "content_type": "text"
         }
         
