@@ -65,7 +65,7 @@ def format_conversation(data: Dict, source: str, contact_email: str) -> Dict:
         return {
             'contact_email': contact_email,
             'title': data.get('subject', 'Sans titre'),
-            'status': 'resolved' if data.get('status') in ['solved', 'closed'] else 'open',
+            'status': 'resolved' if data.get('status') in ['solved', 'closed'] else data.get('status'),
             'zendesk_ticket_id': data.get('id'),
             'intercom_conversation_id': None,
             'created_at': data.get('created_at'),

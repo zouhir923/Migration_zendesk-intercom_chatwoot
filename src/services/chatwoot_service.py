@@ -30,11 +30,19 @@ def find_specific_conversations(conversations: List[Dict]) -> Dict:
     
     for conv in conversations:
         # # Chercher conversation Alberto CAMACHO (Intercom)
-        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
-        #     intercom_conv = conv
+        if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
+            intercom_conv = conv
         
+        # # # Chercher conversation Alberto CAMACHO (Intercom)
+        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'acamacho.hmr_ssss.gouv.qc.ca@alphorm.com':
+        #     intercom_conv = conv
+            
+        # # Chercher conversation informatique (Zendesk)  
+        # if conv.get('zendesk_ticket_id') and 'azizhaitchama_gmail.com' in str(conv.get('contact_email', '')):
+        #     zendesk_conv = conv
+            
         # Chercher conversation informatique (Zendesk)  
-        if conv.get('zendesk_ticket_id') and 'informatique_' in str(conv.get('contact_email', '')):
+        if conv.get('zendesk_ticket_id') and 'r.tchegnon_gmail.com' in str(conv.get('contact_email', '')):
             zendesk_conv = conv
         
         if zendesk_conv and intercom_conv:
@@ -114,21 +122,27 @@ def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: 
 
 
 
-def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, contact_id: int, source_id: str, inbox_id: int) -> Dict:
-    """Importer une conversation dans Chatwoot"""
+def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, contact_id: int, source_id: str, inbox_id: int, status: str) -> Dict:
+    """Importer une conversation dans Chatwoot.
+    Étapes :
+    1. Créer la conversation en statut OPEN (évite le message de réouverture auto)
+    2. Importer tous les messages
+    3. Mettre à jour le statut final (résolu/snoozed/open)
+    """
     
-    # Créer la conversation
+    # ✅ Étape 1 : Créer la conversation toujours en "open"
     created_conv = client.create_conversation(
         source_id=source_id,
         inbox_id=inbox_id,
-        contact_id=contact_id
+        contact_id=contact_id,
+        status="open"  
     )
     
     conversation_id = created_conv.get('id')
     if not conversation_id:
         raise Exception("Conversation ID non reçu")
     
-    # Ajouter les messages
+    # ✅ Étape 2 : Ajouter les messages
     messages_added = 0
     for message in conversation.get('messages', []):
         try:
@@ -143,7 +157,12 @@ def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, 
             print(f"Erreur message: {e}")
     
     print(f"Conversation {conversation_id}: {messages_added} messages ajoutés")
+  
+    client.update_conversation_status(conversation_id, status)
+    print(f"Conversation {conversation_id} mise à jour avec statut final: {status}")
+    
     return created_conv
+
 
 
 def test_import_sample_data():
@@ -199,9 +218,10 @@ def test_import_sample_data():
             
             if contact_id and source_id:
                 # Importer conversation
+                status = sample_conversations['zendesk'].get('status')
                 created_conv = import_conversation_to_chatwoot(
-                    client, sample_conversations['zendesk'], 
-                    contact_id, source_id, INBOX_ID
+                    client, sample_conversations['zendesk'],
+                    contact_id, source_id, INBOX_ID, status=status
                 )
                 
                 results.append({
@@ -228,10 +248,10 @@ def test_import_sample_data():
             source_id = contact_inboxes[0].get('source_id') if contact_inboxes else None
             
             if contact_id and source_id:
-                # Importer conversation
+                status = sample_conversations['intercom'].get('status')
                 created_conv = import_conversation_to_chatwoot(
                     client, sample_conversations['intercom'],
-                    contact_id, source_id, INBOX_ID
+                    contact_id, source_id, INBOX_ID, status=status
                 )
                 
                 results.append({

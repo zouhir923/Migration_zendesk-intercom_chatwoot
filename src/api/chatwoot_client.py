@@ -120,15 +120,16 @@ class ChatwootClient:
         except Exception as e:
             print(f"Erreur création contact {contact_data.get('name', 'inconnu')}: {e}")
             raise
-    
-    def create_conversation(self, source_id: str, inbox_id: int, contact_id: int) -> Dict:
+
+    def create_conversation(self, source_id: str, inbox_id: int, contact_id: int, status: str) -> Dict:
         """Créer une nouvelle conversation"""
         endpoint = f"accounts/{self.account_id}/conversations"
         
         conversation_data = {
             "source_id": source_id,
             "inbox_id": inbox_id,
-            "contact_id": contact_id
+            "contact_id": contact_id,
+            "status": status
         }
         
         try:
@@ -171,6 +172,30 @@ class ChatwootClient:
             print(f"Erreur récupération conversation {conversation_id}: {e}")
             raise
 
+    def update_conversation_status(self, conversation_id: int, status: str) -> Dict:
+        """
+        Mettre à jour le statut d'une conversation (open, resolved, pending).
+        Exemple de status valides :
+        - "open"
+        - "resolved"
+        - "pending"
+        """
+        endpoint = f"accounts/{self.account_id}/conversations/{conversation_id}/toggle_status"
+
+        data = {
+            "status": status
+        }
+
+        try:
+            response = self._make_request("POST", endpoint, data)
+            print(f"Statut de la conversation {conversation_id} mis à jour -> {status}")
+            return response
+        except Exception as e:
+            print(f"Erreur mise à jour statut conversation {conversation_id}: {e}")
+            raise
+    
+# client = ChatwootClient()
+# client.update_conversation_status(64, "resolved")
 
 # def test_chatwoot_client():
 #     """Test simple du client Chatwoot"""
