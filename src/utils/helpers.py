@@ -11,7 +11,6 @@ def save_json(data: Any, filepath: str) -> str:
         json.dump(data, f, indent=2, ensure_ascii=False)
     return filepath
 
-
 def get_file_size(filepath: str) -> str:
     """Obtenir la taille du fichier de manière lisible"""
     size = os.path.getsize(filepath)
@@ -21,13 +20,11 @@ def get_file_size(filepath: str) -> str:
         size /= 1024.0
     return f"{size:.1f} TB"
 
-
 def get_timestamp(include_time: bool = False) -> str:
     """Obtenir un timestamp formaté pour les fichiers"""
     if include_time:
         return datetime.now().strftime("%Y%m%d_%H%M%S")
     return datetime.now().strftime("%Y%m%d")
-
 
 def ensure_dir(directory: str) -> str:
     """Créer un dossier s'il n'existe pas"""
@@ -62,7 +59,6 @@ def clean_markdown_formatting(text: str) -> str:
     text = '<br>'.join(cleaned_lines)
     
     return text
-
 
 def html_to_markdown(html_content: str) -> str:
     """Convertir HTML simple en Markdown en gardant les <br> pour les sauts de ligne"""
