@@ -67,6 +67,15 @@ def html_to_markdown(html_content: str) -> str:
     
     text = html_content
     
+    # Convert <img> tags to Markdown format FIRST (before removing other HTML tags)
+    # Handle images with alt text
+    text = re.sub(r'<img[^>]*\ssrc=["\']([^"\']*)["\'][^>]*\salt=["\']([^"\']*)["\'][^>]*/?>', r'![\2](\1)', text)
+    # Handle images without alt text or with alt before src
+    text = re.sub(r'<img[^>]*\salt=["\']([^"\']*)["\'][^>]*\ssrc=["\']([^"\']*)["\'][^>]*/?>', r'![\1](\2)', text)
+    # Handle images with only src (no alt text)
+    text = re.sub(r'<img[^>]*\ssrc=["\']([^"\']*)["\'][^>]*/?>', r'![image](\1)', text)
+    
+    # Convert links
     text = re.sub(r'<a[^>]*href=["\']([^"\']*)["\'][^>]*>(.*?)</a>', r' [\2](\1) ', text)
     
     def format_strong(match):
@@ -87,6 +96,7 @@ def html_to_markdown(html_content: str) -> str:
     text = re.sub(r'<div[^>]*>', '<br>', text)
     text = re.sub(r'</div>', '<br>', text)
     
+    # Remove all other HTML tags except <br>
     text = re.sub(r'<(?!br\s*/?)[^>]+>', '', text)
     
     text = text.replace('&nbsp;', ' ')

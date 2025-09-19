@@ -29,9 +29,9 @@ def find_specific_conversations(conversations: List[Dict]) -> Dict:
     intercom_conv = None
     
     for conv in conversations:
-        # # Chercher conversation Alberto CAMACHO (Intercom)
-        if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
-            intercom_conv = conv
+        # # # Chercher conversation Alberto CAMACHO (Intercom)
+        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
+        #     intercom_conv = conv
         
         # # # Chercher conversation Alberto CAMACHO (Intercom)
         # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'acamacho.hmr_ssss.gouv.qc.ca@alphorm.com':
@@ -42,7 +42,7 @@ def find_specific_conversations(conversations: List[Dict]) -> Dict:
         #     zendesk_conv = conv
             
         # Chercher conversation informatique (Zendesk)  
-        if conv.get('zendesk_ticket_id') and 'r.tchegnon_gmail.com' in str(conv.get('contact_email', '')):
+        if conv.get('zendesk_ticket_id') and 'aizen5713_gmail.com@alphorm.com' in str(conv.get('contact_email', '')):
             zendesk_conv = conv
         
         if zendesk_conv and intercom_conv:
