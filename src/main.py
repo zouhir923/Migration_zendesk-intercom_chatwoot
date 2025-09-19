@@ -7,7 +7,7 @@ from src.services.intercom_service import IntercomService
 from src.services.zendesk_clean_service import zendesk_clean_all
 from src.services.intercom_clean_service import intercom_clean_all
 from configs.config import validate_config
-
+from src.services.chatwoot_service import migrate_all_data
 
 def check_setup():
     """Vérification rapide"""
@@ -117,15 +117,35 @@ def run_prepare_chatwoot():
     
     return files
 
+def ask_and_run_migration():
+    """Demande à l'utilisateur s'il veut migrer les données"""
+    try:
+        do_migration = input("\nLancer la migration vers Chatwoot ? (o/n): ").strip().lower()
+        if do_migration == "o":
+            limit_str = input("Entrez un nombre de contacts à migrer (ou 'all' pour tout): ").strip().lower()
+            if limit_str == "all":
+                migrate_all_data()
+            else:
+                try:
+                    limit = int(limit_str)
+                    migrate_all_data(limit=limit)
+                except ValueError:
+                    print("⚠ Valeur invalide, aucune migration lancée.")
+        else:
+            print("Migration ignorée.")
+    except KeyboardInterrupt:
+        print("\nMigration annulée par l'utilisateur.")
+
+
 def main():
     """Menu principal"""
     print("MIGRATION ZENDESK & INTERCOM")
-    print("1. Complet (Export + Clean + Transform + Prepare)")
+    print("1. Complet (Export + Clean + Transform + Prepare + Migration)")
     print("2. Zendesk seulement")  
     print("3. Intercom seulement")
     print("4. Export seulement")
     print("5. Clean seulement")
-    print("6. Transform + Prepare seulement")
+    print("6. Transform + Prepare + Migration")
     print("7. Test connexions")
     
     choice = input("Choix (1-7): ")
@@ -140,6 +160,7 @@ def main():
         run_clean(zendesk_ok, intercom_ok)
         run_transform(zendesk_ok, intercom_ok)
         run_prepare_chatwoot()
+        ask_and_run_migration()
     elif choice == "2":
         if zendesk_ok:
             run_export(True, False)
@@ -157,6 +178,7 @@ def main():
     elif choice == "6":
         run_transform(True, True)
         run_prepare_chatwoot()
+        ask_and_run_migration()
     elif choice == "7":
         print(f"Zendesk: {'OK' if zendesk_ok else 'ERREUR'}")
         print(f"Intercom: {'OK' if intercom_ok else 'ERREUR'}")
