@@ -193,7 +193,49 @@ class ChatwootClient:
         except Exception as e:
             print(f"Erreur mise à jour statut conversation {conversation_id}: {e}")
             raise
-    
+ 
+    def create_message_with_attachments(self, conversation_id: int, content: str = "", 
+                                    message_type: str = "incoming", private: bool = False, 
+                                    attachment_files: List[tuple] = None) -> Dict:
+        """
+        Créer un message avec pièces jointes directement (sans upload séparé)
+        attachment_files: Liste de tuples (filename, file_content_bytes)
+        """
+        endpoint = f"accounts/{self.account_id}/conversations/{conversation_id}/messages"
+        
+        # Enlever temporairement le Content-Type JSON pour multipart
+        old_headers = self.session.headers.copy()
+        self.session.headers.pop('Content-Type', None)
+        
+        try:
+            # Préparer les données du formulaire
+            data = {
+                'content': content or "",
+                'message_type': message_type,
+                'private': str(private).lower()
+            }
+            
+            # Préparer les fichiers
+            files = []
+            if attachment_files:
+                for filename, file_content in attachment_files:
+                    files.append(('attachments[]', (filename, file_content)))
+            
+            url = f"{self.application_api_url}/{endpoint}"
+            response = self.session.post(url, data=data, files=files)
+            response.raise_for_status()
+            
+            # Restaurer les headers
+            self.session.headers = old_headers
+            
+            print(f"Message avec {len(files)} pièces jointes ajouté")
+            return response.json()
+            
+        except Exception as e:
+            self.session.headers = old_headers
+            print(f"Erreur création message avec attachments: {e}")
+            raise
+       
 # client = ChatwootClient()
 # client.update_conversation_status(64, "resolved")
 

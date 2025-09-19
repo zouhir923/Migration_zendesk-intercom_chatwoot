@@ -135,5 +135,5 @@ def prepare_contacts_for_chatwoot() -> str:
     return filepath
 
 
-if __name__ == "__main__":
-    prepare_contacts_for_chatwoot()
+# if __name__ == "__main__":
+#     prepare_contacts_for_chatwoot()

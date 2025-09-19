@@ -8,7 +8,7 @@ from configs.config import INTERCOM_OUTPUT_DIR
 def intercom_clean_articles() -> str:
     """Nettoyer les articles Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_articles_clean_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_articles_{date_today}.json"
     
     print(f"Nettoyage articles: {os.path.basename(origin_file)}")
     
@@ -53,7 +53,7 @@ def intercom_clean_articles() -> str:
     output_dir = f"{INTERCOM_OUTPUT_DIR}/clean_export_data"
     os.makedirs(output_dir, exist_ok=True)
     
-    filename = f"intercom_articles_{date_today}.json"
+    filename = f"intercom_articles_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     
@@ -63,7 +63,7 @@ def intercom_clean_articles() -> str:
 def intercom_clean_contacts() -> str:
     """Nettoyer les contacts Intercom pour Chatwoot"""
     date_today = get_timestamp()
-    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_contacts_clean_{date_today}.json"
+    origin_file = f"{INTERCOM_OUTPUT_DIR}/origin_export/intercom_contacts_{date_today}.json"
     
     print(f"Nettoyage contacts: {os.path.basename(origin_file)}")
     
@@ -130,7 +130,7 @@ def intercom_clean_contacts() -> str:
     output_dir = f"{INTERCOM_OUTPUT_DIR}/clean_export_data"
     os.makedirs(output_dir, exist_ok=True)
     
-    filename = f"intercom_contacts_{date_today}.json"
+    filename = f"intercom_contacts_clean_{date_today}.json"
     filepath = os.path.join(output_dir, filename)
     save_json(cleaned_data, filepath)
     

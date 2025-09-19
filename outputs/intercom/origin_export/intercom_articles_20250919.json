@@ -1,0 +1,598 @@
+{
+  "metadata": {
+    "exported_at": "20250919_152050",
+    "count": 27
+  },
+  "articles": [
+    {
+      "id": "9993242",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": null,
+      "parent_type": null,
+      "parent_ids": [],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "",
+      "description": "",
+      "body": "",
+      "author_id": 3582895,
+      "state": "draft",
+      "created_at": 1728918048,
+      "updated_at": 1728918048,
+      "url": null
+    },
+    {
+      "id": "8891131",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724383,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724383
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Liste des apprenants",
+      "description": "",
+      "body": "<p class=\"no-margin\">Comme son nom l'indique, ce rapport est une exportation Excel de la liste de vos apprenants ainsi que plusieurs détails utiles, il est disponible sur le tableau de bord et sur la liste des apprenants  : </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/949384154/4be5f3210022e72091fb4271/image.png?expires=1758293100&amp;signature=b906ede03d004dbe41371a38eb58137b0166c68fe74a7d1e7dcc48fff1ddbf77&amp;req=fSQuFcF6nIRbFb4f3HP0gLEcfEpFGcSLvbixrKN9R%2FIZDv260VJTtOtxs33W%0A04Y%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/949385585/8585f2543cb2a1136907895b/image.png?expires=1758293100&amp;signature=46cbca04cc3711668a212e47c3b7fab0792d8abbf3501d6c8ad01b5258c0bfc8&amp;req=fSQuFcF7mIlaFb4f3HP0gJGfM1NuMb%2BwlGjuD2G0jfIdM1r8UksMVCUao7Jz%0AjvI%3D%0A\"></div>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1706718324,
+      "updated_at": 1711634105,
+      "url": "https://help.alphorm.com/fr/articles/8891131-liste-des-apprenants"
+    },
+    {
+      "id": "8867789",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Puis-je affecter mes licences en masse ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">L'Espace Pro est un outil puissant pour gérer votre entreprise en ligne. Avec ses nombreuses fonctionnalités, il peut être difficile de tout maîtriser. Cependant, il existe une nouvelle option qui peut vous aider à gagner en productivité : l'affection en masse.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_814c64fdbe\">1- Qu'est-ce que l'affection en masse ?</h2><p class=\"no-margin\">L'affection en masse est une fonctionnalité qui vous permet de sélectionner plusieurs apprenants à la fois et de leur appliquer une licence en une seule fois. </p><p class=\"no-margin\"></p>\n<h2 id=\"h_2d5f44a383\">2- Comment utiliser l'affection en masse sur l'Espace Pro</h2><p class=\"no-margin\">Pour utiliser l'affection en masse sur l'Espace Pro, suivez ces étapes simples :</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/943916889/1d44c883d61d0083e0c63fd2/image.png?expires=1758293100&amp;signature=0cf6f22e98992b9a2f7034f99737c39687d9b817bdcb1a518630b0afe1f6469b&amp;req=fSQkH8h4lYlWFb4f3HP0gHGEUvJ7LVRM9bxqhHBVmWeZkqe0dzprFpXDjDRF%0A0y8%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/943917524/87a49fe2fc35724b2d3ff609/image.png?expires=1758293100&amp;signature=969dfb54cc56c5f318eb6cb3f5bf069b1f4e0a0447da632b18597491149c6e08&amp;req=fSQkH8h5mINbFb4f3HP0gAOSKgW%2F%2BANv020FcUifFkRqj2SCA9cLZbn%2FSVUf%0AhFc%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_ae60347caa\">3- Les avantages de l'affection en masse</h2><p class=\"no-margin\">L'affection en masse peut vous faire gagner un temps précieux et vous permettre d'être plus productif. Au lieu de devoir effectuer une licence sur chaque apprenant individuellement, vous pouvez le faire en une seule fois pour plusieurs apprenants. Cela peut être particulièrement utile si vous avez un grand nombre d'apprenant à gérer.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_3a638e9be0\">4- Conclusion</h2><p class=\"no-margin\">L'affection en masse est une fonctionnalité puissante de l'Espace Pro qui peut vous faire gagner du temps et augmenter votre productivité. N'hésitez pas à l'utiliser pour gérer efficacement vos éléments en ligne.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous espérons que cet article vous a été utile. Si vous avez d'autres questions sur l'utilisation de l'affection en masse ou sur d'autres fonctionnalités de l'Espace Pro, n'hésitez pas à consulter notre centre d'aide ou à contacter notre service client.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1706202885,
+      "updated_at": 1712937739,
+      "url": "https://help.alphorm.com/fr/articles/8867789-puis-je-affecter-mes-licences-en-masse"
+    },
+    {
+      "id": "8867462",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "La nouvelle structure du menu profil",
+      "description": "",
+      "body": "<p class=\"no-margin\">La nouvelle version de l'Espace Pro, propose une disposition plus ergonomique de la section profil : </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/943896625/9dae4fe2ea05d537aedf24fd/image.png?expires=1758293100&amp;signature=807d9570833dbb3598a7e780b4ac9c096f15109e18809a83d09aa1165ba1a889&amp;req=fSQkHsB4m4NaFb4f3HP0gJCIX8NaWKjHuBRMQGeiu%2F5qj1LDB%2Fjxl5gPeSSy%0A9iw%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">1- <b>La section profil</b> : propose le lien vers les informations du compte ainsi que le menu déconnection</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">2-<b> Les informations du compte</b> : depuis cette partie vous pouvez modifier les informations de votre compte </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">3- <b>Mot de passe</b> : depuis cette partie vous pouvez modifier votre mot de passe à n'importe quel moment  </p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1706199778,
+      "updated_at": 1711717296,
+      "url": "https://help.alphorm.com/fr/articles/8867462-la-nouvelle-structure-du-menu-profil"
+    },
+    {
+      "id": "8827171",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Puis-je relancer un apprenant inactif ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">Si vous êtes un administrateur sur l'Espace Pro, vous avez la possibilité d'envoyer un email de relance à un apprenant qui a oublié ses identifiants ou tout simplement inactif pour accéder à son compte Alphorm. Cela peut être très utile si vous avez un grand nombre d'apprenants et que vous ne pouvez pas gérer manuellement chaque demande de récupération de compte.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_856c1a637b\">1- Première méthode c'est la relance en masse chaque 3 jours </h2><p class=\"no-margin\"></p>\n<div class=\"intercom-container intercom-align-center\"><img src=\"https://downloads.intercomcdn.com/i/o/935060752/ac9cc7ea8b0f4ae6dcd4db34/image.png?expires=1758293100&amp;signature=a69d7e6edf7634a08b416ab4cc7570af04149089194623d26ad9d9f987536d8a&amp;req=fSMiFs9%2BmoRdFb4f3HP0gNAB74Q8%2BVx3nKthzJG0R3US08kUOe8azOE5%2FalH%0AnX0%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_9060f61927\">2- Deuxième méthode c'est la relance individuelle depuis la fiche de l'apprenant</h2><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/1009124001/023583508068a738b6a1a0a6/image.png?expires=1758293100&amp;signature=b73d6ca40205c64c1fd692efd639588e7bfbc5f469a9c5594c7774fbe7825b34&amp;req=dSAnH8h8mYFfWPMW1HO4zQXNwhBrQifMuppwjC5CFrll8jFewa5LB2eTRtYb%0AG1LR%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_4bfeb14baf\">3- Résultat : </h2><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/935072439/233aea7385ab17a28f873110/image.png?expires=1758293100&amp;signature=2649d0fe10f4f1f2af12bf36058a30ec872d8ce9623b3745ae75ca992f1cff85&amp;req=fSMiFs58mYJWFb4f3HP0gM9xmt8gz4vPh1FBRfb35qPE1ZP%2FsCIegQaI3wtA%0AZEY%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<h2 id=\"h_a1eb80914e\">4- Conclusion</h2><p class=\"no-margin\">Grâce à cette fonctionnalité, vous pouvez facilement gérer les demandes de récupération de compte de vos apprenants sur l'Espace Pro. N'hésitez pas à utiliser cette option pour offrir un meilleur support à vos apprenants et les aider à accéder à leur compte Alphorm en toute simplicité.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous espérons que cet article vous a été utile. Si vous avez d'autres questions ou des problèmes techniques, n'hésitez pas à contacter notre équipe d'assistance qui se fera un plaisir de vous aider.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1705422023,
+      "updated_at": 1712937373,
+      "url": "https://help.alphorm.com/fr/articles/8827171-puis-je-relancer-un-apprenant-inactif"
+    },
+    {
+      "id": "8816002",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": null,
+      "parent_type": null,
+      "parent_ids": [],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Product Update - Janvier 2024",
+      "description": "",
+      "body": "<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/937685214/4c7254edc743c81f63cb49bb/head-Product-update-janv24.png?expires=1758293100&amp;signature=18b1ef32179deef6795c1361f4a68e3922d9d089596133705b8de492aeb10141&amp;req=fSMgEMF7n4BbFb4f3HP0gAY%2Ffo2NOp2i1ctPGmRydX2%2Bc%2Fb%2FoszujCKxK6MU%0AiKQ%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Explorez la transformation de votre expérience en tant que gestionnaire sur l'Espace Pro d'Alphorm. Les récentes améliorations ont été méticuleusement conçues pour rendre la gestion des licences et des apprenants plus intuitive et plus impactante que jamais.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_ca78eb6544\">Affectation de licences en masse</h1><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/937685513/e17e190d85977917dc88805e/section+-+Affectation+de+licences+en+masse.png?expires=1758293100&amp;signature=e043b32af48201328771bea40d044eb372b4fd1cd53755af3bf815cc3abcc905&amp;req=fSMgEMF7mIBcFb4f3HP0gB1uJHBqi%2BUJ6i70I%2FkrbOLIMJFDVN2%2FShVgi8p1%0AbKY%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Pour simplifier le processus d'affectation des licences. Les administrateurs ont désormais la capacité d'affecter des licences en masse, permettant ainsi de donner accès aux formations payantes simultanément à plusieurs employés qui ont perdu l’accès. Fini le besoin de visiter la fiche de chaque apprenant pour affecter une licence individuellement.</p><p class=\"no-margin\">Cette fonctionnalité offre une approche plus efficiente et permet aux administrateurs de gérer plus efficacement les accès aux formations. Bien sûr, l'option d'affectation individuelle demeure disponible pour répondre aux besoins spécifiques.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_d9251399e3\">Commande des licences</h1><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/937685903/86db74faad863ae4f7efaa12/section+-+Commande+des+licences_.png?expires=1758293100&amp;signature=0f2250b68a8a1c704f4e4764e3783b28845224fb6010836be166b7c258d4a0cb&amp;req=fSMgEMF7lIFcFb4f3HP0gCirOz93GsR553pBxAB1M3BPyw3vF4YrhK5nmw%2Bx%0A1Vw%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous avons facilité le processus d'acquisition de licences.</p><p class=\"no-margin\">Désormais, les administrateurs peuvent demander des licences directement via la plate-forme, éliminant la nécessité de communications par e-mail ou téléphone.</p><p class=\"no-margin\">Cette nouvelle fonctionnalité offre une approche rapide et efficace, permettant aux équipes de se concentrer sur le développement des compétences sans tracas administratifs.</p><p class=\"no-margin\">L'équipe des ventes prendra ensuite contact avec les administrateurs pour finaliser les détails de l'achat, simplifiant ainsi la gestion des licences.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_5e1ca9b4a2\">Invitation aux administrateurs</h1><p class=\"no-margin\">Introduisant la capacité pour les administrateurs d'inviter d'autres administrateurs.</p><p class=\"no-margin\">Cette avancée permet une collaboration efficace sur la configuration de la plate-forme et la gestion de l'apprentissage des employés.</p><p class=\"no-margin\">Grâce à cette fonctionnalité, une approche synergique devient possible, facilitant le travail conjoint pour optimiser les fonctionnalités de la plateforme, partager les tâches de gestion des licences, et suivre de manière plus précise les progrès des apprenants.</p><p class=\"no-margin\">Cette fonctionnalité marque une étape significative vers une gestion d'apprentissage collaborative, permettant aux administrateurs de combiner leurs efforts pour répondre aux besoins spécifiques de leur organisation, tout en simplifiant la gestion quotidienne et en enrichissant l'expérience d'apprentissage collective.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_579594bae5\">Relance des apprenants</h1><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/937686120/eb9bb1f78dae0c18ca9b1801/section+-+Relance+des+apprenants.png?expires=1758293100&amp;signature=1b18fc07492c6b98720025e70f8b26e0dae520f5658db681c85d5dba02d41128&amp;req=fSMgEMF4nINfFb4f3HP0gNJwICt0cMCiFeogWvNw5ikfCt3Cf0mXi2uPbg%2Bu%0Alsg%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous introduisons la relance automatisée des apprenants inactifs.</p><p class=\"no-margin\">Les administrateurs et les managers d'équipe peuvent désormais relancer les apprenants qui n'ont jamais accédé à la plate-forme en envoyant des e-mails directement depuis l'espace pro.</p><p class=\"no-margin\">Avant cette mise à jour, les administrateurs devaient gérer manuellement ces rappels ou s'en remettre au bouche-à-oreille pour encourager les apprenants à tirer pleinement parti de leurs abonnements actifs sur Alphorm.</p><p class=\"no-margin\">Cette nouvelle fonctionnalité offre une approche proactive, permettant aux entreprises de maximiser l'engagement des apprenants et d'optimiser l'utilisation de leurs ressources de formation.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_5432c2aa9d\">Demande d’accès aux formations</h1><p class=\"no-margin\">Exclusivement réservée aux managers d'équipe, vous avez la possibilité de demander directement aux administrateurs l’affectation d'une licence pour un apprenant faisant partie de votre équipe.</p><p class=\"no-margin\">Que ce soit en raison de l'expiration imminente d'une licence ou de son expiration effective, les managers d'équipe peuvent désormais initier cette demande sans recourir à des e-mails manuels auprès des administrateurs.</p><p class=\"no-margin\">Avant cette mise à jour, le processus impliquait une communication manuelle, où le manager devait écrire un e-mail à l'administrateur pour obtenir l'affectation de la licence nécessaire.</p><p class=\"no-margin\">Cette amélioration donne aux managers d'équipe un contrôle direct sur le développement continu de leurs membres d'équipe, en assurant un accès ininterrompu au catalogue de formations Alphorm.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_56e71c972a\">Amélioration de l’expérience utilisateur</h1><p class=\"no-margin\">Dans cette dernière version de l'espace pro Alphorm, nous avons mis l'accent sur l'amélioration de l'expérience utilisateur pour les administrateurs, avec plusieurs améliorations notables :</p><ul><li><p class=\"no-margin\"><b>Refonte des Pages :</b> Une réorganisation des pages offre une navigation plus intuitive, permettant aux administrateurs de trouver rapidement les informations dont ils ont besoin.</p></li><li><p class=\"no-margin\"><b>Boutons d'Action Intégrés :</b> Des boutons d'action clairs et correspondants sont désormais présents sur chaque page, simplifiant les tâches administratives quotidiennes.</p></li><li><p class=\"no-margin\"><b>Nouveau Système de Slider :</b> Nous avons introduit un système de slider innovant, regroupant de manière efficace les formulaires associés à chaque action souhaitée. Cela facilite grandement les interactions avec la plate-forme.</p></li><li><p class=\"no-margin\"><b>Tables de Données Améliorées :</b> Les tables de données ont été optimisées avec la possibilité de trier les informations par colonnes, offrant aux administrateurs une meilleure analyse et gestion des données essentielles.</p></li></ul><p class=\"no-margin\">Ces améliorations contribuent à rendre l'utilisation de l'espace pro Alphorm plus fluide et conviviale, découvrez ces améliorations et bien plus encore dès maintenant.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_c8c39b76d1\">Gestion simplifié des apprenants</h1><p class=\"no-margin\">Nous introduisons des améliorations majeures pour simplifier la gestion des employés :</p><ul><li><p class=\"no-margin\"><b>Affectation de licences lors de la création :</b> L'administrateur doit désormais disposer de licences disponibles pour créer un nouvel apprenant, et doit désormais attribuer une licence directement pendant la création d'un nouvel employé, garantissant un accès immédiat aux formations. Cela garantit une meilleure gestion des licences dès le départ.</p></li><li><p class=\"no-margin\"><b>Assignation à une équipe lors de la création :</b> Nouvelle flexibilité pour les administrateurs, qui peuvent maintenant assigner un employé à son équipe dès la création. Cette fonctionnalité rend la gestion d'équipe plus efficace dès le départ, simplifiant le processus global de création des nouveaux employés sur l'espace pro Alphorm.</p></li></ul>",
+      "author_id": 3582895,
+      "state": "draft",
+      "created_at": 1705152390,
+      "updated_at": 1709139579,
+      "url": null
+    },
+    {
+      "id": "8386914",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Popup de la dernière licence",
+      "description": "",
+      "body": "<p class=\"no-margin\">Nous avons ajouté une nouvelle fonctionnalité pour vous informer de l'épuisement du stock de licences disponibles. Juste après l'allocation de votre dernière licence disponible, un pop-up apparaît comme suit :</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931991629/de4548bfcffece64a9014989/image.png?expires=1758293100&amp;signature=5efe9e2240c15e1640860512b94941f1ade5888f6b71999429a2e9e6ac9f27b9&amp;req=fSMmH8B%2Fm4NWFb4f3HP0gFqRxFRsA2MDZgws6DRogyOqr6sFfeOs0One4uwS%0ArQ0%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Si vous cliquez sur \"Oui\", vous serez automatiquement contacté par l'un de nos commerciaux, ceci va vous éviter d'interrompre votre apprentissage et prévenir vos besoins </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Merci :) </p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1695056372,
+      "updated_at": 1711633879,
+      "url": "https://help.alphorm.com/fr/articles/8386914-popup-de-la-derniere-licence"
+    },
+    {
+      "id": "8348821",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Les caractéristiques de l'attestation de fin de formation",
+      "description": "",
+      "body": "<p class=\"no-margin\">Une fois que l'un des apprenants a terminé une formation, il a la possibilité de télécharger automatiquement une attestation de fin de formation, qui se présente comme suit</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/826081311/c1e5746eafbe7b8dc6b19a94/image.png?expires=1758293100&amp;signature=88c6a54e38842ed4fc8e7fc812aaeabe43c0a8dce8ce5ec834666c7d9384c0c2&amp;req=fCIhFsF%2FnoBeFb4f3HP0gIGz4dIJ0w157Do5KE4Lo0A36cMbRKq8WnFdVDRk%0A7TU%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">1- la date d'achèvement de la formation par l'apprenant suivi de son nom et prénom </p><p class=\"no-margin\">2- le titre et le nombre d'heures de la formation </p><p class=\"no-margin\">3 -un lien unique cliquable pour vérifier l'authenticité de l'attestation </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Les attestations de fin de formation des apprenants peuvent être téléchargées depuis la fiche de chaque apprenant.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931978100/78d9f20eb47512f5b136e8be/image.png?expires=1758293100&amp;signature=8458117a1b64a6a5345dae998a44830cc3e9cc0351c3e6c4956df0dfc0430f73&amp;req=fSMmH852nIFfFb4f3HP0gMxZO%2BNBb4adsqRPKm0s8jHqpA%2BWZlQRnSrxmoci%0ATsA%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Merci :) </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1694183494,
+      "updated_at": 1711630012,
+      "url": "https://help.alphorm.com/fr/articles/8348821-les-caracteristiques-de-l-attestation-de-fin-de-formation"
+    },
+    {
+      "id": "8337137",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 2044052,
+      "parent_type": "collection",
+      "parent_ids": [
+        2044052
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Product Update - Août 2023",
+      "description": "",
+      "body": "<h2 id=\"h_8e321a5327\"><b>Découvrez les nouveautés qui vont transformer l'expérience d'apprentissage de vos apprenants</b></h2><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/830759875/885764156f19274f5f1b1081/image.png?expires=1758293100&amp;signature=41b660bb4c379b88a8fd3655c57add8cfb641c9bf7200d3502cc8e8cae09991e&amp;req=fCMnEcx3lYZaFb4f3HP0gNHy3Z4HcvoBHnFu8pNalpTiNv1n7L5NBz2CZnFA%0Ay9c%3D%0A\"></div><p class=\"intercom-align-justify no-margin\">Chez Alphorm, nous comprenons que la réussite de votre entreprise dépend en grande partie des compétences et de l'engagement de vos équipes. C'est pourquoi nous avons ajouté de nouvelles fonctionnalités qui rendront l'expérience d'apprentissage encore plus enrichissante pour vos apprenants. Voici ce qui est nouveau en août 2023!</p><p class=\"no-margin\"></p>\n<h1 id=\"h_cdb3deb11f\"><b>Nouvelles Fonctionnalités</b></h1><h2 id=\"h_89cb747e5d\">⤴️<b> Parcours d'apprentissage</b> </h2><p class=\"no-margin\"><b>Métamorphosez les compétences de vos équipes, un parcours à la fois.</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/830763083/4adef2a099d7ddcc11d37b1d/image.png?expires=1758293100&amp;signature=4d51dd6e7ad718ee99765601015e38f40f6bafc924b102a2b816007c6d656821&amp;req=fCMnEc99nYlcFb4f3HP0gGTGBgP2kwBQXx3bAtS2s0IqjLrrHorHiRyEqmFy%0A6S8%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Facilitez la montée en compétences de vos équipes avec nos tout nouveaux <b>Parcours d'apprentissage</b>. Ces parcours sont structurés pour guider vos apprenants <b>étape par étape</b>, permettant une acquisition complète et structurée des compétences essentielles en IT.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ +50 parcours d’apprentissage disponibles</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Alignement avec les objectifs de carrière et les besoins de l'entreprise</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>Investissez dans le développement de vos apprenants dès aujourd'hui et assurez-vous un avenir professionnel compétitif!</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><a href=\"https://www.alphorm.com/formations/categorie/parcours\" target=\"_blank\" class=\"intercom-content-link\">https://www.alphorm.com/formations/categorie/parcours</a></p><p class=\"no-margin\"></p>\n<h2 id=\"h_d3613e7f14\"><b>🏅 Attestation de fin de formation</b></h2><p class=\"no-margin\"><b>Ajoutez une touche d'excellence à chaque réussite.</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Donnez de la valeur aux réussites de vos employés avec notre tout nouveau design d'attestation, parfait pour ajouter à leurs dossiers professionnels.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Design élégant et professionnel</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Facile à partager sur les réseaux sociaux et LinkedIn</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Imprimable pour vos besoins en matière de documentation RH</p><p class=\"no-margin\"></p>\n<h2 id=\"h_3601e1d366\">🔔 Popup dernière licence</h2><p class=\"no-margin\"><b>Restez un pas en avant : gérez vos licences sans tracas, sans surprises.</b></p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/830771539/e3683ce3c2536fb6de265a44/image.png?expires=1758293100&amp;signature=b2b0c707a512468219409f74ca6a218b50539f9678f353780de044311f91caa4&amp;req=fCMnEc5%2FmIJWFb4f3HP0gDRzddkLg7fDAm%2FEeBY5Dwl8vjwhRdoMqtObLCOn%0AhUA%3D%0A\"></div><p class=\"intercom-align-justify no-margin\">Notre nouvelle fonctionnalité <b>Popup dernière licence</b> est conçue pour éliminer toute surprise désagréable liée à l'épuisement de vos licences. Elle vous informe à l'instant où la dernière licence est attribuée, vous permettant ainsi de planifier efficacement vos besoins futurs en licences.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Planification efficace des besoins en licences</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Notification en temps réel</p><p class=\"no-margin\"></p>\n<h2 id=\"h_5e416d45f2\"><b>📝 Création des Apprenants</b></h2><p class=\"no-margin\"><b>Simplifiez l'intégration de vos équipes avec un seul clic</b></p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/830772770/05614ab9a98cef69fb74c7d4/image.png?expires=1758293100&amp;signature=b07276c7ca85fa3bc1a0df02bbb8d26e614cd77759c17161d37b6f33898baaba&amp;req=fCMnEc58moZfFb4f3HP0gMOetzgs8MmVra1faQZvaP9RTwlWno1emeMwVW6%2F%0Av%2F4%3D%0A\"></div><p class=\"intercom-align-justify no-margin\">Gagnez du temps et de l'efficacité avec notre toute nouvelle fonctionnalité de <b>Création des Apprenants</b>. Il est désormais possible d'ajouter directement un apprenant depuis votre espace PRO, en tant qu'administrateur. Plus besoin d'attendre que l'apprenant accepte l'invitation !</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Gestion simplifiée des accès</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ E-mails automatiques pour informer les nouveaux apprenants</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Intégration efficace et rapide de vos apprenants</p><p class=\"no-margin\"></p>\n<h1 id=\"h_9bba1c4a43\"><b>Fonctionnalités améliorées :</b></h1><p class=\"no-margin\"><b>       Avis : \"Votre voix compte, en toute confidentialité.\"</b></p><ul><li><p class=\"no-margin\">Les noms des utilisateurs ne seront plus affichés dans les avis pour préserver la confidentialité de vos apprenants.</p><p class=\"no-margin\"><b>Barre de Recherche: \"Trouvez plus, recherchez moins.\"</b> </p></li><li><p class=\"no-margin\">Notre barre de recherche améliorée permet une recherche riche et efficace, pour que vos apprenants puissent se concentrer sur ce qui compte vraiment: l'apprentissage.</p></li></ul><h2 id=\"h_41521ceb35\">📱 Application mobile</h2><p class=\"no-margin\"><b>L'apprentissage ne s'arrête jamais, où que vous soyez.</b></p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/830776645/6aeedc8fb2d5e4ef4c3e0f40/image.png?expires=1758293100&amp;signature=d4c1bbca8ef727aa9b671e414fc8cd5d139826ee8cff2dc1ee76703c2aeabf9e&amp;req=fCMnEc54m4VaFb4f3HP0gGGKquQuPDbbksFuZDhPUvAi5DGAZ6McWgBjcVL3%0AhhI%3D%0A\"></div><p class=\"intercom-align-justify no-margin\">Vos apprenants sont souvent en déplacement ou travaillent à distance ? Notre <b>Parcours d'apprentissage</b> est également disponible sur notre application mobile, permettant une plus grande flexibilité dans la formation.</p><p class=\"intercom-align-justify no-margin\"><b>Mais ce n'est pas tout :</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Améliorations des avis</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">✅ Barre de recherche améliorée</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>Téléchargez ou mettez à jour l'application Alphorm dès maintenant sur iOS ou Android et emportez votre formation partout avec vous !</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Google Play: <a href=\"https://play.google.com/store/apps/details?id=com.mobilev2\" target=\"_blank\" class=\"intercom-content-link\">https://play.google.com/store/apps/details?id=com.mobilev2</a></p><p class=\"no-margin\">App Store: <a href=\"https://apps.apple.com/us/app/alphorm-2/id1016914468\" target=\"_blank\" class=\"intercom-content-link\">https://apps.apple.com/us/app/alphorm-2/id1016914468</a></p><p class=\"no-margin\"></p>\n<h1 id=\"h_e9b2dc4fe4\">Améliorations et corrections de bugs :</h1><h2 id=\"h_ae1350cafa\"><b>Site Web et Application Mobile</b></h2><ul><li><p class=\"no-margin\">Performance améliorée pour un apprentissage sans interruption.</p></li><li><p class=\"no-margin\">Mises à jour de la facturation pour une meilleure transparence.</p></li></ul><h2 id=\"h_e8c80f9d8d\"><b>Offline Player</b></h2><ul><li><p class=\"no-margin\">Plus de choix de qualité vidéo pour une expérience personnalisée.</p></li><li><p class=\"no-margin\">Meilleure gestion de l'accès Internet pour les formations en mode hors-ligne.</p></li></ul><h1 id=\"h_959f60b42d\"><b>Restons en contact !</b></h1><p class=\"no-margin\">Nous sommes ravis de vous voir découvrir et utiliser ces nouvelles fonctionnalités pour la formation de vos apprenants. Vos commentaires et suggestions sont toujours appréciés et nous vous invitons à partager vos idées et votre feedback avec nous.</p><p class=\"no-margin\"><b>Aidez nous à démocratiser le savoir IT.</b></p><p class=\"no-margin\">Ensemble, nous pouvons créer une plateforme d'apprentissage qui répond aux besoins spécifiques de votre organisation et aide vos apprenants à se former efficacement.</p><h4 id=\"h_b73fb0e188\"></h4><h4 id=\"h_d425fd9df9\"></h4><p class=\"no-margin\"></p>\n<h3 id=\"h_2ea8937324\"></h3><p class=\"no-margin\"></p>\n<h1 id=\"h_7619e2fa1f\"></h1><p class=\"no-margin\"></p>\n<h3 id=\"h_a55dc8f9ee\"></h3><h1 id=\"h_920704d06f\"></h1><h1 id=\"h_2afa98168e\"></h1><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1693928999,
+      "updated_at": 1707395031,
+      "url": "https://help.alphorm.com/fr/articles/8337137-product-update-aout-2023"
+    },
+    {
+      "id": "8062629",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 2044052,
+      "parent_type": "collection",
+      "parent_ids": [
+        2044052
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Product Update - juin 2023",
+      "description": "",
+      "body": "<h2 id=\"h_1c20621260\"><b>Découvrez les nouvelles fonctionnalités pour stimuler la formation IT de vos apprenants</b></h2><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/778375926/540de4bc667e8f5575b06494/image.png?expires=1758293100&amp;signature=c8f0e100fd867f15e8aeeb94f6e401b17b0daa20dc5f2cc832bca62cc9b8b422&amp;req=cycvFc57lINZFb4f3HP0gJm9FDIE%2F40FSgf0e9f%2F%2FFFsdIoXWysYyNJBt%2BXA%0AYHg%3D%0A\"></div><p class=\"no-margin\">Chez Alphorm, notre mission est de soutenir nos entreprises partenaires dans leurs efforts pour former leurs équipes aux technologies de l'information. Nous travaillons donc sans cesse pour améliorer notre plateforme et rendre l'apprentissage plus interactif et efficace pour vos apprenants. Voici les nouvelles fonctionnalités que nous avons introduites en Juin 2023.</p><p class=\"no-margin\"></p>\n<h1 id=\"h_3cb55f3e0b\"><b>Nouvelles Fonctionnalités</b></h1><h2 id=\"h_6bf7097704\"><b>❓ Quiz</b></h2><p class=\"no-margin\">Afin de rendre l'apprentissage plus interactif et d'aider vos apprenants à évaluer leur compréhension du contenu des formations, nous avons introduit la fonctionnalité Quiz.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/778395924/3f0ced4d6fc5fca431003e81/image.png?expires=1758293100&amp;signature=21e154741902bdad7719c6ab637609b6c233bdf4eabc5be62c80fd1dd57610ac&amp;req=cycvFcB7lINbFb4f3HP0gMZ%2B8Y1GX%2Fb3rLKyUWfrGQHWjS1192pSfQdpADC0%0ABkY%3D%0A\"></div><p class=\"no-margin\">À la fin d'une formation, vos apprenants peuvent accéder à un quiz interactif pour tester leurs connaissances sur les sujets abordés.</p><p class=\"no-margin\"><b>Tentatives Illimitées</b></p><p class=\"no-margin\">Chaque essai est une occasion d'apprendre - vos apprenants bénéficient d'un nombre illimité de tentatives pour parfaire leur maîtrise des sujets.</p><p class=\"no-margin\"><b>Historique des Résultats</b></p><p class=\"no-margin\">Pour aider vos apprenants à suivre leurs progrès, nous avons ajouté une fonctionnalité qui enregistre l'historique de leurs résultats. Ils peuvent ainsi voir comment ils s'améliorent avec le temps et identifier les domaines à réviser davantage. </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/776619933/2e2405ccf9367e06a92235a8/image.png?expires=1758293100&amp;signature=c9c95ec5dcc9af5551d6a0d758a699bfe4ed20b5eb9c687cf6b5efe62cbbe1d4&amp;req=cychEMh3lIJcFb4f3HP0gOcjJkdSOgoRW5c3YK1YLFhY11OuJQrgOCXG33CS%0A9%2B8%3D%0A\"></div><p class=\"no-margin\"><b>Feedback Constructif</b></p><p class=\"no-margin\">Nos Quiz fournissent également des explications détaillées en cas d'erreurs, aidant vos apprenants à mieux comprendre et consolider leurs connaissances.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_238e2075e7\">💬 <b>Avis</b></h2><p class=\"no-margin\">Nous valorisons les opinions de vos apprenants et souhaitons les prendre en compte pour améliorer notre plateforme.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/778396489/8e73fb8263b15ee9022c7b19/image.png?expires=1758293100&amp;signature=8d2366be1db27a860eb0dbee35fa9a6a120ca26fb62fdd8578286e12ebea7e63&amp;req=cycvFcB4mYlWFb4f3HP0gKEYEwwGfBEiWOBmN6P7DwxXc6sNOpgUw5uqSTD3%0Aj6A%3D%0A\"></div><p class=\"no-margin\"><b>Évaluation des Formations</b></p><p class=\"no-margin\">Après avoir atteint 50% de la progression d'une formation, vos apprenants peuvent évaluer et partager leur expérience. Leurs retours nous aident à améliorer les différents aspects de la plateforme.</p><p class=\"no-margin\"><b>Amélioration de la Qualité Technique</b></p><p class=\"no-margin\">Nous recueillons les avis de vos apprenants sur la qualité technique de nos formations afin de maintenir et d'améliorer nos standards de qualité.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/776621138/73f18fa1e12498a873674235/image.png?expires=1758293100&amp;signature=411b0b1f3bf01c32607391246834b5973c731159957ea2a068015a131931aae3&amp;req=cychEMt%2FnIJXFb4f3HP0gAA58%2BUgGlyvscqNnfYIfdto5FrKclB%2FrtADqYdJ%0Aeqc%3D%0A\"></div><p class=\"no-margin\"><b>Contribuez à l'Excellence Pédagogique</b></p><p class=\"no-margin\">Enfin, leur feedback sur nos méthodes d'enseignement est tout aussi important. Cela nous aide à évaluer et à améliorer l'efficacité de nos formateurs.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/776621738/b1a69889d01a247ece1e8231/image.png?expires=1758293100&amp;signature=c22305bdb627a25fcc8c8f7649b3e36c0c5357ca305ef0080c20af73857b12f0&amp;req=cychEMt%2FmoJXFb4f3HP0gELIAoJp%2BOS5%2Boe10zc2GOu4Ojc7CXio32xjJh6J%0Aweo%3D%0A\"></div><p class=\"no-margin\">En partageant leur avis, vos apprenants participent à l'amélioration continue de notre plateforme et contribuent à rendre nos formations encore plus efficaces.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_d1bf9d9b76\">📱 Application mobile</h2><p class=\"no-margin\">La flexibilité et l'accessibilité sont essentielles dans un environnement professionnel dynamique. C'est pourquoi nous avons optimisé notre application mobile pour incorporer les nouvelles fonctionnalités - Quiz, et Avis- offrant ainsi à vos apprenants la possibilité d'apprendre à leur rythme, n'importe où, n'importe quand.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/778397233/e174c40f97dab01af399c0d4/image.png?expires=1758293100&amp;signature=18476e5203f21f9c4f1868a9394550e1abab44bc26bc21473a869a9af87e00db&amp;req=cycvFcB5n4JcFb4f3HP0gHLgUxoAq4Snyd2PVcug9gQDlgtY8kX7%2FwlxKatm%0ATDg%3D%0A\"></div><p class=\"no-margin\">Grâce à cette mise à jour, vos collaborateurs peuvent accéder à une variété de formations gratuites, tester leurs connaissances avec des quiz interactifs et partager leur expérience, tout cela directement depuis leur mobile.</p><p class=\"no-margin\"><b>Téléchargez ou mettez à jour l'application Alphorm dès maintenant sur iOS ou Android et emportez votre formation partout avec vous !</b></p><p class=\"no-margin\">Google Play: <a href=\"https://play.google.com/store/apps/details?id=com.mobilev2\" target=\"_blank\" class=\"intercom-content-link\">https://play.google.com/store/apps/details?id=com.mobilev2</a></p><p class=\"no-margin\">App Store: <a href=\"https://apps.apple.com/us/app/alphorm-2/id1016914468\" target=\"_blank\" class=\"intercom-content-link\">https://apps.apple.com/us/app/alphorm-2/id1016914468</a></p><p class=\"no-margin\"></p>\n<h2 id=\"h_c0c30753fe\">Espace PRO</h2><ul><li><p class=\"no-margin\">Résoudre le problème d’accès à la session</p></li><li><p class=\"no-margin\">Résoudre le problème de blocage sur l’onboarding de l’invitation d’un manager</p></li><li><p class=\"no-margin\">Correction des liens des articles help center</p></li></ul><h2 id=\"h_45de8a47a7\">Site Web</h2><ul><li><p class=\"no-margin\">Nouvelle présentation des tarifs plus claire sur la <a href=\"https://www.alphorm.com/tarifs\" target=\"_blank\" class=\"intercom-content-link\">page tarifs</a></p></li><li><p class=\"no-margin\">Ajouter plusieurs vitesses de lecture sur vidéo</p></li><li><p class=\"no-margin\">Simplifier la navigation vers <a href=\"https://www.alphorm.com/formations\" target=\"_blank\" class=\"intercom-content-link\">catalogue de formations</a></p></li></ul><h2 id=\"h_e209e2247e\">Application Mobile</h2><ul><li><p class=\"no-margin\">Optimisation du temps de chargement pour une navigation plus fluide</p></li><li><p class=\"no-margin\">Optimisation de l'affichage pour les appareils avec petits écrans</p></li><li><p class=\"no-margin\">Ajouter mode lecture continue automatique</p></li><li><p class=\"no-margin\">Ajouter plusieurs vitesses de lecture sur vidéo</p></li><li><p class=\"no-margin\">Compatibilité étendue : Prise en charge des versions d'iOS 12+</p></li><li><p class=\"no-margin\">Corrections de bugs et améliorations</p></li></ul><h1 id=\"h_0ef2376f62\"><b>Restons en contact !</b></h1><p class=\"no-margin\">Nous sommes ravis de vous voir découvrir et utiliser ces nouvelles fonctionnalités pour la formation de vos apprenants. Vos commentaires et suggestions sont toujours appréciés et nous vous invitons à partager vos idées et votre feedback avec nous.</p><p class=\"no-margin\">Aidez nous à démocratiser le savoir IT.</p><p class=\"no-margin\">Ensemble, nous pouvons créer une plateforme d'apprentissage qui répond aux besoins spécifiques de votre organisation et aide vos apprenants à se former efficacement.<br>​</p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1687970395,
+      "updated_at": 1707395031,
+      "url": "https://help.alphorm.com/fr/articles/8062629-product-update-juin-2023"
+    },
+    {
+      "id": "7908354",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Tout savoir sur les licences sur alphorm.com",
+      "description": "",
+      "body": "<p class=\"no-margin\">La durée d'une licence sur Alphorm est très simple : une licence est valable pour une période de 365 jours sur alphorm.com. Cependant, la consommation de la licence ne démarre qu'après son affectation à un compte (adresse e-mail).</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Il est important de noter que les licences sur alphorm.com sont nominatives et ne peuvent être affectées qu'une seule fois. De plus, la date limite pour l'affectation après l'achat est de 6 mois.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Dans le cas où l'un de vos collaborateurs, bénéficiant d'une licence en cours, quitte l'entreprise, vous avez la possibilité de récupérer le reliquat de sa licence sous forme de licences mensuelles, que vous pourrez réaffecter à un autre collaborateur.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Cette opération de récupération n'est possible qu'une seule fois. Pour toute information complémentaire, n'hésitez pas à me contacter à l'adresse <b>soukaina@alphorm.com</b>, par téléphone au <b>0176340662</b>, ou via <b>l'icône de chat disponible sur l'Espace Pro.</b></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1684250792,
+      "updated_at": 1712228238,
+      "url": "https://help.alphorm.com/fr/articles/7908354-tout-savoir-sur-les-licences-sur-alphorm-com"
+    },
+    {
+      "id": "7888082",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Comment télécharger le rapport de suivi des apprenants ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">Le rapport de suivi au format Excel disponible sur l'Espace Pro vous permet d'avoir l'avancement détaillé des apprenants, il est disponible pour tous les apprenants  par équipes et par apprenant </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Il donne une idée sur les informations suivantes : </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/738912441/b0e4d0cf0dcd5aba87ae77f6/image.png?expires=1758293100&amp;signature=f8c656f4221445053f7e6a1cf5982345b5f143e275a6e6bf9526b3578e183166&amp;req=cyMvH8h8mYVeFb4f3HP0gDR6qMTHxElRLUwisVT03znKqciJCdxjrMHByyE0%0A%2F5I%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Ou peut-on trouver ce rapport ? </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Pour avoir le rapport de suivi de toute l'organisation, il est téléchargeable depuis la partie \"Accueil\" et \"Apprenants\" comme suite  : </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934686528/24a614288eb0adacb3316d6a/image.png?expires=1758293100&amp;signature=e52965b5db5ab55435c6abe3599c5d2e85798c71190da9beae5e05191ade5029&amp;req=fSMjEMF4mINXFb4f3HP0gPgATNcMZqZes%2BDhDdtqrrQTsLAicbVgWGyiVAF3%0ASR8%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934687237/6d5c8ad3d0a96efb1a7298e1/image.png?expires=1758293100&amp;signature=4fe53dcf2c3a3b7b7175ef3157d521f34b23295012a7ee1ecec9d5ad223c8280&amp;req=fSMjEMF5n4JYFb4f3HP0gIXZK535LUJO6TwBPN0oK84pfZGOejq54vA82M0Q%0AGw8%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/1010221695/f1574f3bf0c4ddb29ab5cb09/image.png?expires=1758293100&amp;signature=444c322c5d217e0eda6b1eaafd5cc41c0bc2c17a306ea3e6478055be117a2543&amp;req=dSAmFst8nIdWXPMW1HO4zfcEhbb%2B7isuKhnauEhGBIlx1521kFMyskmHMw0f%0A8UIR%0A\"></div>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1683724541,
+      "updated_at": 1712229451,
+      "url": "https://help.alphorm.com/fr/articles/7888082-comment-telecharger-le-rapport-de-suivi-des-apprenants"
+    },
+    {
+      "id": "6867791",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Comment accepter une invitation",
+      "description": "",
+      "body": "<p class=\"no-margin\">Pour commencer une formation sur alphorm.com l'apprenant doit accepter l'invitation envoyée par son administrateur d'organisation</p><p class=\"no-margin\">L'email reçu par l'apprenant se présente comme ceci, et l'apprenant doit cliquer sur le bouton ci-après pour accepter l'invitation </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/649416693/0c62f1e2b5efd5df4d7a1caf/image.png?expires=1758293100&amp;signature=373b6f2e2e6cf619ea600c747ff12720b500a7a2dd085b86fb140b90b61ef119&amp;req=ciQuEsh4m4hcFb4f3HP0gBJX2o%2BKd93MrlmGcR8cYrOHlgLis0NG7UAtjmpW%0Aezw%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Une fois l'invitation acceptée, deux cas de figure se présentent : </p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Vous avez déjà un compte sur alphorm.com, dans ce cas-là, l'opération de clique vous permet d'accepter l'invitation :</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">1- si vous êtes déjà connecté, il faut se déconnecter avant de cliquer sur l'invitation </p><p class=\"no-margin\">2- Cliquer sur l'invitation sans être connecté et par la suite accéder à son compte</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Vous êtes un nouvel apprenant, c'est très simple </p><p class=\"no-margin\">1- Cliquer sur le lien pour accepter l'invitation et suivez les étapes pour créer votre compte </p>",
+      "author_id": 3582895,
+      "state": "draft",
+      "created_at": 1672834245,
+      "updated_at": 1705081812,
+      "url": null
+    },
+    {
+      "id": "6744401",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724385,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724385
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Comment changer mon mot de passe depuis l’espace pro ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">Que vous soyez administrateur ou manager d’équipe, le changement de mot de passe se fait par deux manières</p><p class=\"no-margin\"></p>\n<h2 id=\"h_4fb19520b0\"><b>1- la procédure mot de passe oublié</b></h2><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/617710993/5c84b4b6e575a3202bea5b0e/image.png?expires=1758293100&amp;signature=a69135f8aad784abf152973a648926d9627054c379866a6e0c3b57818b11f6ab&amp;req=ciEgEch%2BlIhcFb4f3HP0gEPeRPTn0FQ3N3X%2BLx2dY2IKptXviABJdIusIjiD%0AkB8%3D%0A\"></div><p class=\"no-margin\">Par la suite vous allez recevoir un lien de réinitialisation sur votre adresse email</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/617712445/466cde6b99695aaf89131b08/image.png?expires=1758293100&amp;signature=709fcf590efae8e6a86599024a149f588bfc157c07fea37b12a11e973ac251ef&amp;req=ciEgEch8mYVaFb4f3HP0gCLN586NZhncs231dCl02W%2FgD%2F1RsiyY3cJIlSfi%0A47s%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_2ba2532ec0\"><b>2- depuis les paramètres de votre compte :</b></h2><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/617712915/659bfe32647705630ac51d6a/image.png?expires=1758293100&amp;signature=6bfd8f773eefc47dcaffbe66b099f56655e07c3150f961b7a227eb9f716ea3c0&amp;req=ciEgEch8lIBaFb4f3HP0gAcrvXu91UbVlNgEaJnbJjmonoFgIdcJm%2B%2FqyJUl%0Aqi0%3D%0A\"></div>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668599599,
+      "updated_at": 1712229010,
+      "url": "https://help.alphorm.com/fr/articles/6744401-comment-changer-mon-mot-de-passe-depuis-l-espace-pro"
+    },
+    {
+      "id": "6744387",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724384,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724384
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Ouvrir un compte d'essai",
+      "description": "",
+      "body": "<p class=\"no-margin\">En tant que nouveau client envisageant d'adopter Alphorm comme plateforme de formation pour vos équipes, vous vous demandez s'il est possible de la tester préalablement. La réponse est OUI.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Pour cela, nous vous invitons à nous contacter via l'adresse <b>souad@alphorm.com</b> ou en nous appelant au numéro suivant : <b>01 76 35 06 85</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous serons ravis de vous aider. Merci !</p><p class=\"no-margin\"><br>​</p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668599295,
+      "updated_at": 1712227783,
+      "url": "https://help.alphorm.com/fr/articles/6744387-ouvrir-un-compte-d-essai"
+    },
+    {
+      "id": "6744384",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724384,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724384
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Comment fonctionne la facturation chez Alphorm ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">Sur cette version de l'Espace Pro, il n'est pas encore possible d'effectuer un paiement en ligne avec une facturation automatisée. Cependant, cette fonctionnalité sera bientôt disponible.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Pour commander de nouvelles licences, veuillez nous contacter en cliquant sur \"<a href=\"https://help.alphorm.com/fr/articles/6744263-comment-avoir-de-l-aide\" target=\"_blank\" class=\"intercom-content-link\">Besoin d'aide\".</a></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>La procédure habituelle est la suivante :</b></p><ol><li><p class=\"no-margin\">Un conseiller discutera avec vous de vos besoins.</p></li><li><p class=\"no-margin\">Il vous fournira un devis que vous pourrez valider en ligne, ou bien imprimer, signer, scanner et renvoyer par email pour validation.</p></li><li><p class=\"no-margin\">Une fois le devis validé, le conseiller ajoutera les types et nombres de licences commandés à votre compte et générera une facture payable en ligne dans un délai de 30 jours.</p></li><li><p class=\"no-margin\">À partir de votre compte sur l'Espace Pro, vous pourrez alors inviter vos utilisateurs, leur affecter des licences et suivre la consommation de vos licences.</p></li></ol><p class=\"no-margin\">Notez bien : Si vous êtes un nouveau client, le conseiller vous communiquera les informations nécessaires pour vous connecter à votre compte dans l'Espace Pro.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">De plus, vous avez la possibilité de faire financer vos licences par votre OPCO. Pour plus d'informations, veuillez consulter la section \"Eligibilité au financement OPCO\".</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668599263,
+      "updated_at": 1712228588,
+      "url": "https://help.alphorm.com/fr/articles/6744384-comment-fonctionne-la-facturation-chez-alphorm"
+    },
+    {
+      "id": "6744379",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724384,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724384
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Combien coûtent les licences Alphorm ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">Nous disposons de deux types d'accès :</p><p class=\"no-margin\"></p>\n<h2 id=\"h_a642e447cc\">1- Accès utilisateur</h2><p class=\"no-margin\"><b>Il existe deux types de licences utilisateur :</b></p><ul><li><p class=\"no-margin\">Licence Annuelle à 399€ HT/an/utilisateur</p></li><li><p class=\"no-margin\">Licence Mensuelle à 59€ HT/mois/utilisateur</p></li></ul><p class=\"no-margin\">Chaque licence utilisateur est nominative, ce qui signifie qu'elle est attribuée à un utilisateur spécifique et ne peut être réattribuée à un nouvel utilisateur que sous certaines conditions spécifiques.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>Une licence mensuelle ou annuelle accorde à l'utilisateur les droits suivants :</b></p><ul><li><p class=\"no-margin\">Accès à toutes les formations sur Alphorm.com</p></li><li><p class=\"no-margin\">Visionnage illimité 24h/24, 7j/7 sur PC, mobile et tablette</p></li><li><p class=\"no-margin\">Possibilité de télécharger les formations pour un visionnage hors ligne</p></li><li><p class=\"no-margin\">Accès à un espace d'échange avec les formateurs pour obtenir des éclaircissements ou des explications complémentaires (sans engagement contractuel de réponse)</p></li><li><p class=\"no-margin\">Attestation Alphorm pour chaque formation terminée</p></li><li><p class=\"no-margin\">Support utilisateur disponible 7j/7</p></li></ul><p class=\"no-margin\"><b>Remarque : Il est également possible de financer les licences via votre OPCO/CPF. Veuillez consulter la section <a href=\"https://help.alphorm.com/fr/articles/3532451-les-formations-alphorm-sont-elles-eligibles-au-financement-opco-cpf\" target=\"_blank\" class=\"intercom-content-link\">\"Eligibilité au financement OPCO/CPF\".</a></b></p><p class=\"no-margin\"></p>\n<h2 id=\"h_6f4cb446da\">2- Accès Administrateur</h2><p class=\"no-margin\">Les accès administrateurs à l'Espace Pro sont gratuits.</p><p class=\"no-margin\">Un administrateur peut créer les comptes de ses apprenants (utilisateurs), leur attribuer des licences, suivre leur progression, etc.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\">.</p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668599193,
+      "updated_at": 1712937132,
+      "url": "https://help.alphorm.com/fr/articles/6744379-combien-coutent-les-licences-alphorm"
+    },
+    {
+      "id": "6744367",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724383,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724383
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Etat des licences",
+      "description": "",
+      "body": "<h1 id=\"h_95a268a50c\"></h1><p class=\"no-margin\">Le rapport des licences est un outil utile pour suivre l'état de consommation de vos licences et pour consulter l'historique des affectations de vos licences à vos utilisateurs.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_610926ff78\">1- État de Consommation des Licences</h2><p class=\"no-margin\">Le rapport des licences vous permet de voir combien de licences ont été consommées et combien il en reste disponibles. Cela vous permet de garder une trace de l'utilisation de vos licences et de vous assurer que vous n'en manquez pas.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_7e78c37149\">2- Historique des Affectations de Licences</h2><p class=\"no-margin\">En plus de l'état de consommation, le rapport des licences vous permet également de consulter l'historique des affectations de vos licences à vos utilisateurs. Cela vous permet de voir qui a utilisé une licence spécifique et quand elle a été utilisée.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">En utilisant cet historique, vous pouvez facilement suivre l'utilisation de vos licences et prendre des décisions éclairées sur la répartition des licences à vos utilisateurs.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_9052f9324f\">3- Comment Accéder au Rapport des Licences</h2><p class=\"no-margin\">Pour accéder au rapport des licences, connectez-vous à votre compte et accédez à la section \"Licences\". Cliquez ensuite sur le bouton \"Rapport des Licences\" pour afficher le rapport complet.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Vous pouvez également télécharger ce rapport au format Excel </p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934697956/d9d71326dd9237017c4f1258/image.png?expires=1758293100&amp;signature=f5a2118dc38c6b6c2284c60a395e1d71b0d32ba3d3e43ce0c49e12a8e1512f36&amp;req=fSMjEMB5lIRZFb4f3HP0gFhSzZepRj%2FgBGAP0v7REwcdJA41BwHAHjX%2BLZwz%0AvuQ%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_b5a4fc35e9\">4- Conclusion</h2><p class=\"no-margin\">Le rapport des licences est un outil essentiel pour suivre l'utilisation de vos licences et pour prendre des décisions éclairées sur la répartition des licences à vos utilisateurs. Utilisez-le régulièrement pour vous assurer que vous utilisez efficacement vos licences et pour éviter les problèmes de manque de licences.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668598959,
+      "updated_at": 1712937229,
+      "url": "https://help.alphorm.com/fr/articles/6744367-etat-des-licences"
+    },
+    {
+      "id": "6744348",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724381,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724381
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Qu'est-ce qu'un manager d'équipe, et quels sont ces droits",
+      "description": "",
+      "body": "<p class=\"no-margin\">Un manager d'équipe est une personne qui possède un compte (identifiant et mot de passe) sur l'Espace Pro associé à son organisation et à son équipe.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">En pratique, un manager d'équipe est le responsable ou le superviseur de l'équipe chargé de suivre la progression de l'apprentissage de son équipe de manière autonome sur l'Espace Pro, sans avoir tous les droits sur l'ensemble des éléments de l'organisation.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Une fois connecté sur l'Espace Pro, le manager d'équipe ne peut voir que ses propres équipes et les utilisateurs qui en font partie.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Un manager d'équipe dispose d'un compte en lecture seule et n'a pas le droit de créer de nouveaux éléments dans l'organisation (utilisateurs, équipes, administrateurs, etc.) ni d'affecter des licences à ses utilisateurs. Son compte est exclusivement dédié au suivi de l'activité de son équipe.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668598628,
+      "updated_at": 1712228831,
+      "url": "https://help.alphorm.com/fr/articles/6744348-qu-est-ce-qu-un-manager-d-equipe-et-quels-sont-ces-droits"
+    },
+    {
+      "id": "6744327",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724380,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724380
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Suivez votre réussite",
+      "description": "",
+      "body": "<p class=\"no-margin\">Le suivi de la progression se réalise à partir de divers indicateurs disponibles dans l'Espace Pro :</p><p class=\"no-margin\"></p>\n<h2 id=\"h_ff2f54d680\">1- Tableau de bord général : </h2><p class=\"no-margin\">Il regroupe plusieurs indicateurs globaux, essentiels pour obtenir une vue d'ensemble de la progression des apprenants.</p><ul><li><p class=\"no-margin\">Graphique de la durée totale de visionnage : Il représente l'accumulation des heures passées sur la plateforme par mois pour l'ensemble de l'organisation.</p><p class=\"no-margin\"></p>\n</li><li><p class=\"no-margin\">Diagramme en camembert des compétences : Il résume le nombre total de formations suivies par catégorie pour l'ensemble de l'organisation.</p></li></ul><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931936120/0118cf2d32d6fd0e615c31d1/image.png?expires=1758293100&amp;signature=66509323e560a761a0b9c8ad36cf8ed879dd6a3b911812d947bcd51ff669b2a8&amp;req=fSMmH8p4nINfFb4f3HP0gBKENiiq3aQ1ISg6DasTubcwpJ1oUv1YBFE7XOGJ%0Az4U%3D%0A\"></div><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931939350/b58973fcd68a90b349214f39/image.png?expires=1758293100&amp;signature=ad5e2ad8df848be68f1b0f6adcd0736adbe0264a4616c7fac5be654b8c086ff1&amp;req=fSMmH8p3noRfFb4f3HP0gEWV6H3yW%2FRjnynOGK%2F1LJ79zJWxlNcFISXrIgp3%0Ax2I%3D%0A\"></div><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931939864/5a604b1c1fb9b0db3009ac20/image.png?expires=1758293100&amp;signature=8085b1a8a16ea67adb4fbf2fc37bec7691b10f53d0e30ed561d4ed2d120d8349&amp;req=fSMmH8p3lYdbFb4f3HP0gGmaXqAt3UB2eokX2UYFjOjbaxiNWQzlngt7l%2BA3%0AQD8%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_b5a633a140\"><b>2- la section “Apprenants”</b></h2><p class=\"no-margin\">Elle donne une idée globale sur l’avancement de vos apprenants avec chiffres clefs à la main</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931934835/dea9a27cc8fd7900585ce7cf/image.png?expires=1758293100&amp;signature=23d00dea384c6e5a3b3d1d52248d7c43335ea90cd577d4c05cbe53b47e50af0c&amp;req=fSMmH8p6lYJaFb4f3HP0gJrfXv0viaoVL3%2BtXteTCOLA612ob4%2B71pEwmPJn%0AoVg%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_a2fd0f6d8f\"><b>3- Page \"Apprenants\"</b></h2><p class=\"no-margin\">La page spécifique à l'apprenant offre des indicateurs essentiels sur sa progression, notamment ses dernières connexions, les formations qu'il a suivies, ainsi que les attestations de fin de formation qu'il a obtenues.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Elle permet également d'avoir un aperçu de sa progression à travers :</p><ul><li><p class=\"no-margin\">le graphique de la durée totale de visionnage, qui illustre le cumul des heures passées sur la plateforme par mois pour l'apprenant.</p></li></ul><ul><li><p class=\"no-margin\">Le diagramme en camembert des compétences, qui résume la somme des formations suivies par catégorie pour l'apprenant. </p></li></ul><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931940798/c773ebac528812881eb742aa/image.png?expires=1758293100&amp;signature=c026a31c478e4f94a5b1dcd367428a691f415887e25ca6f21eaddd7a02dd3ced&amp;req=fSMmH81%2BmohXFb4f3HP0gNwz0Y793t06pfgC%2BK32cjp3qLEbaZfiOSwMQBZu%0AU54%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931941302/e8e573e41ccfbb072c97a3a1/image.png?expires=1758293100&amp;signature=98dc09159530d5e5b4c5bf1eb41c2625c5dcb746afd607f26200ae99a069ed7d&amp;req=fSMmH81%2FnoFdFb4f3HP0gI5DlrBRb6HylQrNVhMv4J96CldMymZMh06%2FagYB%0A3sk%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_c3e5123f31\"><b>4- Section \"Equipe\" </b></h2><p class=\"no-margin\">La page spécifique à l'équipe fournit des indicateurs essentiels sur sa progression. Elle offre également un aperçu de cette progression à travers :</p><ul><li><p class=\"no-margin\">Le graphique de la durée totale de visionnage, qui illustre le cumul des heures passées sur la plateforme par mois pour l'ensemble des apprenants de l'équipe.</p></li></ul><ul><li><p class=\"no-margin\">Le diagramme en camembert des compétences, qui résume la somme des formations suivies par catégorie pour l'ensemble des apprenants de l'équipe.</p></li></ul><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/931942301/605fc37a9c7b991ad0a5acf4/image.png?expires=1758293100&amp;signature=98118e8d4d80a80fd6aa571fa7a3f1560be912c5cce38c09650d886a09e3520f&amp;req=fSMmH818noFeFb4f3HP0gO1fcxawWf1R3bC21gq4LGd%2BsM8fOqdPYf%2FbpNab%0A4hc%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668598115,
+      "updated_at": 1712936784,
+      "url": "https://help.alphorm.com/fr/articles/6744327-suivez-votre-reussite"
+    },
+    {
+      "id": "6744307",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724380,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724380
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Créer et affecter vos managers d’équipe",
+      "description": "",
+      "body": "<p class=\"no-margin\">Il convient de remarquer qu'un administrateur invite un manager d'équipe, étant donné que ces derniers disposent de droits consultatifs (sans possibilité de créer des utilisateurs ou d'attribuer des licences). Pour créer un manager d'équipe :</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">1- Initiez d'abord l'invitation du manager depuis la section \"Manager d'équipe\".</p><p class=\"no-margin\">2- Ensuite, accédez à la fiche de l'équipe et affectez le manager.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/1010232067/e75a46140fb63afc637b27c0/image.png?expires=1758293100&amp;signature=1f70cde8c788eb4c5bdbf33a5546a0d5acb52b0cda95247cb57df7fa2f0bcec3&amp;req=dSAmFst9n4FZXvMW1HO4zWvaBWwGU2SYVkP6gM3mlw01HVfPAZP75uspok1e%0AxNjL%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934023091/801b8008638d55702a6a1271/image.png?expires=1758293100&amp;signature=1daa6a01d44625e4e3b81a541cb8882361c63bc1fab7e418de301a76150a407f&amp;req=fSMjFst9nYheFb4f3HP0gJuEMBIO5%2FCjXcX1LX%2BnyyKVtCfMJUFUWZetsIap%0ACss%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934023722/0e6a2c61a1e5046ea19fd88c/image.png?expires=1758293100&amp;signature=14278f42324ffdd95b455f0774d8d0a3de9f9a65928adbe1dae028d71abe96d6&amp;req=fSMjFst9moNdFb4f3HP0gE7j6y9NNeN5%2BWq2cUHOr%2Fd1D2uANa4jaIBNN0Lz%0AlfQ%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Une fois le manager créé, il sera répertorié dans la liste des managers. Ces derniers disposent de comptes avec un identifiant et un mot de passe pour accéder à l'Espace Pro. Le compte est structuré de la manière suivante :</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934028371/176b861e2600a9928f8950fb/image.png?expires=1758293100&amp;signature=5133b9d855793cd6eab03c1d1aa755937ce072e76bfc1b846bfc1504457f1d92&amp;req=fSMjFst2noZeFb4f3HP0gHXNp%2B0AZYWcFqAkKgZuXX4xCgwrWWUlBw3mpJWb%0A56I%3D%0A\"></div>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668597706,
+      "updated_at": 1712229526,
+      "url": "https://help.alphorm.com/fr/articles/6744307-creer-et-affecter-vos-managers-d-equipe"
+    },
+    {
+      "id": "6744272",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724380,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724380
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Gérer vos utilisateurs",
+      "description": "",
+      "body": "<p class=\"no-margin\">La nouvelle version de l'Espace Pro offre de nombreuses fonctionnalités pour vous aider à gérer vos apprenants de manière efficace et organisée. Dans cet article, nous allons vous expliquer comment utiliser la section \"Apprenants\" pour tirer le meilleur parti de ces fonctionnalités.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_84bea51285\">1- Accéder à la section \"Apprenants\"</h2><p class=\"no-margin\">Pour accéder à la section \"Apprenants\", connectez-vous à votre compte Espace Pro et cliquez sur l'onglet \"Apprenants\" dans le menu principal. Vous serez alors redirigé vers une page qui répertorie tous les apprenants inscrits à vos cours.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">La section \"Apprenants\" vous permet également d'utiliser des filtres pour trouver rapidement un apprenant spécifique ou un groupe d'apprenants. Vous pouvez filtrer les apprenants par nom, adresse e-mail...</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Dans cette section, vous pouvez également :</p><ul><li><p class=\"no-margin\">Avoir un aperçu des apprenants sans licence, connaître le nombre de licences disponibles, et passer commande de licences en cas de besoin.</p></li><li><p class=\"no-margin\">Obtenir des informations sur les apprenants inactifs et avoir la possibilité de les relancer collectivement.</p></li></ul><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934009737/fac9c19e4b0a4062013ea6cd/image.png?expires=1758293100&amp;signature=ec3dfc2c594f9872519465fbced4dfc1c4cd71ba3224dc2462c90d9b0cdeae48&amp;req=fSMjFsl3moJYFb4f3HP0gBBgIZ08cb6MxqNCFxjUiaFZEOOVZewGXgEDfsxl%0ArE4%3D%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_eaa497fe6c\">2- Gérer les apprenants</h2><p class=\"no-margin\">Une fois sur la page \"Apprenants\", vous avez la possibilité de gérer vos apprenants grâce à plusieurs options et indicateurs disponibles.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934010792/d2c1635ff85ea47face3b005/image.png?expires=1758293100&amp;signature=e76f4c34516e5c06b7bfcc2719bcde1d36dd39de6fd80b79eb784b6698e3a9c8&amp;req=fSMjFsh%2BmohdFb4f3HP0gDLdSHnMPavV7264H80Mz2Iq7GpxAOxonv%2Bpp%2FYa%0AsyY%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>La page apprenant contient plusieurs détails et offre plusieurs possibilités :</b></p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934013232/f4f849fea06c5adc9be51eb2/image.png?expires=1758293100&amp;signature=6d079c56f1e5d0151c6c167c496a3895e2a10994ceb17a21116e2c1ae0d6c736&amp;req=fSMjFsh9n4JdFb4f3HP0gBsQaJRHTFgCVMkJdNkLFDf4HmqiAXNqRyxcOLLY%0Aouc%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934015729/c05d2c5f92c37dccf3394219/image.png?expires=1758293100&amp;signature=12d4e01279558159c9c6f9c5feb12599afb9ad096e4d303681298f809741d602&amp;req=fSMjFsh7moNWFb4f3HP0gFrZGE0PmwhYmmIjQYvXnxgufLD6F%2BeR67WgVnsz%0AGwA%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934013585/d553a51d7878461e4a3ccb0a/image.png?expires=1758293100&amp;signature=d134157d071f28b2a598761f49a59a03291a0fcfa5dfeed88267a6dbda786a70&amp;req=fSMjFsh9mIlaFb4f3HP0gIE1KSHeEJQzGncSlOFM4OSJM70IrZL%2BOJH2fSjK%0A3rU%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Les informations essentielles de l'apprenant comprennent son nom, prénom et email, ainsi que :</p><ul><li><p class=\"no-margin\">L'équipe à laquelle il appartient.</p></li><li><p class=\"no-margin\">La durée de sa licence (s'il en possède une en cours).</p></li><li><p class=\"no-margin\">La date de sa dernière connexion.</p></li></ul><p class=\"no-margin\">De plus, vous pouvez visualiser :</p><ul><li><p class=\"no-margin\">Un graphique représentant la durée de visionnage, qui accumule les heures de visionnage des formations par date.</p></li><li><p class=\"no-margin\">Un graphique sur les compétences, montrant la répartition du nombre de formations suivies par catégorie pendant une période choisie.</p></li></ul><p class=\"no-margin\">À partir de la page de l'apprenant, un administrateur peut effectuer les actions suivantes :</p><ul><li><p class=\"no-margin\">Affecter des licences à l'apprenant.</p></li><li><p class=\"no-margin\">Affecter l'apprenant à une nouvelle équipe, le changer d'équipe ou le retirer de l'organisation.</p></li><li><p class=\"no-margin\">Supprimer l'apprenant.</p></li></ul><p class=\"no-margin\">De plus, la page de l'apprenant offre la possibilité de télécharger les attestations de fin de formations suivies par ce dernier. </p><div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/617686717/8bca003144984812c2ec041d/image.png?expires=1758293100&amp;signature=f364b47b16888dd2c73c75dd1b5fde1704b2d29d15d89330096cee48c7b2e874&amp;req=ciEgEMF4moBYFb4f3HP0gPa8yBhNxsyqjpcQPEwz3cb9RPbGhc%2F%2FnEhdkvdH%0AG4U%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668597053,
+      "updated_at": 1712937987,
+      "url": "https://help.alphorm.com/fr/articles/6744272-gerer-vos-utilisateurs"
+    },
+    {
+      "id": "6744263",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724370,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724370
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Comment avoir de l’aide ?",
+      "description": "",
+      "body": "<p class=\"no-margin\">L'équipe d'Alphorm est à votre disposition pour répondre à toutes vos questions via plusieurs canaux :</p><p class=\"no-margin\"></p>\n<h2 id=\"h_c897e77502\">1- Chat :</h2><p class=\"no-margin\">À tout moment, vous pouvez cliquer sur l'icône située en bas à droite de l'espace professionnel pour démarrer une conversation avec moi :</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/932013122/66d5e4280ec66d2ec434d527/image.png?expires=1758293100&amp;signature=8b454400ea269c1b8c077d9fbb898cdef49d6aa5ac52a13e5a5248f0320ff309&amp;req=fSMlFsh9nINdFb4f3HP0gO6XMVFw830DG41oAxdqRAMDfGbwNPD2m8tf4Nrw%0ASCE%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous sommes disponibles pendant les horaires du bureau 9h-12h et 14h-18h. Mais n'hésitez pas à nous laisser un message, on vous répondra dès notre disponibilité.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_c7f002b4c8\"><b>2- Téléphone :</b></h2><p class=\"no-margin\">Nous sommes joignables sur le <b>+33 1 76 34 06 62</b> pour toute demande de support ou demande technique et sur le<b> +33 1 77 62 45 80</b> toute demande commerciale.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_4b2dc9785d\"><b>3- Courriel :</b></h2><p class=\"no-margin\">Pour toute demande de support ou demande technique, vous pouvez m'envoyer un email sur : <a href=\"mailto:soukaina@alphorm.com\" target=\"_blank\" class=\"intercom-content-link\">soukaina@alphorm.com</a> et pour toute demande commerciale, vous pouvez contacter notre responsable commercial sur <a href=\"mailto:souad@alphorm.com\" target=\"_blank\" class=\"intercom-content-link\">souad@alphorm.com</a> </p><p class=\"no-margin\"></p>\n<h2 id=\"h_5ccc0ec738\"><b>4- Aide pour vos apprenants :</b></h2><p class=\"no-margin\">Si vos apprenants rencontrent des problèmes ou ont des questions à propos du fonctionnement d'<a href=\"https://www.alphorm.com/\" target=\"_blank\" class=\"intercom-content-link\">Alphorm.com</a> vous pouvez leur demander de nous contacter sur <a href=\"mailto:contact@alphorm.com\" target=\"_blank\" class=\"intercom-content-link\">contact@alphorm.com</a></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668596876,
+      "updated_at": 1712937106,
+      "url": "https://help.alphorm.com/fr/articles/6744263-comment-avoir-de-l-aide"
+    },
+    {
+      "id": "6741959",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724380,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724380
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Affecter vos licences",
+      "description": "",
+      "body": "<p class=\"no-margin\">L’affectation de licence est une étape importante dans le processus de création d'un apprenant. Elle permet de lier un compte d'apprenant à une licence, donnant ainsi accès à des contenus et des fonctionnalités spécifiques.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Il existe deux moyens pour affecter une licence à un apprenant :</p><p class=\"no-margin\"></p>\n<h2 id=\"h_d0d2455608\">1- Le cas d'une première création de l'apprenant</h2><p class=\"no-margin\">Si l'apprenant n'existe pas encore dans le système, l'affectation de licence se fait automatiquement lors de sa création. Pour cela, il vous suffit de vous rendre dans la section \"Tableau de bord\" ou \"Apprenants\" et de suivre les étapes de création d'un nouvel apprenant.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Lors de la création, vous serez invité à sélectionner une licence pour l'apprenant. Une fois la création terminée, la licence sera automatiquement associée à son compte.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/1009049099/66c772d5e4cbbc4e71142d90/image.png?expires=1758293100&amp;signature=6ba95c8a3686ab86eb0f04f561b91f628f526339470ddc66ce2f1b2678f20587&amp;req=dSAnH8l6lIFWUPMW1HO4zbfQ3pW1FQz%2FVam9TJ7uVnYG1TOltWokzA95gbkH%0Afz5P%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/1009049390/cc6c30f5a02443cc483ce584/image.png?expires=1758293100&amp;signature=d4f5e2a62841ad5d94682566643fe468d78473005a427eef3ea27a7710b415ef&amp;req=dSAnH8l6lIJWWfMW1HO4zfUsZOkO3kR%2BWKFnx%2BjtOxYbE9c%2BCpmgOsaAmOGI%0A4y%2Fw%0A\"></div><p class=\"no-margin\"></p>\n<h2 id=\"h_fa3e51d98f\">2- Le cas d'un apprenant déjà existant</h2><p class=\"no-margin\">Si l'apprenant est déjà présent dans le système, vous pouvez lui affecter une licence en suivant ces étapes :</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">La licence sera alors automatiquement associée à son compte et il pourra accéder aux contenus et fonctionnalités correspondants.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/934681152/0f0b514eec3ef9cbb0fd68b8/image.png?expires=1758293100&amp;signature=0521de1e8b7b24b831c5719f535fc0affb3043e8d75714454cb99d8ced61cb72&amp;req=fSMjEMF%2FnIRdFb4f3HP0gCHmR2NDoGdzaISKHQZUFFurC3sfVAdQlmgMC2DB%0ABpI%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Vous savez maintenant comment affecter une licence à un apprenant, que ce soit lors de sa création ou pour un compte déjà existant. Si vous rencontrez des difficultés, n'hésitez pas à contacter notre service d'assistance pour obtenir de l'aide.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"><b>NB : La nouvelle mise à jour a apporté une nouvelle fonctionnalité, c'est celle d'affecter les licences en masse </b></p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/936022231/eea9b8c7341c354940b209be/image.png?expires=1758293100&amp;signature=4ae0149bff217dd06d35348726f8098d560d6a744aa8978b0f2b7eca2cc7b54b&amp;req=fSMhFst8n4JeFb4f3HP0gFBRL3cVkgV7D25oCdToXlMH7hTMuKZ58sDDGGuV%0A%2Fnw%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/936023993/a3bb5836b7789c414283f3e1/image.png?expires=1758293100&amp;signature=a56d3a7915a5d126de21a064ff4df26a5722f16dc0f4d2c9e3f6a288d09595ac&amp;req=fSMhFst9lIhcFb4f3HP0gOYYHVDRSb0vJtYwOuwSt%2BvhkIpXiKSsjoPygD1t%0A73I%3D%0A\"></div>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668531544,
+      "updated_at": 1712937413,
+      "url": "https://help.alphorm.com/fr/articles/6741959-affecter-vos-licences"
+    },
+    {
+      "id": "6741949",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724380,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724380
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Créer vos apprenants",
+      "description": "",
+      "body": "<p class=\"no-margin\">Sur l'Espace Pro, un administrateur peut initier la création d'utilisateurs pour la première fois en les créant manuellement à partir du formulaire dédié.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">La section \"Créer un apprenant\" est accessible dans les onglets Accueil et Apprenants.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/932001900/0c2c7a89dc871d242af7a9d5/image.png?expires=1758293100&amp;signature=d2067aa599c668a90b4e6ea473a124cd7910760d7e58ded1c59b6774312910b6&amp;req=fSMlFsl%2FlIFfFb4f3HP0gM7x8VIOvD897Isy8%2BNyIByZi11xyZwvE0so8syX%0AFIA%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Lorsqu'un administrateur remplit le formulaire et clique sur le bouton \"Créer\", il est automatiquement redirigé vers la page de l'apprenant nouvellement créé.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/932003385/1445de025be7fa8a36c410ca/image.png?expires=1758293100&amp;signature=0cd31e8bc27e191d9ec41de7e00e95f7c34c4a30ce81368d38b74a83050deae8&amp;req=fSMlFsl9nolaFb4f3HP0gN8IlDHe5rnMj5%2BgjJ0nzehctYXNkQ6UeX0K7tDr%0AZHI%3D%0A\"></div><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/932004799/2cc5ecabdb9fd4d9756f5b6d/image.png?expires=1758293100&amp;signature=ea3e3bd6143e712e6c9f9c5758d4dcb6671ecd1a1d10e67136207ac10d078271&amp;req=fSMlFsl6mohWFb4f3HP0gNePJ0XD4zGFSOcRwAY29JMyVGXl2O75RCUnGRkg%0A2ns%3D%0A\"></div><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Par la suite, un email informatif contenant les identifiants de l'apprenant sur le site alphorm.com est envoyé, à condition que vous ayez préalablement coché la case d'information. De plus, l'apprenant est automatiquement ajouté à la liste des apprenants.</p><p class=\"no-margin\"></p>\n<div class=\"intercom-container\"><img src=\"https://downloads.intercomcdn.com/i/o/826006477/746c3ed898f49b745ee6cdb0/image.png?expires=1758293100&amp;signature=a309c0392b9f16209bfe08b2fc5f3452d4e9aeb66821024897dc7993a8b55d43&amp;req=fCIhFsl4mYZYFb4f3HP0gNKQ4PfA35vaCmMGMVtKR0fTWFEZT0To0lMzivB4%0ANsQ%3D%0A\"></div><p class=\"no-margin\">Est voila le tour est fait, merci :) </p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668531222,
+      "updated_at": 1712153357,
+      "url": "https://help.alphorm.com/fr/articles/6741949-creer-vos-apprenants"
+    },
+    {
+      "id": "6741870",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724370,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724370
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Glossaire",
+      "description": "",
+      "body": "<p class=\"no-margin\">Afin de mieux comprendre le fonctionnement de l'Espace Pro, voici une liste de termes à connaître :</p><p class=\"no-margin\"></p>\n<h2 id=\"h_2fa5decc7b\">1- Espace Pro :</h2><p class=\"no-margin\">Il s'agit du portail web par lequel les responsables (administrateurs) d'une organisation peuvent créer leurs apprenants (utilisateurs), leur attribuer des licences et suivre leurs progrès dans l'apprentissage.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">L'Espace Pro est accessible via ce lien :<a href=\"https://auth.alphorm.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dproweb%26redirect_uri%3Dhttps%253A%252F%252Fpro.alphorm.com%252Fsignin%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520offline_access%26state%3Dd097c55f315e41838ecc0f28403a43bd%26code_challenge%3DVnD6hkripUgC_2yBa-V5cTQZrj-5UiH-Z1TN3OHMQZs%26code_challenge_method%3DS256%26response_mode%3Dquery\" target=\"_blank\" class=\"intercom-content-link\"> pro.alphorm.com</a></p><p class=\"no-margin\"></p>\n<h2 id=\"h_e2e92634f2\">2- Organisation :</h2><p class=\"no-margin\">Une organisation est une entité qui souhaite former ses membres sur la plateforme alphorm.com. Cela peut être une entreprise privée, une entreprise publique, une collectivité territoriale, un ministère, etc.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_02bc735f04\">3- Administrateur :</h2><p class=\"no-margin\">Un administrateur, ou des administrateurs, sont les personnes chargées de la gestion des apprenants et des managers sur l'Espace Pro. Ils attribuent les licences, ajoutent des managers, etc. Lorsqu'un administrateur est ajouté, il obtient un accès à pro.alphorm.com via un identifiant et un mot de passe.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_16f82fd202\">4- Utilisateur/Apprenant :</h2><p class=\"no-margin\">Un utilisateur (aussi appelé apprenant) est la personne qui bénéficie directement de la formation. Les utilisateurs n'ont pas accès à l'Espace Pro ; ils accèdent à leurs formations directement sur <a href=\"https://www.alphorm.com/\" target=\"_blank\" class=\"intercom-content-link\">https://www.alphorm.com.</a></p><p class=\"no-margin\"></p>\n<h2 id=\"h_333f963366\">5- Licence :</h2><p class=\"no-margin\">Pour qu'un utilisateur puisse suivre des formations sur <a href=\"https://www.alphorm.com\" target=\"_blank\" class=\"intercom-content-link\">https://www.alphorm.com</a>, deux conditions doivent être remplies : avoir un compte (identifiant et mot de passe) sur alphorm.com et avoir une licence attribuée par l'administrateur depuis l'Espace Pro.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_972ae93b8b\">6- Équipe :</h2><p class=\"no-margin\">Une équipe est un regroupement de plusieurs utilisateurs partageant des caractéristiques communes. Elle est gérée par un manager d'équipe.</p><p class=\"no-margin\"></p>\n<h2 id=\"h_0b00fe6aa6\">7- Manager d'équipe :</h2><p class=\"no-margin\">Le manager d'équipe est une personne créée par l'un des administrateurs de l'organisation pour gérer une ou plusieurs équipes. Cependant, le manager d'équipe ne peut apporter aucune modification ; seuls les administrateurs de l'organisation en ont le droit.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>\n<p class=\"no-margin\"></p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1668529443,
+      "updated_at": 1712937886,
+      "url": "https://help.alphorm.com/fr/articles/6741870-glossaire"
+    },
+    {
+      "id": "3532451",
+      "type": "article",
+      "workspace_id": "dq2e0pyd",
+      "parent_id": 3724384,
+      "parent_type": "collection",
+      "parent_ids": [
+        3724384
+      ],
+      "tags": {
+        "type": "tag.list",
+        "tags": []
+      },
+      "title": "Les formations Alphorm sont elles éligibles au financement OPCO/CPF?",
+      "description": null,
+      "body": "<p class=\"no-margin\">Alphorm est un organisme de Formation Professionnelle à Distance enregistré sous le <b>numéro d'activité n° 11 91 07268 91</b>. Cette reconnaissance vous permet de financer vos formations Alphorm via votre <b>OPCO/CPF</b>.</p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">La plupart de nos formations sont éligibles aux différents mécanismes de financement. Pour obtenir de l'aide, vous pouvez contacter notre conseiller en financement qui se chargera de votre dossier de A à Z en envoyant un e-mail à <b>souad@alphorm.com</b> ou en appelant le <b>01 76 35 06 85.</b></p><p class=\"no-margin\"></p>\n<p class=\"no-margin\">Nous sommes là pour vous accompagner. Merci !</p>",
+      "author_id": 3582895,
+      "state": "published",
+      "created_at": 1574938100,
+      "updated_at": 1712227941,
+      "url": "https://help.alphorm.com/fr/articles/3532451-les-formations-alphorm-sont-elles-eligibles-au-financement-opco-cpf"
+    }
+  ]
+}

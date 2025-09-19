@@ -6,15 +6,15 @@ from configs.config import ZENDESK_DOMAIN, ZENDESK_EMAIL, ZENDESK_API_TOKEN, ZEN
 
 
 class ZendeskClient:
-    """Client API pour extraire toutes les données de Zendesk"""
-    
+    """Client API pour extraire toutes les données de Zendesk avec backoff 429"""
+
     def __init__(self):
         # Configuration de base
         self.domain = ZENDESK_DOMAIN
         self.email = ZENDESK_EMAIL
         self.token = ZENDESK_API_TOKEN
         self.base_url = f"https://{self.domain}/api/v2"
-        
+
         # Configuration de la session HTTP
         self.session = requests.Session()
         self.session.auth = (f"{self.email}/token", self.token)
@@ -22,41 +22,90 @@ class ZendeskClient:
             'Content-Type': 'application/json',
             'Accept': 'application/json'
         })
-        
-        # Limitation du taux de requêtes
+
+        # Limitation du taux de requêtes (théorique)
         self.rate_limit = ZENDESK_RATE_LIMIT / 60  # requêtes par seconde
         self.last_request = 0
-        
+
         print(f"Client Zendesk initialisé pour {self.domain}")
-    
+
     def _rate_limit_wait(self):
         """Attendre pour respecter les limites de taux"""
         current_time = time.time()
         time_since_last = current_time - self.last_request
         min_interval = 1 / self.rate_limit
-        
+
         if time_since_last < min_interval:
             sleep_time = min_interval - time_since_last
             time.sleep(sleep_time)
-        
+
         self.last_request = time.time()
-    
+
     def _make_request(self, endpoint: str, params: Dict = None) -> Dict:
-        """Effectuer une requête API avec gestion d'erreurs"""
-        self._rate_limit_wait()
+        """
+        Effectuer une requête API avec gestion d'erreurs et backoff 429.
+        Réessaie automatiquement après la durée indiquée par Zendesk.
+        """
         url = f"{self.base_url}/{endpoint}"
-        
-        try:
-            response = self.session.get(url, params=params)
-            response.raise_for_status()
-            return response.json()
-            
-        except requests.exceptions.RequestException as e:
-            print(f"Erreur API Zendesk: {e}")
-            if hasattr(e.response, 'text'):
-                print(f"Détails: {e.response.text}")
-            raise
-    
+
+        while True:
+            self._rate_limit_wait()
+            try:
+                response = self.session.get(url, params=params)
+
+                # Gestion du rate-limit
+                if response.status_code == 429:
+                    retry_after = int(response.headers.get("Retry-After", 5))
+                    print(f"⏳ Limite atteinte pour {endpoint}. Attente {retry_after} sec...")
+                    time.sleep(retry_after)
+                    continue
+
+                response.raise_for_status()
+                return response.json()
+
+            except requests.exceptions.RequestException as e:
+                print(f"⚠️ Erreur API Zendesk sur {endpoint}: {e}")
+                if hasattr(e.response, 'text'):
+                    print(f"Détails: {e.response.text}")
+                # Attente avant de réessayer en cas d'erreur temporaire
+                time.sleep(3)
+                continue
+
+    def _make_paginated_request(self, initial_url: str) -> List[Dict]:
+        """
+        Gestion des appels paginés avec backoff 429
+        """
+        results = []
+        next_page = initial_url
+
+        while next_page:
+            self._rate_limit_wait()
+            try:
+                response = self.session.get(next_page)
+
+                if response.status_code == 429:
+                    retry_after = int(response.headers.get("Retry-After", 5))
+                    print(f"⏳ Limite atteinte. Attente {retry_after} sec...")
+                    time.sleep(retry_after)
+                    continue
+
+                response.raise_for_status()
+                data = response.json()
+
+                # Ajoute les résultats en fonction du type
+                for key in ["tickets", "users", "articles", "macros"]:
+                    if key in data:
+                        results.extend(data[key])
+
+                next_page = data.get("next_page")
+
+            except requests.exceptions.RequestException as e:
+                print(f"⚠️ Erreur API Zendesk: {e}, reprise après 5s...")
+                time.sleep(5)
+                continue
+
+        return results
+
     def test_connection(self) -> bool:
         """Tester la connexion à Zendesk"""
         try:
@@ -70,61 +119,31 @@ class ZendeskClient:
         except Exception as e:
             print(f"Échec de connexion: {e}")
             return False
-    
+
     def get_all_tickets(self) -> List[Dict]:
         """Récupérer tous les tickets"""
         print("Récupération des tickets...")
-        all_tickets = []
-        endpoint = "tickets"
-        
-        # Paramètres pour récupérer par ordre chronologique
-        params = {
-            'sort_order': 'asc',
-            'sort_by': 'created_at'
-        }
-        
-        # Pagination Zendesk
-        next_page = None
-        page_count = 0
-        
-        while True:
-            if next_page:
-                response = requests.get(next_page, auth=self.session.auth)
-                response.raise_for_status()
-                data = response.json()
-            else:
-                data = self._make_request(endpoint, params)
-            
-            tickets = data.get('tickets', [])
-            all_tickets.extend(tickets)
-            
-            page_count += 1
-            print(f"Page {page_count}: {len(tickets)} tickets récupérés")
-            
-            next_page = data.get('next_page')
-            if not next_page:
-                break
-        
-        print(f"Total: {len(all_tickets)} tickets récupérés")
-        return all_tickets
-    
+        endpoint = f"{self.base_url}/tickets.json?sort_order=asc&sort_by=created_at"
+        tickets = self._make_paginated_request(endpoint)
+        print(f"✅ Total: {len(tickets)} tickets récupérés")
+        return tickets
+
     def get_ticket_comments(self, ticket_id: int) -> List[Dict]:
         """Récupérer tous les commentaires d'un ticket"""
         endpoint = f"tickets/{ticket_id}/comments"
-        
         try:
+            time.sleep(0.5)  # pause courte entre tickets
             data = self._make_request(endpoint)
             return data.get('comments', [])
         except Exception as e:
             print(f"Erreur commentaires ticket {ticket_id}: {e}")
             return []
-    
+
     def get_tickets_with_comments(self) -> List[Dict]:
         """Récupérer tous les tickets avec leurs commentaires"""
         tickets = self.get_all_tickets()
-        
         print(f"Récupération des commentaires pour {len(tickets)} tickets...")
-        
+
         for i, ticket in enumerate(tickets):
             ticket_id = ticket['id']
             comments = self.get_ticket_comments(ticket_id)
@@ -133,36 +152,25 @@ class ZendeskClient:
             # Afficher le progrès tous les 15 tickets
             if (i + 1) % 15 == 0:
                 print(f"Traité {i + 1}/{len(tickets)} tickets")
-        
-        print("Commentaires récupérés pour tous les tickets")
+
+        print("✅ Commentaires récupérés pour tous les tickets")
         return tickets
-    
+
     def get_all_users(self) -> List[Dict]:
-        """Récupérer tous les contacts (utilisateurs end-user) en utilisant uniquement l'API Incremental Users Export.
-        Récupère en blocs de 1000 jusqu'à ce que end_of_stream soit vrai.
-        """
-        from datetime import datetime
-        import time
-
-        print("Récupération des contacts (API Incremental Export uniquement)...")
+        """Récupérer tous les contacts via l'API Incremental Export avec backoff 429"""
+        print("Récupération des contacts (API Incremental Export)...")
         all_contacts = []
-        start_time = 0  # 0 = depuis le tout premier utilisateur
-        next_page_url = None
+        start_time = 0
+        next_page_url = f"{self.base_url}/incremental/users?start_time={start_time}&per_page=1000"
 
-        while True:
+        while next_page_url:
+            self._rate_limit_wait()
             try:
-                if next_page_url:
-                    response = requests.get(next_page_url, auth=self.session.auth)
-                else:
-                    response = self.session.get(
-                        f"{self.base_url}/incremental/users",
-                        params={"start_time": start_time, "per_page": 1000}
-                    )
+                response = self.session.get(next_page_url)
 
-                # Gestion du rate-limit
                 if response.status_code == 429:
                     retry_after = int(response.headers.get("Retry-After", 5))
-                    print(f"⏳ Limite atteinte. Attente {retry_after} sec...")
+                    print(f"⏳ Limite atteinte (users). Attente {retry_after} sec...")
                     time.sleep(retry_after)
                     continue
 
@@ -170,19 +178,14 @@ class ZendeskClient:
                 data = response.json()
 
                 users = data.get("users", [])
-                contacts = [u for u in users if u.get("role") == "end-user" and u.get("active") is True]
+                contacts = [u for u in users if u.get("role") == "end-user" and u.get("active")]
                 all_contacts.extend(contacts)
 
-                print(f"🔄 Export incrémental: {len(contacts)} contacts récupérés (total {len(all_contacts)})")
+                print(f"🔄 {len(contacts)} contacts récupérés (total {len(all_contacts)})")
 
-                # Fin de l'export
+                next_page_url = data.get("next_page")
                 if data.get("end_of_stream"):
                     print("✅ Fin de l'export incrémental atteinte.")
-                    break
-
-                # Suivre la pagination
-                next_page_url = data.get("next_page")
-                if not next_page_url:
                     break
 
             except requests.exceptions.RequestException as e:
@@ -197,62 +200,19 @@ class ZendeskClient:
     def get_all_articles(self) -> List[Dict]:
         """Récupérer tous les articles du Help Center"""
         print("Récupération des articles Help Center...")
-        all_articles = []
-        endpoint = "help_center/articles"
-        
-        next_page = None
-        page_count = 0
-        
-        while True:
-            if next_page:
-                response = requests.get(next_page, auth=self.session.auth)
-                response.raise_for_status()
-                data = response.json()
-            else:
-                data = self._make_request(endpoint)
-            
-            articles = data.get('articles', [])
-            all_articles.extend(articles)
-            
-            page_count += 1
-            print(f"Page {page_count}: {len(articles)} articles récupérés")
-            
-            next_page = data.get('next_page')
-            if not next_page:
-                break
-        
-        print(f"Total: {len(all_articles)} articles récupérés")
-        return all_articles
-    
+        endpoint = f"{self.base_url}/help_center/articles.json"
+        articles = self._make_paginated_request(endpoint)
+        print(f"✅ Total: {len(articles)} articles récupérés")
+        return articles
+
     def get_all_macros(self) -> List[Dict]:
         """Récupérer toutes les macros"""
         print("Récupération des macros...")
-        all_macros = []
-        endpoint = "macros"
-        
-        next_page = None
-        page_count = 0
-        
-        while True:
-            if next_page:
-                response = requests.get(next_page, auth=self.session.auth)
-                response.raise_for_status()
-                data = response.json()
-            else:
-                data = self._make_request(endpoint)
-            
-            macros = data.get('macros', [])
-            all_macros.extend(macros)
-            
-            page_count += 1
-            print(f"Page {page_count}: {len(macros)} macros récupérées")
-            
-            next_page = data.get('next_page')
-            if not next_page:
-                break
-        
-        print(f"Total: {len(all_macros)} macros récupérées")
-        return all_macros
+        endpoint = f"{self.base_url}/macros.json"
+        macros = self._make_paginated_request(endpoint)
+        print(f"✅ Total: {len(macros)} macros récupérées")
+        return macros
+
     
 # # Test avec comptage pour vérifier l'intégrité des données
 # def test_zendesk_client():

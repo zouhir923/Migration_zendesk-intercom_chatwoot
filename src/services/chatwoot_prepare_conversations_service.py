@@ -42,13 +42,11 @@ def load_contact_index() -> Tuple[Dict, Dict]:
     print(f"Index contacts: {len(zendesk_index)} Zendesk, {len(intercom_index)} Intercom")
     return zendesk_index, intercom_index
 
-
 def format_conversation(data: Dict, source: str, contact_email: str) -> Dict:
     """Formater conversation selon source"""
     messages = []
     
     if source == "zendesk":
-        
         for comment in data.get('comments', []):
             # Déterminer si c'est un message client ou agent
             # Si author_id = requester_id, c'est le client
@@ -91,16 +89,27 @@ def format_conversation(data: Dict, source: str, contact_email: str) -> Dict:
                 'created_at': data.get('created_at')
             })
         
+        # Traiter les messages
         for msg in data.get('messages', []):
+            
+            # Déterminer le type de message selon author_type
+            if msg.get('author_type') == 'admin':
+                message_type = 'outgoing'  # Message de l'agent
+            elif msg.get('author_type') == 'user':
+                message_type = 'incoming'  # Message du client
+            else:
+                message_type = 'outgoing'
+            
             messages.append({
                 'content': msg['content'].replace('<br>', '\n'),
-                'content_type_msg': msg['message_type'],
-                'message_type': 'outgoing' if msg.get('author_type') == 'admin' else 'incoming',
+                'content_type_msg': msg.get('message_type'),
+                'message_type': message_type,
                 'author_name': msg.get('author_name', 'Unknown'),
                 'created_at': msg.get('created_at'),
                 'attachments': msg.get('attachments', [])
             })
         
+        # Retourner la conversation formatée
         return {
             'contact_email': contact_email,
             'title': data.get('title', 'Sans titre'),
@@ -116,7 +125,6 @@ def format_conversation(data: Dict, source: str, contact_email: str) -> Dict:
             },
             'messages': messages
         }
-
 
 def prepare_conversations_for_chatwoot() -> str:
     """Préparer conversations pour l'import Chatwoot"""
@@ -174,5 +182,5 @@ def prepare_conversations_for_chatwoot() -> str:
     return filepath
 
 
-if __name__ == "__main__":
-    prepare_conversations_for_chatwoot()
+# if __name__ == "__main__":
+#     prepare_conversations_for_chatwoot()

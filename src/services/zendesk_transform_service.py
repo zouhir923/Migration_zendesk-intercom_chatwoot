@@ -100,10 +100,10 @@ def zendesk_transform_tickets() -> str:
     print(f"Tickets transformés: {filename} ({get_file_size(filepath)}) - {len(transformed_tickets)} items")
     return filepath
 
-# def test_zendesk_transform():
-#     """Test de transformation"""
-#     zendesk_transform_tickets()
+def test_zendesk_transform():
+    """Test de transformation"""
+    zendesk_transform_tickets()
 
 
-# if __name__ == "__main__":
-#     test_zendesk_transform()
+if __name__ == "__main__":
+    test_zendesk_transform()

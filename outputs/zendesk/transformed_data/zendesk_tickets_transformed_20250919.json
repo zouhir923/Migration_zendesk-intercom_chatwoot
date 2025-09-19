@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "transformed_at": "20250919_093514",
-    "count": 491,
+    "transformed_at": "20250919_121847",
+    "count": 474,
     "source": "zendesk_tickets_cleaned",
     "transformations": [
       "html_to_markdown",
@@ -2809,82 +2809,6 @@
       ]
     },
     {
-      "id": 49696,
-      "subject": "Annulation abonnement",
-      "description": "Date originale: 28/04/2025 09:15<br><br>Bonjour,<br><br>J'ai appris samedi via PayPal le renouvellement de mon abonnement.<br>Pouvez vous procéder a l'annulation et au remboursement de la commande?<br><br>Mon employeur ne souhaite pas renouveler mon abonnement pour le moment.<br><br>Cordialement,<br>Cédric<br><br>Cédric Piery<br>Technicien support<br><br>04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | rcf.fr (https://www.rcf.fr)<br><br><br>Pensez à l'environnement ! N'imprimez ce mail que si c'est vraiment nécessaire.",
-      "status": "closed",
-      "priority": "normal",
-      "type": "task",
-      "requester_id": 34755449284369,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-04-28T09:15:01Z",
-      "updated_at": "2025-05-19T17:07:12Z",
-      "tags": [
-        "abon_annuler",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 34755459380113,
-          "author_id": 34755449284369,
-          "content": "Date originale: 28/04/2025 09:15<br><br><br><br>Bonjour,<br><br>J'ai appris samedi via PayPal le renouvellement de mon abonnement.<br><br>Pouvez vous procéder a l'annulation et au remboursement de la commande?<br><br>Mon employeur ne souhaite pas renouveler mon abonnement pour le moment.<br><br>Cordialement,<br><br>Cédric<br><br>**Cédric Piery**<br>**Technicien support<br><br>**04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | [rcf.fr](https://www.rcf.fr)<br><br>![RCF National](https://signature.rcf.fr/uploads/8e2c321c3f72dec4c643c47516f08372.png)<br><br>![img](https://signature.rcf.fr/uploads/20222aa376d84286412aa900566359b8.png)<br><br>[![Podcast-Au delà des Pierres](https://signature.rcf.fr/uploads/0f42ced9aaa49f6675bad793ea686bf0.png)](https://signature.rcf.fr/l/cEEzY2J2QWMvNHJxdjR1QjJONHRsZz09-a1RCUlYzaUFUM1hkQTZoV29vMXBjUT09-QUZIbk5sbjVhVm1BbGx2N0R0Vlg4Zz09)<br><br>Pensez à l'environnement ! N'imprimez ce mail que si c'est vraiment nécessaire.<br>",
-          "public": true,
-          "created_at": "2025-04-28T09:15:02Z",
-          "attachments": []
-        },
-        {
-          "id": 34758420970641,
-          "author_id": 509356451,
-          "content": "Date originale: 28/04/2025 10:22<br><br><br>Bonjour,<br><br>Merci pour votre message.<br><br>Avant de procéder à l'annulation et au remboursement, permettez-moi de vous proposer une réduction importante si vous souhaitez conserver votre abonnement.<br><br>Souhaiteriez-vous en bénéficier ?<br><br>Dans l'attente de votre retour, je reste à votre disposition.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-04-28T10:22:04Z",
-          "attachments": []
-        },
-        {
-          "id": 34760415268497,
-          "author_id": 34755449284369,
-          "content": "Date originale: 28/04/2025 11:13<br><br><br><br>Bonjour,<br><br>C'est très gentil de votre part, mes j'ai plus le temps pour le moment de faire des formations.<br><br>Cordialement,<br><br>Cédric<br><br>**Cédric Piery**<br>**Technicien support<br><br>**04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | [rcf.fr](https://www.rcf.fr)<br><br>![RCF National](https://signature.rcf.fr/uploads/8e2c321c3f72dec4c643c47516f08372.png)<br><br>![img](https://signature.rcf.fr/uploads/20222aa376d84286412aa900566359b8.png)<br><br>[![Podcast-Au delà des Pierres](https://signature.rcf.fr/uploads/0f42ced9aaa49f6675bad793ea686bf0.png)](https://signature.rcf.fr/l/cEEzY2J2QWMvNHJxdjR1QjJONHRsZz09-a1RCUlYzaUFUM1hkQTZoV29vMXBjUT09-QUZIbk5sbjVhVm1BbGx2N0R0Vlg4Zz09)<br><br>Le lun. 28 avr. 2025 à 12:22, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-04-28T11:13:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35024364748305,
-          "author_id": 34755449284369,
-          "content": "Date originale: 07/05/2025 06:19<br><br><br><br>Bonjour,<br><br>Je n'est pas de retour depuis le 28 avril.<br><br>Cedric<br><br>**Cédric Piery**<br>**Technicien support<br><br>**04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | [rcf.fr](https://www.rcf.fr)<br><br>![RCF National](https://signature.rcf.fr/uploads/8e2c321c3f72dec4c643c47516f08372.png)<br><br>![img](https://signature.rcf.fr/uploads/20222aa376d84286412aa900566359b8.png)<br><br>[![Podcast-Au delà des Pierres](https://signature.rcf.fr/uploads/0f42ced9aaa49f6675bad793ea686bf0.png)](https://signature.rcf.fr/l/cEEzY2J2QWMvNHJxdjR1QjJONHRsZz09-a1RCUlYzaUFUM1hkQTZoV29vMXBjUT09-QUZIbk5sbjVhVm1BbGx2N0R0Vlg4Zz09)<br><br>Le lun. 28 avr. 2025 à 13:12, Cédric Piery < [cedric.piery@rcf.fr](mailto:cedric.piery@rcf.fr) > a écrit :<br><br>Bonjour,<br><br>C'est très gentil de votre part, mes j'ai plus le temps pour le moment de faire des formations.<br><br>Cordialement,<br><br>Cédric<br><br>**Cédric Piery**<br>**Technicien support<br><br>**04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | [rcf.fr](https://www.rcf.fr)<br><br>![RCF National](https://signature.rcf.fr/uploads/8e2c321c3f72dec4c643c47516f08372.png)<br><br>![img](https://signature.rcf.fr/uploads/20222aa376d84286412aa900566359b8.png)<br><br>[![Podcast-Au delà des Pierres](https://signature.rcf.fr/uploads/0f42ced9aaa49f6675bad793ea686bf0.png)](https://signature.rcf.fr/l/cEEzY2J2QWMvNHJxdjR1QjJONHRsZz09-a1RCUlYzaUFUM1hkQTZoV29vMXBjUT09-QUZIbk5sbjVhVm1BbGx2N0R0Vlg4Zz09)<br><br>Le lun. 28 avr. 2025 à 12:22, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-07T06:19:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35052124893457,
-          "author_id": 509356451,
-          "content": "Date originale: 07/05/2025 17:22<br><br><br>Bonjour Cédric,<br><br>Merci pour votre retour.<br><br>Je comprends tout à fait que vous ayez actuellement moins de temps pour vous former.<br><br>Cependant, afin que vous puissiez garder l’accès à l’ensemble de nos formations pour le moment où vous en aurez besoin, je vous propose exceptionnellement **de conserver votre abonnement annuel au tarif préférentiel de 114 €**, soit **notre tarif promotionnel le plus bas**.<br><br>C’est une offre exclusive, conçue spécialement pour nos clients fidèles comme vous.<br><br>N’hésitez pas à me dire si vous souhaitez en profiter, je me ferai un plaisir de vous accompagner.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-07T17:22:28Z",
-          "attachments": []
-        },
-        {
-          "id": 35055235256849,
-          "author_id": 34755449284369,
-          "content": "Date originale: 07/05/2025 19:27<br><br><br><br>Bonjour,<br><br>Merci, je ne suis pas intéressé par cette offre.<br><br>Pour le moment, je souhaite le remboursement.<br><br>Cordialement,<br><br>Cedric<br><br>**Cédric Piery**<br>**Technicien support<br><br>**04 72 38 62 02<br>7 place Saint-Irénée<br>Lyon Cedex 05 | [rcf.fr](https://www.rcf.fr)<br><br>![RCF National](https://signature.rcf.fr/uploads/8e2c321c3f72dec4c643c47516f08372.png)<br><br>![img](https://signature.rcf.fr/uploads/20222aa376d84286412aa900566359b8.png)<br><br>[![Podcast-Au delà des Pierres](https://signature.rcf.fr/uploads/0f42ced9aaa49f6675bad793ea686bf0.png)](https://signature.rcf.fr/l/cEEzY2J2QWMvNHJxdjR1QjJONHRsZz09-a1RCUlYzaUFUM1hkQTZoV29vMXBjUT09-QUZIbk5sbjVhVm1BbGx2N0R0Vlg4Zz09)<br><br>Le mer. 7 mai 2025 à 19:22, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-07T19:27:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35418469560465,
-          "author_id": 509356451,
-          "content": "Date originale: 19/05/2025 17:07<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Je vous informe que votre demande est exécutée. Je viens d'effectuer le remboursement de votre paiement et la suppression de votre abonnement.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T17:07:12Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
       "id": 49702,
       "subject": "Demande d'information et démo entreprise",
       "description": "Date originale: 28/04/2025 13:27<br><br>Bonjour,<br>je suis intéressée par une de vos formations pour un de mes collaborateurs.<br>J'aimerais pouvoir discuter avec vous pour comprendre votre fonctionnement et si des financements sont possibles.<br><br>Pouvons nous prévoir un appel dans la journée du 29/04?<br><br>Merci<br>Cordialement,<br>--<br><br>Cécile Phulpin<br><br>177 Allée Clémentine DEMAN<br>59000 Lille<br>Tél. : -<br><br>Grandir et Faire grandir pour un monde plus sûr<br><br><br>Pensez à l'environnement : n'imprimez ce message que si nécessaire<br>--<br>Ce message et toutes les pièces jointes sont confidentiels et établis à l'intention exclusive de son ou ses destinataires. Si vous avez reçu ce message par erreur, merci d'en avertir immédiatement l'émetteur et de détruire le message. Toute modification, édition, utilisation ou diffusion non autorisée est interdite et pourra engager votre responsabilité. L'émetteur décline toute responsabilité au titre de ce message s'il a été modifié, déformé, falsifié, infecté par un virus ou encore édité ou diffusé sans autorisation.",
@@ -3982,163 +3906,6 @@
       ]
     },
     {
-      "id": 49855,
-      "subject": "Re: [Alphorm] Objet : Demande de non renouvellement abonnement annuel FR-b3lNNBkePAqm3-20230512-1",
-      "description": "Date originale: 16/05/2025 11:21<br><br>Ceci est un suivi concernant votre demande précédente #45791 Demande de non renouvelleme....<br><br>Bonjour M./Mme ,Ci-dessus le message que je vous ai envoyé en mars 2024 afin d'annuler mon abonnement.Malgré cela, vous avez continué le prélèvement de 250 Euros annuellement sur mon compte en mai 2024 et mai 2025.Cette situation me cause un réel préjudice à la fois financière et morale.Prière de bien vouloir restituer les montants prélevés malgré le faits que explicitement, je vous avais exhorté des mois à l'avance de mettre fin à mon abonnement.Merci et bonne journée. Le jeudi 15 mai 2025 à 16:53:33 UTC−4, Parfait Azebaze <parfaitazebaze@yahoo.fr> a écrit :<br><br>Bonjour Monsieur/Madame,Depuis le 27 Mars 2024, je vous ais exprimer mon souhait que mon abonnement soit annulé et que vous ne pussiez plus faire de prélevement sur mon compte.Mais grande a été ma surprise de constater que les prélèvement ont continué à êtres effectués sur mon compte a savoir le 13 Mai 2024 et le 13 Mai 2025.Cette situation me cause un réel préjudice alors prière de voir comment restituer les préventivement effectués sur mon compte malgré que je vous ai notifié mon désir de non renouvellement depuis mars 2024.Merci de votres compréhension<br><br>Le mercredi 27 mars 2024 à 12:32:38 UTC−4, Amine (Support Alphorm) <contact@alphorm.com> a écrit :<br><br>#yiv3780932050 table td {border-collapse:collapse;}#yiv3780932050 body .yiv3780932050filtered99999 .yiv3780932050directional_text_wrapper {direction:rtl;unicode-bidi:embed;}@media only screen and (max-width:768px) {#yiv3780932050 .yiv3780932050simplified-email-footer .yiv3780932050namecard {display:block;min-width:100%;padding:0 0 16px 0;}#yiv3780932050 .yiv3780932050simplified-email-footer .yiv3780932050content {padding:16px;",
-      "status": "closed",
-      "priority": "normal",
-      "type": "task",
-      "requester_id": 23669128631697,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-16T11:21:02Z",
-      "updated_at": "2025-05-19T16:55:51Z",
-      "tags": [
-        "abon_annuler",
-        "autre"
-      ],
-      "comments": [
-        {
-          "id": 35335583028625,
-          "author_id": 23669128631697,
-          "content": "Date originale: 16/05/2025 11:21<br><br><br><br>![Image en ligne](https://support.alphorm.com/attachments/token/YKlJ4bXkCceyDR7oUZfQfMBfW/?name=1747393743668blob.jpg)<br>Bonjour M./Mme ,<br><br>Ci-dessus le message que je vous ai envoyé en mars 2024 afin d'annuler mon abonnement.<br><br>Malgré cela, vous avez continué le prélèvement de 250 Euros annuellement sur mon compte en mai 2024 et mai 2025.<br><br>Cette situation me cause un réel préjudice à la fois financière et morale.<br><br>Prière de bien vouloir restituer les montants prélevés malgré le faits que explicitement, je vous avais exhorté des mois à l'avance de mettre fin à mon abonnement.<br><br>Merci et bonne journée.<br><br>",
-          "public": true,
-          "created_at": "2025-05-16T11:21:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35336940669201,
-          "author_id": 509356451,
-          "content": "Date originale: 16/05/2025 12:00<br><br><br><br>La demande [#49849](/agent/tickets/49849) Re: [Alphorm] Objet : Demande de... a été close et fusionnée dans cette demande. Dernier commentaire dans la demande [#49849](/agent/tickets/49849) :<br><br>![Image en ligne](https://support.alphorm.com/attachments/token/R2SmgAw2VJVVP0evO3zJR3gfn/?name=1747394574246blob.jpg)<br>Bonjour Amine!<br><br>Mon message ci-dessus est assez explicite à savoir vous demande de mettre fin à mon abonnement et non comment procéder pour mettre fin à mon abonnement moi même.<br><br>Ci-dessous votre réponse qui n'y trouve aucune opposition.<br><br>![Image en ligne](https://support.alphorm.com/attachments/token/8ps1AaJBIPufFlvWoMHclBh0m/?name=1747394868525blob.jpg)<br><br>Alors après vous avoir fait une demande de non renouvellement de mon abonnement , je comprend pas comment je peu continuer à êtres prélever malgré cela.<br><br>Merci de prendre en compte mon message dés le départ en mars 2023 à savoir: **Demande de non renouvellement abonnement annuel FR-b3lNNBkePAqm3-20230512-1**<br><br>",
-          "public": true,
-          "created_at": "2025-05-16T12:00:31Z",
-          "attachments": [
-            {
-              "url": "https://alphorm.zendesk.com/api/v2/attachments/35336940688145.json",
-              "id": 35336940688145,
-              "file_name": "image.png",
-              "content_url": "https://alphorm.zendesk.com/attachments/token/8muEU0Vd6aV1zHD2OlawyC4gt/?name=image.png",
-              "mapped_content_url": "https://support.alphorm.com/attachments/token/8muEU0Vd6aV1zHD2OlawyC4gt/?name=image.png",
-              "content_type": "image/png",
-              "size": 13292,
-              "width": 560,
-              "height": 340,
-              "inline": false,
-              "deleted": false,
-              "malware_access_override": false,
-              "malware_scan_result": "malware_not_found",
-              "thumbnails": [
-                {
-                  "url": "https://alphorm.zendesk.com/api/v2/attachments/35336940694161.json",
-                  "id": 35336940694161,
-                  "file_name": "image_thumb.png",
-                  "content_url": "https://alphorm.zendesk.com/attachments/token/RcBKdUUwzpqvSv94zV7pv2JkF/?name=image_thumb.png",
-                  "mapped_content_url": "https://support.alphorm.com/attachments/token/RcBKdUUwzpqvSv94zV7pv2JkF/?name=image_thumb.png",
-                  "content_type": "image/png",
-                  "size": 2235,
-                  "width": 80,
-                  "height": 49,
-                  "inline": false,
-                  "deleted": false,
-                  "malware_access_override": false,
-                  "malware_scan_result": "not_scanned"
-                }
-              ]
-            },
-            {
-              "url": "https://alphorm.zendesk.com/api/v2/attachments/35336940701585.json",
-              "id": 35336940701585,
-              "file_name": "1747394868525blob.jpg",
-              "content_url": "https://alphorm.zendesk.com/attachments/token/go28M0aUTNAe548YhJaopDVtY/?name=1747394868525blob.jpg",
-              "mapped_content_url": "https://support.alphorm.com/attachments/token/go28M0aUTNAe548YhJaopDVtY/?name=1747394868525blob.jpg",
-              "content_type": "image/png",
-              "size": 40406,
-              "width": 1111,
-              "height": 398,
-              "inline": false,
-              "deleted": false,
-              "malware_access_override": false,
-              "malware_scan_result": "malware_not_found",
-              "thumbnails": [
-                {
-                  "url": "https://alphorm.zendesk.com/api/v2/attachments/35336940715281.json",
-                  "id": 35336940715281,
-                  "file_name": "1747394868525blob_thumb.jpg",
-                  "content_url": "https://alphorm.zendesk.com/attachments/token/PE31bJOlTiA3BvoDWtWDASnY3/?name=1747394868525blob_thumb.jpg",
-                  "mapped_content_url": "https://support.alphorm.com/attachments/token/PE31bJOlTiA3BvoDWtWDASnY3/?name=1747394868525blob_thumb.jpg",
-                  "content_type": "image/png",
-                  "size": 1410,
-                  "width": 80,
-                  "height": 29,
-                  "inline": false,
-                  "deleted": false,
-                  "malware_access_override": false,
-                  "malware_scan_result": "not_scanned"
-                }
-              ]
-            },
-            {
-              "url": "https://alphorm.zendesk.com/api/v2/attachments/35336947567121.json",
-              "id": 35336947567121,
-              "file_name": "1747394574246blob.jpg",
-              "content_url": "https://alphorm.zendesk.com/attachments/token/6l9EWIeepQ69GUGEyA7ah4ZNW/?name=1747394574246blob.jpg",
-              "mapped_content_url": "https://support.alphorm.com/attachments/token/6l9EWIeepQ69GUGEyA7ah4ZNW/?name=1747394574246blob.jpg",
-              "content_type": "image/png",
-              "size": 38141,
-              "width": 1142,
-              "height": 413,
-              "inline": false,
-              "deleted": false,
-              "malware_access_override": false,
-              "malware_scan_result": "malware_not_found",
-              "thumbnails": [
-                {
-                  "url": "https://alphorm.zendesk.com/api/v2/attachments/35336947617297.json",
-                  "id": 35336947617297,
-                  "file_name": "1747394574246blob_thumb.jpg",
-                  "content_url": "https://alphorm.zendesk.com/attachments/token/YrZguvKxFynZeQbTB8pHncirP/?name=1747394574246blob_thumb.jpg",
-                  "mapped_content_url": "https://support.alphorm.com/attachments/token/YrZguvKxFynZeQbTB8pHncirP/?name=1747394574246blob_thumb.jpg",
-                  "content_type": "image/png",
-                  "size": 1685,
-                  "width": 80,
-                  "height": 29,
-                  "inline": false,
-                  "deleted": false,
-                  "malware_access_override": false,
-                  "malware_scan_result": "not_scanned"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 35348987091089,
-          "author_id": 509356451,
-          "content": "Date originale: 16/05/2025 18:33<br><br><br>Bonjour,<br><br>Merci pour votre message.<br><br>Je tiens à vous informer que, conformément à notre politique, la suppression d'un abonnement est effectuée uniquement dans le cadre d'une demande de remboursement. Pour une annulation de renouvellement, cette opération est entièrement gérable depuis votre espace personnel, en désactivant l'option de renouvellement automatique.<br><br>Concernant les paiements effectués :<br><br>**Paiement de mai 2024** : Malheureusement, ce paiement ne peut pas être remboursé, car le délai légal de rétractation de 14 jours est dépassé.<br><br>**Paiement de mai 2025**: Je peux procéder au remboursement de ce paiement, si vous le souhaitez.Pour vous témoigner notre reconnaissance en tant que client fidèle, je vous propose une**année d'abonnement gratuite**, vous permettant d'accéder à l'ensemble de nos formations.<br><br>N'hésitez pas à me faire savoir si vous souhaitez bénéficier de cette offre ou si vous avez d'autres questions.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-16T18:33:52Z",
-          "attachments": []
-        },
-        {
-          "id": 35369664087825,
-          "author_id": 23669128631697,
-          "content": "Date originale: 17/05/2025 19:47<br><br><br><br>Bonjour Monsieur,<br><br>J'accepte l'offre que vous avez proposé a savoir:<br><br>* Remboursement du paiement de mai 2025<br><br>* Une année d'abonnement gratuite<br><br>Ci-dessous l'offre proposé en capture<br><br>![Image en ligne](https://support.alphorm.com/attachments/token/zogFvpg5Z6QcXQeYFxxqTEHmx/?name=1747511056120blob.jpg)<br>Merci pour votre compréhension.<br><br>Bonne journée.<br><br>",
-          "public": true,
-          "created_at": "2025-05-17T19:47:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35418094878993,
-          "author_id": 509356451,
-          "content": "Date originale: 19/05/2025 16:55<br><br><br>Bonjour,<br><br>Merci pour votre retour.<br><br>Je vous confirme que le **remboursement du paiement effectué en mai 2025** a bien été traité tout en conservant votre abonnement annuel qui vous donne accès à l’ensemble des formations disponibles sur notre plateforme conformément à notre proposition.<br><br>Nous restons à votre disposition si vous avez la moindre question ou besoin d’assistance supplémentaire.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T16:55:51Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
       "id": 49857,
       "subject": "Renouvellement abonnement",
       "description": "Date originale: 16/05/2025 12:33<br><br>Bonjour,<br><br>Mon abonnement prend fin le 25 mai 2025<br><br>Je ne vois pas où je peux aller sur votre site web pour faire le renouvellement?<br><br>Voir la pièce jointe.<br><br>Est-ce que le renouvellement va se faire de façon automatique?<br><br>Merci de me revenir<br><br>Sylvain Gloutney [image0.jpeg]",
@@ -4175,437 +3942,6 @@
       ]
     },
     {
-      "id": 49864,
-      "subject": "Re: Votre abonnement est suspendu en raison d’un échec de paiement",
-      "description": "Date originale: 18/05/2025 03:15<br><br>Hello Alphorm Team,<br><br>Je suis désolé, j’avais désactivé le mode de payement en ligne sur ma carte.<br>Pouvez-Vous retenter le paiement mensuel.<br>Merci pour votre compréhension.<br><br><br><br>Mamadou Alpha 1 BAH<br><br><br><br><br><br><br>Le ven. 9 mai 2025 à 02:01, Alphorm Formations <contact@alphorm.com> a écrit :<br><br><br><br>Bonjour mamadoualpha01bah,<br><br><br><br>Nous rencontrons des difficultés à traiter votre paiement après plusieurs tentatives et nous sommes obligés de suspendre votre abonnement.<br><br><br><br>Pour réactiver votre abonnement, nous vous invitons à mettre à jour vos données de paiement en cliquant sur le lien ci-dessous :<br><br><br>https://www.alphorm.com/profile (https://r.email.alphorm.com/tr/cl/yoe4irS6QC0y2NGzX3PVyddK-ZWJlMV7PvpFmNzkJ_qEQuTsWGFwfpnSjNS4EWpQlhsVUkuaOUBRkpB5vPcz9n2aI8VNCHstpo77clp6j_UK3T88CXPA9FPuZk3k1zQWpJWHqZQDemnm7LuBM5ev-D-vuh2ZZHqnNcTqlv6hkFzJHKUigCZtF_KuWaGGZyNwKFfeR6hrmpwqxmW2E0SDUKMn-f8lfPPVBEIHsFxWSLSPTHmk_3qkLjYSHc_I3UzjNGpFQNpAUj9q-ct13lHikLNy5jKBQ5o)<br><br><br><br>En cas de besoin, n’hésitez pas à nous contacter par e-mail à contact@alphorm.com ou par téléphone au +33 1 77 62 45 80.<br><br>À bientôt !<br><br>L’équipe Alphorm",
-      "status": "closed",
-      "priority": null,
-      "type": null,
-      "requester_id": 14579441372817,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-18T03:15:02Z",
-      "updated_at": "2025-05-19T07:46:17Z",
-      "tags": [],
-      "comments": [
-        {
-          "id": 35373364853393,
-          "author_id": 14579441372817,
-          "content": "Date originale: 18/05/2025 03:15<br><br><br><br>Hello Alphorm Team,<br><br>Je suis désolé, j’avais désactivé le mode de payement en ligne sur ma carte.<br><br>Pouvez-Vous retenter le paiement mensuel.<br><br>Merci pour votre compréhension.<br><br>**Mamadou Alpha 1 BAH**<br><br>Le ven. 9 mai 2025 à 02:01, Alphorm Formations < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>![image](https://r.email.alphorm.com/im/5786163/e90f847519b7c130ba0cee571d5b250dafe752678906b243dfb33887670ccefc.png?e=dA_mfl6HHKoidCeAHFgVyGMwwlVx_swq8rvt9WvKjAqlWp9j9SwRakJv7YNtIx6mjZ0jgPUyt-HnlZSAfjOIIIjU1u2pGKlUUnBY3OW1YPsXDI6Zv9EgeF5WswA7Gk2LxZVwiUjvVlqjxRwdiC0c0EoTf1tBegwvU56vxbw19E-1y4wilfPjDtzejKZhQzVhokvhiMOBjP9w4-5FBLAv05BgXjgnLaqiIeFxKuOVVyyVO3spghSLgznk_89pYyoULXOx-OkHTYNS403XwHzuPHnI_E0b5pCe4joDalp-z7428K_ajzau7r7Sq2VI3Yz9Gr04) ![image](https://r.email.alphorm.com/im/5786163/af311ab5086ef756786f22079d0347c1c362d7122cf8ea9c382e76005f7e0027.png?e=r-QoPmb2yx6JvbMljw05KckpPSweB7AuQ-pQYt6cxnVicItLozaEdfDlgKVUuGrEGGSN7gyE6BaovBEjC1ZxaN68Ge2Vh797ni23RfD_yA8JGuuN4wXQh5zmDfg2uLR9e66eRuQYIYL7ccvUzBb5lj2_bcbYY1xEgC4WnLBHHC-QWz5ML7jLmJJ2l4F03aXwTVYo0VlH-_yTFpgrPFPz3RPCwhTZasF5TbdUEE0jBOCFlOIPatxctsjj-5QWbkZnlyJcVWmGskX1Ra0sYRYCP2K1L92LBFan3GjctC4_vUfysYDbiIkYcAthG7BG0vowxQJt)<br><br>Bonjour **mamadoualpha01bah**,<br><br>Nous rencontrons des difficultés à traiter votre paiement après plusieurs tentatives et nous sommes obligés de suspendre votre abonnement.<br><br>Pour réactiver votre abonnement, nous vous invitons à mettre à jour vos données de paiement en cliquant sur le lien ci-dessous :<br><br>[https://www.alphorm.com/profile](https://r.email.alphorm.com/tr/cl/yoe4irS6QC0y2NGzX3PVyddK-ZWJlMV7PvpFmNzkJ_qEQuTsWGFwfpnSjNS4EWpQlhsVUkuaOUBRkpB5vPcz9n2aI8VNCHstpo77clp6j_UK3T88CXPA9FPuZk3k1zQWpJWHqZQDemnm7LuBM5ev-D-vuh2ZZHqnNcTqlv6hkFzJHKUigCZtF_KuWaGGZyNwKFfeR6hrmpwqxmW2E0SDUKMn-f8lfPPVBEIHsFxWSLSPTHmk_3qkLjYSHc_I3UzjNGpFQNpAUj9q-ct13lHikLNy5jKBQ5o)<br><br>![image](https://r.email.alphorm.com/im/5786163/8d1ffa496f3f95ef4bcd9f4ba93071aca92f4da00fdcf73df0209d029560a3aa.png?e=6up9eTK0crUkHB8FHcikHCHiPNF9IaQocuSsOIjZGZON5j2W6n5k4alXI4dYuWuanBebgyy0T_ZikZWNg2LMhiyn1CaAEmQapVfCVwRPK86CCkm7EWBDI0zXgy-BBkZdGlul0UOxIvGibV0D02-KIlQFqJhRgXOkE9YQzTbCPEqAtpIzc54S8ZcZ4UUUoZY2N4VvSz9vEHzLsA009yS-10IRclATc5cilysoxUqNp32hF__FP_unJXBxn8iWSMOBBejq6oQbjjI1eXw6NYjPBJudDGjnEfoCV3oZ1vJn_FpRLeR23Jr1iq0bpZsCYyG7TNlP)<br><br>En cas de besoin, n’hésitez pas à nous contacterpar e-mail à [contact@alphorm.com](mailto:contact@alphorm.com) ou par téléphone au [+33 1 77 62 45 80](tel:+33%201%2077%2062%2045%2080) .<br><br>![image](https://r.email.alphorm.com/im/5786163/eb1fd3c9532e85bc8a7ad6cd90221ddf103bf4b19f569c26bd432191712920fa.png?e=U5jjzW6iDFYAqYcO1jipq7pyo7ay1bQLV8ttp9XXQGM_qx2GLNopp6_PepWaOl9f6EtTDaoz25y3j7zLAK1cidxXDR8ZFwwr4Fnk6blOoZjfM-zOZNErM2GBI6pdCyQQem5eTM3aRUT0fOxgQEwGf5f2GBRYDXk4nYIUXqyWfPSUipjhXBJCD6hYDpkd7PRrKvB5F5sHgrapHhEwcVG0tSBouXgsCGQw7IT73OYM37Jynps8HGQEfZgfG2DI_Ujxc7-n8-MdSbme5ZY2lnySgJ_M8Pe8Y8WFAh52ebMQbaQO70NvkmGhNgjdXeOMa16D_A1G)<br><br>À bientôt !<br><br>L’équipe **Alphorm**<br><br>",
-          "public": true,
-          "created_at": "2025-05-18T03:15:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35395707234705,
-          "author_id": 509356451,
-          "content": "Date originale: 19/05/2025 07:46<br><br><br>Bonjour,<br><br>Merci pour l'intérêt que vous portez à Alphorm.<br><br>Je vous informe que votre abonnement a été suspendu, il n'est plus possible de lancer le paiement,<br><br>Pour renouveler votre abonnement, vous pouvez suivre cette procédure :<br><br>1) Aller sur la page [https://www.alphorm.com/tarifs](https://www.alphorm.com/tarifs)<br>2) Cliquer sur l'abonnement qui vous intéresse mensuel ou annuel.<br>3) Cliquer sur démarrer<br>4) Continuer et passer votre commande.<br><br>Je reste à votre disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T07:46:17Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49868,
-      "subject": "Renseignement ",
-      "description": "Date originale: 19/05/2025 08:32<br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur votre demande ?<br><br>Je reste à votre entière disposition.<br><br>Bonne journée<br><br><br>=====================<br><br>### Votre message d'origine<br>=====================<br><br><br><br>Bonjour,<br>Ci-joint le dépôt du demande du titre de séjour,<br><br>Hakim hachim<br>Cordialement,",
-      "status": "closed",
-      "priority": "normal",
-      "type": "question",
-      "requester_id": 35397750704529,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-19T08:32:14Z",
-      "updated_at": "2025-05-21T07:21:15Z",
-      "tags": [
-        "france",
-        "info_general"
-      ],
-      "comments": [
-        {
-          "id": 35397750732177,
-          "author_id": 509356451,
-          "content": "Date originale: 19/05/2025 08:32<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur votre demande ?<br><br>Je reste à votre entière disposition.<br><br>Bonne journée<br><br>=====================<br>Votre message d'origine=====================<br><br>Bonjour,<br>Ci-joint le dépôt du demande du titre de séjour,<br><br>Hakim hachim<br>Cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T08:32:14Z",
-          "attachments": [
-            {
-              "url": "https://alphorm.zendesk.com/api/v2/attachments/35397780260625.json",
-              "id": 35397780260625,
-              "file_name": "CONFIRMATION_DEMANDE_TITRE_SEJOUR_HAKIM.pdf",
-              "content_url": "https://alphorm.zendesk.com/attachments/token/elEGoMqpJIwZ4kjz5MyRBYBa8/?name=CONFIRMATION_DEMANDE_TITRE_SEJOUR_HAKIM.pdf",
-              "mapped_content_url": "https://support.alphorm.com/attachments/token/elEGoMqpJIwZ4kjz5MyRBYBa8/?name=CONFIRMATION_DEMANDE_TITRE_SEJOUR_HAKIM.pdf",
-              "content_type": "application/pdf",
-              "size": 172263,
-              "width": null,
-              "height": null,
-              "inline": false,
-              "deleted": false,
-              "malware_access_override": false,
-              "malware_scan_result": "malware_not_found",
-              "thumbnails": []
-            }
-          ]
-        },
-        {
-          "id": 35464258263697,
-          "author_id": 35397750704529,
-          "content": "Date originale: 21/05/2025 04:43<br><br><br><br>Bonjour,<br>Bien reçu<br><br>Cordialement,<br><br>Le lun. 19 mai 2025, 10:32, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-21T04:43:01Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49872,
-      "subject": "★★★★★ \n\tتمام.كويس",
-      "description": "Date originale: 19/05/2025 16:34<br><br>★★★★★<br>تمام.كويس",
-      "status": "closed",
-      "priority": null,
-      "type": null,
-      "requester_id": 35417587156881,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-19T16:34:14Z",
-      "updated_at": "2025-05-19T16:44:36Z",
-      "tags": [],
-      "comments": [
-        {
-          "id": 35417530605073,
-          "author_id": 35417587156881,
-          "content": "Date originale: 19/05/2025 16:34<br><br><br><br>★★★★★<br>تمام.كويس<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T16:34:14Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49873,
-      "subject": "Recommandations de formations Alphorm – Gestion des utilisateurs & création de site web",
-      "description": "Date originale: 19/05/2025 16:42<br><br>Bonjour,<br><br>Merci pour votre message.<br>Voici les formations disponibles sur notre plateforme **Alphorm**qui répondent à vos besoins :<br><br><br>### 🔐**1. Gestion des utilisateurs, des accès et des restrictions (administrateur système)**<br>Pour apprendre à contrôler les droits utilisateurs, les restrictions (comme l'interdiction de copier sur clé USB ou d’envoyer par mail), nous vous recommandons :<br><br>#### ✅ Formation Active Directory 2016 : Le Guide complet de l'architecture<br>**Contenu :**<br><br>- Installation et configuration d'Active Directory<br>- Gestion des utilisateurs et des groupes<br>- Mise en place de politiques de sécurité<br>- Bonnes pratiques d’administration système<br><br>#### ✅ Formation Windows Server 2016 : Installation et Configuration<br>**Contenu :**<br><br>- Installation de Windows Server 2016<br>- Configuration des services de base<br>- Gestion des rôles et des fonctionnalités<br>- Sécurisation de l'environnement serveur<br><br>* * *<br><br>### 🌐 **2. Création complète d’un site web dynamique avec base de données**<br>Pour développer un site web de A à Z, y compris avec base de données, sécurité, mises à jour et gestion de contenu :<br><br>#### ✅ Formation PHP / MySQL : Le Guide Complet<br>**Contenu :**<br><br>- Création d’un site dynamique avec PHP et MySQL<br>- Formulaires, base de données, sessions utilisateurs<br>- Sécurité (injection SQL, XSS, gestion des utilisateurs)<br>- Hébergement, maintenance et évolutivité<br><br>Je reste à votre disposition,<br><br>Bien cordialement,<br><br><br>=====================<br><br>### **Votre message d'origine**<br>=====================<br><br><br>Bonjour,<br><br>Je recherche le cours ,en tant qu'administrateur système, qui me permettra de gérer les utilisateurs, leurs accès, et surtout les restrictions. Par exemple, un utilisateur ne doit pas pouvoir allumer son ordinateur et effectuer un copier-coller sur une clé USB, un e-mail, etc Je cherche un cours complet sur la création d’un site web de A à Z.<br><br>Le cours devrait permettre de concevoir un site dynamique avec une base de données, et inclure des notions de mise à jour, maintenance, sécurité et gestion du contenu\" répondre à cette demande depuis notre plateforme alphorm<br><br>Merci de m’indiquer",
-      "status": "closed",
-      "priority": "normal",
-      "type": "question",
-      "requester_id": 33642475787281,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-19T16:42:02Z",
-      "updated_at": "2025-05-19T19:01:04Z",
-      "tags": [
-        "congo",
-        "info_formations"
-      ],
-      "comments": [
-        {
-          "id": 35417780849169,
-          "author_id": 509356451,
-          "content": "Date originale: 19/05/2025 16:42<br><br><br>Bonjour,<br><br>Merci pour votre message.<br>Voici les formations disponibles sur notre plateforme **Alphorm**qui répondent à vos besoins :<br><br>🔐**1. Gestion des utilisateurs, des accès et des restrictions (administrateur système)**Pour apprendre à contrôler les droits utilisateurs, les restrictions (comme l'interdiction de copier sur clé USB ou d’envoyer par mail), nous vous recommandons :<br>[✅ Formation Active Directory 2016 : Le Guide complet de l'architecture](https://www.alphorm.com/tutoriel/formation-en-ligne-active-directory-2016-le-guide-complet-de-larchitecture) **Contenu :**<br>Installation et configuration d'Active DirectoryGestion des utilisateurs et des groupesMise en place de politiques de sécuritéBonnes pratiques d’administration système [✅ Formation Windows Server 2016 : Installation et Configuration](https://www.alphorm.com/tutoriel/formation-en-ligne-windows-server-2016-installation-et-configuration) **Contenu :**<br>Installation de Windows Server 2016Configuration des services de baseGestion des rôles et des fonctionnalitésSécurisation de l'environnement serveur🌐 **2. Création complète d’un site web dynamique avec base de données**Pour développer un site web de A à Z, y compris avec base de données, sécurité, mises à jour et gestion de contenu :<br>[✅ Formation PHP / MySQL : Le Guide Complet](https://www.alphorm.com/tutoriel/formation-en-ligne-php-mysql) **Contenu :**<br>Création d’un site dynamique avec PHP et MySQLFormulaires, base de données, sessions utilisateursSécurité (injection SQL, XSS, gestion des utilisateurs)Hébergement, maintenance et évolutivité<br>Je reste à votre disposition,<br><br>Bien cordialement,<br><br>=====================<br>**Votre message d'origine**=====================<br><br>Bonjour,<br><br>Je recherche le cours ,en tant qu'administrateur système, qui me permettra de gérer les utilisateurs, leurs accès, et surtout les restrictions. Par exemple, un utilisateur ne doit pas pouvoir allumer son ordinateur et effectuer un copier-coller sur une clé USB, un e-mail, etc Je cherche un cours complet sur la création d’un site web de A à Z.<br><br>Le cours devrait permettre de concevoir un site dynamique avec une base de données, et inclure des notions de mise à jour, maintenance, sécurité et gestion du contenu\" répondre à cette demande depuis notre plateforme alphorm<br><br>Merci de m’indiquer<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-19T16:42:02Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49874,
-      "subject": "URGENT - Probleme de connexion",
-      "description": "Date originale: 20/05/2025 04:35<br><br>[No content]",
-      "status": "closed",
-      "priority": "normal",
-      "type": "incident",
-      "requester_id": 11802303655697,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T04:35:03Z",
-      "updated_at": "2025-05-20T11:24:22Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35427889989777,
-          "author_id": 11802303655697,
-          "content": "Date originale: 20/05/2025 04:35<br><br><br><br>![](https://support.alphorm.com/attachments/token/iHaTUzJYsyuDwLZKteJHfSLqm/?name=AalApkGiQLD4J0tl.png)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T04:35:03Z",
-          "attachments": []
-        },
-        {
-          "id": 35432267083665,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 07:48<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur le problème que vous rencontrez ?<br><br>Je vous conseille de [vider votre cache](https://www.loom.com/share/24fab611dedb40b28e8486e9e03331b0) pour résoudre tout dysfonctionnement relatif à l'affichage de la page web.<br><br>Pour cela, il faudra choisir ci-dessous la vidéo qui vous convient en fonction de votre navigateur:<br><br>[Chrome](https://www.loom.com/share/22ec541b741c4bfdb0c858a7ac380210) [Opera](https://www.loom.com/share/9ea2b6eb55534cdd8c7bf4f1001f18a5) [Firefox](https://www.loom.com/share/8eb4b376b331472ab622357f7c720619) [Internet Explorer](https://www.loom.com/share/724315cb7b2644a69a1c5846cdaff97b) [Safari](https://www.loom.com/share/0a1700e575484c62a9830b3ba60e5b03)<br>N'oubliez pas de rafraîchir après avoir effectué vos manipulations. Si le problème n'est pas résolu je vous prie d'essayer sur un navigateur différent ou bien sur une navigation privée.<br><br>Veuillez vous reconnecter à nouveau par la suite.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T07:48:06Z",
-          "attachments": []
-        },
-        {
-          "id": 35433429963793,
-          "author_id": 11802303655697,
-          "content": "Date originale: 20/05/2025 08:15<br><br><br><br>Bonjour Amine<br><br>Merci pour votre réponse<br><br>J'ai vidé le cache FireFox et Chrome mais rien n'y fais, je reste dans l'impossibilité d'accéder à la page de login.<br><br>Exemple pour Chrome<br><br>1. Vider le cache depuis Paramêtres / Confidentialité & Sécurité / Supprimer TOUTES les données de navigation depuis 7 jours<br><br>2. Test de connexion à [www.alphorm.com](http://www.alphorm.com) (avec la console de Devbeloppement Web affichée)<br><br>J'appuie sur le bouton \"Connexion\" => 503<br><br>Google: un code de statut HTTP 503 (Service non disponible) indique généralement un problème de performance sur le serveur d'origine. Dans de rares cas, cela indique qu'il est CloudFront temporairement impossible de satisfaire une demande en raison de contraintes de ressources à un emplacement périphérique<br><br>![](https://support.alphorm.com/attachments/token/Kqc4EmtiqgWumO3x4yJxxIasu/?name=VVAClu39Vx0KBjFJ.png)<br><br>Même problème sur Firefox et Edge<br><br>Cdt<br><br>Damien<br><br>Le 20/05/2025 à 09:48, Amine (Support Alphorm) a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:15:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35435132006673,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 08:56<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Je viens de transmettre votre demande au service en question, je vous informe dès que la demande est exécutée.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:56:08Z",
-          "attachments": []
-        },
-        {
-          "id": 35441480034833,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:24<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:24:22Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49875,
-      "subject": "Re: Communauté d'agglomération du sud (CASUD) vous affecte une nouvelle licence d’Alphorm",
-      "description": "Date originale: 20/05/2025 06:05<br><br>Bonjour<br><br>Ma formation reste bloquer sur l'atelier 37.INSTAGRAM!<br>Je ne peux accéder au quizz pour recevoir mon attestation.<br><br>Merci par avance<br><br>Cordialement<br><br>-------------------------------<br>De: \"Alphorm Formations\" <contact@alphorm.com><br>À: \"Pierrette AH-KEN\" <pahken@casud.re><br>Envoyé: Jeudi 3 Avril 2025 09:49:59<br>Objet: Communauté d'agglomération du sud (CASUD) vous affecte une nouvelle licence d’Alphorm<br><br>Communauté d'agglomération du sud (CASUD) vous affecte une nouvelle licence d’Alphorm<br><br>Bonjour PIERRETTE,<br><br><br><br>L’administrateur Carole PENSEDENT vous a affecté une nouvelle licence pour profiter des meilleures formations IT de Alphorm.<br><br><br><br>Désormais, vous bénéficiez d'un Abonnement Mensuel qui expire le 02/06/2025.<br><br>­<br><br>Mon compte<br><br>(https://r.email.alphorm.com/tr/cl/h3XlDljt7BW_0N9tp9fFtjhiOABi9R1iRMwjezo2h2bgBlEL4jVeDUh_XCYXHg8EQO-jqp6EhVxSa9aCdGz5bDrbCJpnwtixWAi6R0v1rCOqerCpzqVRuDNZ0ux9BK0sDQfrr47FdASrPHj3VioCuqsjSmk3bAo6C4xmfOS6heUCuDXA3TpNsQa0i6iApwmD4hu1IMqRkSJD-MBW7S_MQF_MOVbNLJpLZp_3dfY4fOw0ZCIvjR5CjIX5pG3tmmQSmA)<br>­<br><br>En cas de besoin, n’hésitez pas à nous contacter par e-mail à contact@alphorm.com ou par téléphone au +33 1 77 62 45 80.<br><br>À bientôt !<br><br>L’équipe Alphorm",
-      "status": "closed",
-      "priority": "normal",
-      "type": "incident",
-      "requester_id": 35429137071121,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T06:05:02Z",
-      "updated_at": "2025-05-20T11:24:42Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35429137095441,
-          "author_id": 35429137071121,
-          "content": "Date originale: 20/05/2025 06:05<br><br><br><br>Bonjour<br><br>Ma formation reste bloquer sur l'atelier 37.INSTAGRAM!<br>Je ne peux accéder au quizz pour recevoir mon attestation.<br><br>Merci par avance<br><br>Cordialement<br><br>**De:**\"Alphorm Formations\" <contact@alphorm.com><br>**À:**\"Pierrette AH-KEN\" <pahken@casud.re><br>**Envoyé:**Jeudi 3 Avril 2025 09:49:59<br>**Objet:**Communauté d'agglomération du sud (CASUD) vous affecte une nouvelle licence d’Alphorm<br><br>Communauté d'agglomération du sud (CASUD) vous affecte une nouvelle licence d’Alphorm ![image](https://r.email.alphorm.com/im/5786163/e90f847519b7c130ba0cee571d5b250dafe752678906b243dfb33887670ccefc.png?e=eLnIvBVUurbNJT3771RD23ze4sLBhxzwO5zZt2JykHouB80xHiq0va8gQRt2IFx4qlUlqd2PG8sZm2TvVNDaeHBvbVToK502CbM7zvVUfdvnoARMTxwtY69XlvjU4x0o1Ulp5-hJyl5K8I5Hwm_xXEKZKMRU8lRA5PRCCLQImib5tX1nmwBSE8_SYrB2PY8ltei1JuPReoliCC5qzC4CA5VZbQbVLIEsUwwldZBXWCZwV2I2ebHvqIlcLpYVTXwuT7dJjyw5NygnVGa0cf8NAXKIgWn86CR5qREG8-DHGX1izPQ73Rc6) ![image](https://r.email.alphorm.com/im/5786163/2b7ba9d963ac0fa4b715aaee908c0057a70c27d1f17b4b33491452009b60f780.png?e=E635gEdsWkeuuIwX7h35CAP2AKmvV7pJosQRCjh-W2HIAUH7kN237WLZYZqtivxVAjSVx7RU8kLn84V-I-NL1LADUKtZdw4upezxqF7u-ogxP29Xf_zcy0RTn7anbmA2OL5ZBjDeguJM8RiJRh5_ewaLmF87QhqYZ4n3g8C6apPh0eoImP5F_64DRi3gnLtRVuP0UgiVbxOGOCsI21hqXef29T-CALoS_oem9hiJDeHO7B7Fh-InN9c4y0vyGMGE4NFJ5mapM4LvkyGC7LaW2-YiYqyO0YG8o0H33H5RMiuscHKOYKSZ)<br><br>Bonjour **PIERRETTE**,<br><br>L’administrateur **Carole** **PENSEDENT**vous a affecté une nouvelle licence pour profiter des meilleures formations IT de Alphorm.<br><br>Désormais, vous bénéficiez d'un Abonnement**Mensuel**qui expire le**02/06/2025**.<br><br>­ [<br>Mon compte<br>](https://r.email.alphorm.com/tr/cl/h3XlDljt7BW_0N9tp9fFtjhiOABi9R1iRMwjezo2h2bgBlEL4jVeDUh_XCYXHg8EQO-jqp6EhVxSa9aCdGz5bDrbCJpnwtixWAi6R0v1rCOqerCpzqVRuDNZ0ux9BK0sDQfrr47FdASrPHj3VioCuqsjSmk3bAo6C4xmfOS6heUCuDXA3TpNsQa0i6iApwmD4hu1IMqRkSJD-MBW7S_MQF_MOVbNLJpLZp_3dfY4fOw0ZCIvjR5CjIX5pG3tmmQSmA) ­ ![image](https://r.email.alphorm.com/im/5786163/8d1ffa496f3f95ef4bcd9f4ba93071aca92f4da00fdcf73df0209d029560a3aa.png?e=Q9DzBcPVYiOpjJC5HwB4KyKCE46dKpc2367hytK4u-YmzR9KbH1oZ4EHnwtREVJ4THPaieIA_MebsNEpVC0b-Ak5PoYQTazRej2EP-s3yfFdQOgoMrFhrAK1rXFwOQDQsO5tzpU_GBfc6N6SFXI63TSdHgOyWHEv-JwcxJlQGnhjCgNCBctJz21JPCjJz8JHPzgRPW6b8OMTjmLf7UgLDWsn0O5ZgXwXj1vYR_8CmiyPeh5_KaMVakSge8cJmBVnktYzOfNB8DA4Job9_6_OoGhpYlmm6Z4jCBTHG9tVqgdduB1ZvHky)<br><br>En cas de besoin, n’hésitez pas à nous contacter par e-mail à [contact@alphorm.com](mailto:contact@alphorm.com) ou par téléphone au [+33 1 77 62 45 80](tel:+33%201%2077%2062%2045%2080) .<br><br>![image](https://r.email.alphorm.com/im/5786163/eb1fd3c9532e85bc8a7ad6cd90221ddf103bf4b19f569c26bd432191712920fa.png?e=yntREkAIg7_6iU70ZSHQgsccssyKaSnz-BydRfBTUjcw0-DJx0r12cXb-XN2ZgXdNIl12uxoUBWs1smk1Ayjvh6OeuEVjJc8cl3OyuEjtGM0tbaV2na3QnlKFPUdM78OTJeZoarB2VOrHnVceCsbrAazpA-qrqAYJaFrPS5JyRqj28Y0fycHcSdhexFp-Qmhjs1Up5YjPN1bVaDTz9A9fm9_3u-0w7gNT_vxqL4XRHzqTfWCyhv9BjJQ2ErwSGwmsg56Nkl-xl42GEPVltMoR_WZeDuN9Uxs3RAdO8Q0acck6ITS3iYf)<br><br>À bientôt !<br><br>L’équipe **Alphorm**<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T06:05:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35430869053585,
-          "author_id": 35429137071121,
-          "content": "Date originale: 20/05/2025 07:09<br><br><br><br>Le probleme persiste ; meme sur un autre ordinateur et la impossible d ouvrir la formation.<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T07:09:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35432245764113,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 07:49<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur le problème que vous rencontrez ? Quel message d'erreur apparaît sur votre écran ?<br><br>Je vous prie de m'envoyer une capture d'écran du problème rencontré si possible<br><br>Je vous conseille de [vider votre cache](https://www.loom.com/share/24fab611dedb40b28e8486e9e03331b0) pour résoudre tout dysfonctionnement relatif à l'affichage de la page web.<br><br>Pour cela, il faudra choisir ci-dessous la vidéo qui vous convient en fonction de votre navigateur:<br><br>[Chrome](https://www.loom.com/share/22ec541b741c4bfdb0c858a7ac380210) [Opera](https://www.loom.com/share/9ea2b6eb55534cdd8c7bf4f1001f18a5) [Firefox](https://www.loom.com/share/8eb4b376b331472ab622357f7c720619) [Internet Explorer](https://www.loom.com/share/724315cb7b2644a69a1c5846cdaff97b) [Safari](https://www.loom.com/share/0a1700e575484c62a9830b3ba60e5b03)<br>N'oubliez pas de rafraîchir après avoir effectué vos manipulations. Si le problème n'est pas résolu je vous prie d'essayer sur un navigateur différent ou bien sur une navigation privée.<br><br>Veuillez vous reconnecter à nouveau par la suite.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T07:49:06Z",
-          "attachments": []
-        },
-        {
-          "id": 35439586832657,
-          "author_id": 35429137071121,
-          "content": "Date originale: 20/05/2025 10:39<br><br><br><br>Bonjour,<br><br>Je suis l'informaticien de la DSI de la CASUD.<br><br>Cette adresse est injoignable et donc on ne peut même plus se connecter au site Web.<br><br>[https://auth.alphorm.com/.well-known/openid-configuration](https://auth.alphorm.com/.well-known/openid-configuration)<br><br>ERREUR 503<br><br>![image](https://support.alphorm.com/attachments/token/ahhOtrMapawktuFyDlX09tnJV/?name=12480736)<br><br>Je rencontre le même problème partout ou j'essaie de me connecter. Changer de navigateur, ou vider le cache ne change rien (vu que l'erreur vient de votre serveur c'est normal)<br><br>Donc le souci a l'air de venir de chez vous.<br><br>Merci de nous prévenir quand cela sera réparé.<br><br>Cordialement.<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:39:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35440285021585,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 10:55<br><br><br>Bonjour,<br><br>Effectivement un **problème technique**affecte actuellement une partie de notre service.<br><br>Nos équipes techniques et nos développeurs sont pleinement mobilisés pour**identifier la cause**et**mettre en œuvre une solution dans les plus brefs délais**.<br><br>Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions pour votre patience et votre compréhension.<br><br>Nous ne manquerons pas de vous tenir informé dès que le service sera rétabli.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:55:52Z",
-          "attachments": []
-        },
-        {
-          "id": 35441542301073,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:24<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:24:42Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49876,
-      "subject": "IMPOSSIBLE DE SE CONNECTER SUR LA PLATEFORME DE FORMATION",
-      "description": "Date originale: 20/05/2025 06:41<br><br>Bonjour,<br>Je me permets de vous contacter car visiblement depuis ce matin, il est impossible de s'identifier sur votre plateforme.<br>Merci de bien vouloir revenir vers moi.<br>Cordialement.<br>Patrick MAGNE",
-      "status": "closed",
-      "priority": "normal",
-      "type": "incident",
-      "requester_id": 19440604220177,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T06:41:02Z",
-      "updated_at": "2025-05-20T11:26:24Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35430018589457,
-          "author_id": 19440604220177,
-          "content": "Date originale: 20/05/2025 06:41<br><br><br><br>Bonjour,<br>Je me permets de vous contacter car visiblement depuis ce matin, il est impossible de s'identifier sur votre plateforme.<br><br>Merci de bien vouloir revenir vers moi.<br><br>Cordialement.<br><br>Patrick MAGNE<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T06:41:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35432204731921,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 07:47<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur le problème que vous rencontrez ? Quel message d'erreur apparaît sur votre écran ?<br><br>Je vous prie de m'envoyer une capture d'écran du problème rencontré si possible<br><br>Je vous conseille de [vider votre cache](https://www.loom.com/share/24fab611dedb40b28e8486e9e03331b0) pour résoudre tout dysfonctionnement relatif à l'affichage de la page web.<br><br>Pour cela, il faudra choisir ci-dessous la vidéo qui vous convient en fonction de votre navigateur:<br><br>[Chrome](https://www.loom.com/share/22ec541b741c4bfdb0c858a7ac380210) [Opera](https://www.loom.com/share/9ea2b6eb55534cdd8c7bf4f1001f18a5) [Firefox](https://www.loom.com/share/8eb4b376b331472ab622357f7c720619) [Internet Explorer](https://www.loom.com/share/724315cb7b2644a69a1c5846cdaff97b) [Safari](https://www.loom.com/share/0a1700e575484c62a9830b3ba60e5b03)<br>N'oubliez pas de rafraîchir après avoir effectué vos manipulations. Si le problème n'est pas résolu je vous prie d'essayer sur un navigateur différent ou bien sur une navigation privée.<br><br>Veuillez vous reconnecter à nouveau par la suite.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T07:47:48Z",
-          "attachments": []
-        },
-        {
-          "id": 35433332320145,
-          "author_id": 19440604220177,
-          "content": "Date originale: 20/05/2025 08:13<br><br><br><br>Bonjour,<br>Lorsque je cherche à m'identifier, je n'aie pas le prompt pour me loguer.<br><br>J'ai changé de navigateur,<br><br>je suis sur Kali-Linux avec une version de chrome : Version 136.0.7103.113 (Official Build) (64-bit)<br><br>J'ai vidé mes cookies, cache, historique et rien n'y a fait.<br><br>Je reste sans pouvoir obtenir la page d'identification pour renseigner mon identifiant et mot de passe.<br><br>Lorsque je saisie l'URL : [https://www.alphorm.com/account/login](https://www.alphorm.com/account/login)<br><br>Je suis automatiquement redirigé sur la page d'inscription qui tourne dans le vide :<br><br>![image.png](https://support.alphorm.com/attachments/token/9APuzmoZyyjJbPAiLsc1JXBJg/?name=image.png)<br><br>J'ai ensuite utilisé FireFox en version : 128.5.0esr (64-bit), toujours sur Kali<br><br>Si je clic sur le lien en jaune connexion, rien ne se passe, la page ne s'ouvre pas.<br><br>![image.png](https://support.alphorm.com/attachments/token/8APDzA3HHWFON1Ux16BtFv0y4/?name=image.png)<br><br>Si je renseigne la page directement pour m'identifier<br><br>[https://www.alphorm.com/account/login](https://www.alphorm.com/account/login)<br><br>![image.png](https://support.alphorm.com/attachments/token/EwzYuRgjiQAni7K3dW1TDy9XW/?name=image.png)<br><br>Je suis redirigé sur la page d'inscription :<br><br>![image.png](https://support.alphorm.com/attachments/token/xOCecu1EEM7yGX24U5xD55IdS/?name=image.png)<br><br>J'ai changé d'environnement pour tester avec une machine Microsoft Windows 11, j'ai le même problème.<br><br>J'ai essayé de me connecter via mon smartphone, j'ai le même problème.<br><br>J'ai créé un pont wifi pour changer de réseau internet et sortir de mon environnement.<br><br>Le problème reste entier.<br><br>J'ai téléchargé l'application mobile et même l'application mobile ne me permets pas de me connecter via mon identifiant de connexion, car le prompt d'identification ne se présente pas.<br><br>Cordialement.<br><br>Patrick MAGNE<br><br>Le mar. 20 mai 2025 à 09:47, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:13:03Z",
-          "attachments": []
-        },
-        {
-          "id": 35435158898833,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 08:56<br><br><br>Bonjour,<br><br>Je vous remercie pour ces précisions,<br><br>Je viens de transmettre votre demande au service en question, je vous informe dès que la demande est exécutée.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:56:33Z",
-          "attachments": []
-        },
-        {
-          "id": 35441538314641,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:26<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:26:24Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49877,
-      "subject": "probleme de connection au  formation",
-      "description": "Date originale: 20/05/2025 08:03<br><br>Bonjour,je suis Yannick YOGOUA NDAWA depuis L'italie,je n'arrive plus à me connecter aux Formations alphormj'ai un abbonemenet annuel 190 Euro/anMerci D'avance de controller<br>1747728047632blob.jpg",
-      "status": "closed",
-      "priority": "normal",
-      "type": "incident",
-      "requester_id": 34682370791185,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T08:03:02Z",
-      "updated_at": "2025-05-20T11:26:41Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35432846503697,
-          "author_id": 34682370791185,
-          "content": "Date originale: 20/05/2025 08:03<br><br><br><br>Bonjour,<br><br>je suis Yannick YOGOUA NDAWA depuis L'italie,<br><br>je n'arrive plus à me connecter aux Formations alphorm<br><br>j'ai un abbonemenet annuel 190 Euro/an<br><br>Merci D'avance de controller<br><br>![Image en ligne](https://support.alphorm.com/attachments/token/lSgQIWs5P1EJ63Sea3ssjeDyj/?name=1747728047632blob.jpg)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:03:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35433328754321,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 08:13<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Pouvez-vous me communiquer plus de détails sur le problème que vous rencontrez ? Quel message d'erreur apparaît sur votre écran ?<br><br>Je vous prie de m'envoyer une capture d'écran du problème rencontré si possible<br><br>Je vous conseille de [vider votre cache](https://www.loom.com/share/24fab611dedb40b28e8486e9e03331b0) pour résoudre tout dysfonctionnement relatif à l'affichage de la page web.<br><br>Pour cela, il faudra choisir ci-dessous la vidéo qui vous convient en fonction de votre navigateur:<br><br>[Chrome](https://www.loom.com/share/22ec541b741c4bfdb0c858a7ac380210) [Opera](https://www.loom.com/share/9ea2b6eb55534cdd8c7bf4f1001f18a5) [Firefox](https://www.loom.com/share/8eb4b376b331472ab622357f7c720619) [Internet Explorer](https://www.loom.com/share/724315cb7b2644a69a1c5846cdaff97b) [Safari](https://www.loom.com/share/0a1700e575484c62a9830b3ba60e5b03)<br>N'oubliez pas de rafraîchir après avoir effectué vos manipulations. Si le problème n'est pas résolu je vous prie d'essayer sur un navigateur différent ou bien sur une navigation privée.<br><br>Veuillez vous reconnecter à nouveau par la suite.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:13:18Z",
-          "attachments": []
-        },
-        {
-          "id": 35436240632721,
-          "author_id": 34682370791185,
-          "content": "Date originale: 20/05/2025 09:19<br><br><br><br>Bonjour,<br><br>la Connexion ne fonctione toujours pas apres avoir vider le cache<br><br>quand je click sur Connexion cela ne me fait pas choissir la methode (LinkedIn, Google, Facebook, Apple ou via le formulaire) comme auparavant<br><br>la page reste Statique<br><br>Merci D'avance de controller<br><br>![Image en ligne](https://support.alphorm.com/attachments/token/z2QVR0Uf8qdzDMjPKH4JvtwG3/?name=1747731902480blob.jpg)<br><br>Le mardi 20 mai 2025 à 10:13:20 UTC+2, Amine (Support Alphorm) <contact@alphorm.com> a écrit :<br><br>]<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T09:19:06Z",
-          "attachments": []
-        },
-        {
-          "id": 35437143005585,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 09:41<br><br><br>Bonjour,<br><br>Je vous remercie pour votre retour,<br><br>Je viens de transmettre votre demande au service en question, je vous informe dès que la demande est exécutée.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T09:41:23Z",
-          "attachments": []
-        },
-        {
-          "id": 35441573120017,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:26<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:26:41Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49879,
-      "subject": "btn connexion HS",
-      "description": "Date originale: 20/05/2025 08:39<br><br>Bonjour,<br><br><br><br>Je vous contacte car le bouton jaune de connexion en haut à droite ne fonctionne pas, il ne se passe rien quand je clique dessus, je ne suis transféré sur aucune page.<br><br>Est-ce que c’est un problème général ?<br><br><br><br>Merci pour votre aide,<br><br>Bonne journée.<br><br><br><br>Sandrine Leblé<br>Designeuse Multimédia",
-      "status": "closed",
-      "priority": "high",
-      "type": "problem",
-      "requester_id": 35434405227793,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T08:39:02Z",
-      "updated_at": "2025-05-20T11:27:45Z",
-      "tags": [
-        "bug",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 35434405256721,
-          "author_id": 35434405227793,
-          "content": "Date originale: 20/05/2025 08:39<br><br><br><br>Bonjour,<br><br>Je vous contacte car le bouton jaune de connexion en haut à droite ne fonctionne pas, il ne se passe rien quand je clique dessus, je ne suis transféré sur aucune page.<br><br>Est-ce que c’est un problème général ?<br><br>Merci pour votre aide,<br><br>Bonne journée.<br><br>[![image](https://support.alphorm.com/attachments/token/ukV90abhRHMa1lLk2q2ndQuyD/?name=image001.jpg)](https://www.tours-evenements.com/)<br><br>**Sandrine Leblé**<br>Designeuse Multimédia<br><br>[![image](https://support.alphorm.com/attachments/token/Cp29QuTu11buuWhidh9wtTcB9/?name=image002.jpg)](https://www.tours-evenements.com/)<br><br>[![Facebook](https://www.descheval.com/wp-content/uploads/2023/03/image-1.png)](https://www.facebook.com/ToursEvenements37) [![Twitter](https://www.descheval.com/wp-content/uploads/2023/03/image-2.png)](https://twitter.com/Toursevents37) [![LinkedIn](https://www.descheval.com/wp-content/uploads/2023/03/image-3.png)](https://www.linkedin.com/company/tours-%C3%A9v%C3%A9nements/) [![Youtube](https://www.descheval.com/wp-content/uploads/2023/03/image-4.png)](https://www.youtube.com/@Toursevenements37)<br><br>![image](https://support.alphorm.com/attachments/token/XjEozTN1ZCBvbG5fFzlTPvIro/?name=image003.png)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T08:39:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35435295163025,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 09:00<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés,<br><br>Je viens de transmettre votre demande au service en question, je vous informe dès que la demande est exécutée.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T09:00:09Z",
-          "attachments": []
-        },
-        {
-          "id": 35441660880657,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:27<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:27:45Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
       "id": 49881,
       "subject": "Parcours 3D",
       "description": "Date originale: 20/05/2025 09:47<br><br>Bonjour,<br><br>J'ai commencé le parcours 3D-Blender sur votre plate-forme mais je n'ai pas de pc performant, dois-je m'en procurer un pour pouvoir bien suivre la formation ?<br><br>Cette formation me permettra de renforcer mes compétences basiques en 3D et de pouvoir me démarquer lors de ma recherche d'emploi.<br><br>Je reste à votre disposition pour toutes informations nécessaires.<br><br>Bien à vous,<br>Wissal Sbah",
@@ -4637,234 +3973,6 @@
           "content": "Date originale: 20/05/2025 10:17<br><br><br>Bonjour,<br><br>Merci pour votre message et pour votre intérêt pour notre parcours 3D-Blender.<br>Effectivement, pour suivre cette formation dans de bonnes conditions, il est recommandé d’utiliser un **ordinateur relativement performant**, notamment pour les phases de modélisation, de rendu et d’animation. Blender est un logiciel exigeant en ressources, particulièrement en ce qui concerne la **carte graphique (GPU)**, la **mémoire RAM**(au moins 8 Go recommandés, 16 Go idéalement), et un**processeur multi-cœurs**.<br><br>Si votre ordinateur actuel montre des limites, cela pourrait freiner votre progression ou vous empêcher de tester certains exercices en temps réel. Dans ce cas, il peut être judicieux d’envisager l'acquisition ou l’utilisation temporaire d’un PC plus adapté, surtout si vous souhaitez **renforcer vos compétences pour le marché de l’emploi**.<br><br>Cela dit, vous pouvez tout de même **suivre la partie théorique de la formation** et commencer à vous familiariser avec l’interface et les outils, en attendant d’avoir accès à une machine plus performante.<br><br>N’hésitez pas à revenir vers moi si vous avez d’autres questions.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
           "public": true,
           "created_at": "2025-05-20T10:17:27Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49883,
-      "subject": "Plateform inaccessible",
-      "description": "Date originale: 20/05/2025 09:57<br><br>Bonjour,<br><br>Depuis ce matin impossible de me connecter à mon compte, est-ce que le problème est général ?<br><br>Le bouton \"Connexion\" ne fonctionne pas.<br><br>Suis-je le seul ?<br><br>Cordialement",
-      "status": "closed",
-      "priority": "normal",
-      "type": "problem",
-      "requester_id": 35437709209361,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T09:57:04Z",
-      "updated_at": "2025-05-20T11:28:23Z",
-      "tags": [
-        "bug",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 35437817937937,
-          "author_id": 35437709209361,
-          "content": "Date originale: 20/05/2025 09:57<br><br><br><br>Bonjour,<br><br>Depuis ce matin impossible de me connecter à mon compte, est-ce que le problème est général ?<br><br>Le bouton \"Connexion\" ne fonctionne pas.<br><br>Suis-je le seul ?<br><br>Cordialement<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T09:57:04Z",
-          "attachments": []
-        },
-        {
-          "id": 35438539694865,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 10:10<br><br><br>Bonjour,<br><br>Nous souhaitons vous informer qu’un **problème technique**affecte actuellement une partie de notre service.<br><br>Nos équipes techniques et nos développeurs sont pleinement mobilisés pour**identifier la cause**et**mettre en œuvre une solution dans les plus brefs délais**.<br><br>Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions pour votre patience et votre compréhension.<br><br>Nous ne manquerons pas de vous tenir informé dès que le service sera rétabli.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:10:55Z",
-          "attachments": []
-        },
-        {
-          "id": 35441617129233,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:28<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:28:23Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49884,
-      "subject": "Accès au compte impossible",
-      "description": "Date originale: 20/05/2025 10:01<br><br>Bonjour Teams,<br><br>Je n'arrive pas à accéder à mon compte sur la plateforme.<br><br>Cordialement.<br>Hamza ELABBOUBI",
-      "status": "closed",
-      "priority": "high",
-      "type": "problem",
-      "requester_id": 18747327526545,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T10:01:01Z",
-      "updated_at": "2025-05-20T11:27:15Z",
-      "tags": [
-        "bug",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 35437965095697,
-          "author_id": 18747327526545,
-          "content": "Date originale: 20/05/2025 10:01<br><br><br><br>Bonjour Teams,<br><br>Je n'arrive pas à accéder à mon compte sur la plateforme.<br><br>Cordialement.<br>Hamza ELABBOUBI<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:01:01Z",
-          "attachments": []
-        },
-        {
-          "id": 35438542345105,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 10:11<br><br><br>Bonjour,<br><br>Nous souhaitons vous informer qu’un **problème technique**affecte actuellement une partie de notre service.<br><br>Nos équipes techniques et nos développeurs sont pleinement mobilisés pour**identifier la cause**et**mettre en œuvre une solution dans les plus brefs délais**.<br><br>Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions pour votre patience et votre compréhension.<br><br>Nous ne manquerons pas de vous tenir informé dès que le service sera rétabli.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:11:19Z",
-          "attachments": []
-        },
-        {
-          "id": 35441642442513,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:27<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:27:15Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49885,
-      "subject": "Problème d'accès à la plateforme de formation",
-      "description": "Date originale: 20/05/2025 10:05<br><br>Bonjour,<br><br>Le bouton « connexion » ne fonctionne pas…<br>Testé sur Safari et Edge<br><br><br><br><br><br>Bonne réception,<br><br>Cordialement.<br><br><br><br><br><br>Philippe Van Nieuwenhove<br><br>Gérant & Architecte SI<br><br>06.12.49.93.62<br><br>philippe.vannieuwenhove@it-mind.fr<br><br>IT-mind EURL<br><br>📌 13 rue Jeanne d’Arc, 59123 Bray-Dunes 📌 09.52.86.11.06<br><br>📌 contact@it-mind.fr 📌 https://www.it-mind.fr (https://www.it-mind.fr/)<br><br><br><br><br><br>Pensez à l'environnement avant d’imprimer cet e-mail…<br><br>Please consider the environment before printing this email…<br><br><br><br>Ce message et toutes les pièces jointes (ci-après le « message ») sont établis à l'intention exclusive de ses destinataires. Ce message est strictement confidentiel et peut comporter des données à caractère personnel ; si vous recevez ce message par erreur, merci de le détruire et d'en avertir immédiatement l'expéditeur par retour d'e-mail. Toute utilisation de ce message non conforme à sa destination, toute diffusion ou toute publication, totale ou partielle, est interdite, sauf autorisation expresse de IT-mind. La sécurité des communications sur Internet ne peut être garantie et IT-mind informe en conséquence qu'elle ne peut accepter aucune responsabilité quant au contenu de ce message.<br><br><br><br>This message and all attachments (hereinafter the « message ») are intended solely for the intended recipients. This message is strictly confidential and may include personal data ; if you receive this message by mistake, please destroy it and notify the sender immediately by return email. Any use of this message that does not comply with its intended purpose, any broadcast or any publication, total or partial, is prohibited, unless expressly authorized by IT-mind. Internet communications security cannot be guaranteed and IT-mind therefore informs that it cannot accept any responsibility for the content of this message.",
-      "status": "closed",
-      "priority": "high",
-      "type": "problem",
-      "requester_id": 35438227966481,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T10:05:03Z",
-      "updated_at": "2025-05-20T11:27:29Z",
-      "tags": [
-        "bug",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 35438260787857,
-          "author_id": 35438227966481,
-          "content": "Date originale: 20/05/2025 10:05<br><br><br><br>Bonjour,<br><br>Le bouton « connexion » ne fonctionne pas…<br>Testé sur Safari et Edge<br><br>Bonne réception,<br><br>Cordialement.<br><br>[![signature_2560989341](https://support.alphorm.com/attachments/token/I3sJoUrotJCUbBltEVldG5Y8s/?name=image001.png)](https://www.it-mind.fr/)<br><br>**Philippe Van Nieuwenhove**<br><br>**Gérant & Architecte SI******<br><br>![signature_2741428964](https://support.alphorm.com/attachments/token/O8jxwsoYhg2Y92UyNSmY9HFLV/?name=image002.png)<br><br>**06.12.49.93.62******<br><br>[philippe.vannieuwenhove@it-mind.fr](mailto:philippe.vannieuwenhove@it-mind.fr)<br><br>**IT-mind EURL**<br><br>📌 13 rue Jeanne d’Arc, 59123 Bray-Dunes 📌 09.52.86.11.06<br><br>📌 [contact@it-mind.fr](mailto:contact@it-mind.fr) 📌 [https://www.it-mind.fr](https://www.it-mind.fr/)<br><br>[![signature_548885422](https://support.alphorm.com/attachments/token/AziYOjYO97GTu8w4X9VHvHlJY/?name=image003.png)](https://www.cybermalveillance.gouv.fr/resultat-recherche-prestataire?search=it-mind)<br><br>[![signature_643630174](https://support.alphorm.com/attachments/token/ssmGpiDdjMAwmmLk2p8sgYwWQ/?name=image004.png)](https://www.cybermalveillance.gouv.fr/resultat-recherche-prestataire?search=it-mind)<br><br>[![signature_3357330759](https://support.alphorm.com/attachments/token/HiXTPSFU3V9kPne0XRjQR8wUX/?name=image005.png)](https://numeum.fr/societe/it-mind)<br><br>![Une image contenant symbole, Emblème, Marque, logo Description générée automatiquement](https://support.alphorm.com/attachments/token/8z12OHSHVDUWRvt5W3ik2bRx6/?name=image006.png)<br><br>![signature_1047786878](https://support.alphorm.com/attachments/token/MwpzlODzM1H5N2IgTGsecD99S/?name=image007.png)<br><br>Pensez à l'environnement avant d’imprimer cet e-mail…<br><br>Please consider the environment before printing this email…<br><br>Ce message et toutes les pièces jointes (ci-après le « message ») sont établis à l'intention exclusive de ses destinataires. Ce message est strictement confidentiel et peut comporter des données à caractère personnel ; si vous recevez ce message par erreur, merci de le détruire et d'en avertir immédiatement l'expéditeur par retour d'e-mail. Toute utilisation de ce message non conforme à sa destination, toute diffusion ou toute publication, totale ou partielle, est interdite, sauf autorisation expresse de IT-mind. La sécurité des communications sur Internet ne peut être garantie et IT-mind informe en conséquence qu'elle ne peut accepter aucune responsabilité quant au contenu de ce message.<br><br>This message and all attachments (hereinafter the « message ») are intended solely for the intended recipients. This message is strictly confidential and may include personal data ; if you receive this message by mistake, please destroy it and notify the sender immediately by return email. Any use of this message that does not comply with its intended purpose, any broadcast or any publication, total or partial, is prohibited, unless expressly authorized by IT-mind. Internet communications security cannot be guaranteed and IT-mind therefore informs that it cannot accept any responsibility for the content of this message.<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:05:03Z",
-          "attachments": []
-        },
-        {
-          "id": 35438557732497,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 10:11<br><br><br>Bonjour,<br><br>Nous souhaitons vous informer qu’un **problème technique**affecte actuellement une partie de notre service.<br><br>Nos équipes techniques et nos développeurs sont pleinement mobilisés pour**identifier la cause**et**mettre en œuvre une solution dans les plus brefs délais**.<br><br>Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions pour votre patience et votre compréhension.<br><br>Nous ne manquerons pas de vous tenir informé dès que le service sera rétabli.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:11:49Z",
-          "attachments": []
-        },
-        {
-          "id": 35441582292241,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:27<br><br><br>Bonjour,<br><br>Nous vous informons que le problème d’accès aux formations sur notre site web est désormais **résolu**. Vous pouvez à nouveau accéder à vos contenus sans interruption.<br><br>Nous nous excusons pour la gêne occasionnée et vous remercions pour votre patience.<br><br>Si vous rencontrez encore des difficultés, n’hésitez pas à nous contacter, nous restons à votre disposition pour vous aider.<br><br>Bonne formation !<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:27:29Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49886,
-      "subject": "problème de connexion",
-      "description": "Date originale: 20/05/2025 10:07<br><br>Bonjour,<br><br>Quand je clique sur le bouton Connexion, il n'affiche pas la page d'authentification.<br><br>Est ce qu'il y a un problème sur le site ?<br><br><br>Cordialement<br>Younes ANOUAR",
-      "status": "closed",
-      "priority": "high",
-      "type": "problem",
-      "requester_id": 20673817827473,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T10:07:01Z",
-      "updated_at": "2025-05-20T16:33:21Z",
-      "tags": [
-        "bug",
-        "france"
-      ],
-      "comments": [
-        {
-          "id": 35438345293841,
-          "author_id": 20673817827473,
-          "content": "Date originale: 20/05/2025 10:07<br><br><br><br>Bonjour,<br><br>Quand je clique sur le bouton Connexion, il n'affiche pas la page d'authentification.<br><br>Est ce qu'il y a un problème sur le site ?<br><br>Cordialement<br><br>Younes ANOUAR<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:07:01Z",
-          "attachments": []
-        },
-        {
-          "id": 35438608514705,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 10:12<br><br><br>Bonjour,<br><br>Nous souhaitons vous informer qu’un **problème technique**affecte actuellement une partie de notre service.<br><br>Nos équipes techniques et nos développeurs sont pleinement mobilisés pour**identifier la cause**et**mettre en œuvre une solution dans les plus brefs délais**.<br><br>Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions pour votre patience et votre compréhension.<br><br>Nous ne manquerons pas de vous tenir informé dès que le service sera rétabli.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:12:58Z",
-          "attachments": []
-        },
-        {
-          "id": 35438845462545,
-          "author_id": 20673817827473,
-          "content": "Date originale: 20/05/2025 10:19<br><br><br><br>Bonjour,<br><br>Merci pour votre réponse.<br><br>Je vous informe que j'ai eu ce problème plusieurs fois et qui perturbé mon cycle d'apprentissage, ça m'arrive parfois d'abandonner une formation, soit parce que je n'ai pas d'accès ou un problème de lecture de certaines vidéos.<br><br>A quelle date mon abonnement s'arrête s'il vous plaît ?<br><br>Cordialement<br><br>Younes ANOUAR<br><br>Le mar. 20 mai 2025 à 12:12, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T10:19:01Z",
-          "attachments": []
-        },
-        {
-          "id": 35441944532241,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 11:35<br><br><br>Bonjour Younes,<br><br>Merci pour votre message.<br><br>Après vérification, je vous confirme qu’un **seul incident technique**a été constaté récemment, ce**matin même**, et il a **été résolu avec succès**par notre équipe technique.<br><br>Si vous rencontrez à nouveau des difficultés (accès bloqué, problème de lecture vidéo, etc.),**n'hésitez surtout pas à nous en informer immédiatement**.<br>Cela nous permet de **détecter et corriger les problèmes rapidement**, tout en vous apportant l’assistance nécessaire pour poursuivre votre apprentissage dans les meilleures conditions.<br><br>Concernant votre abonnement, il est **actif jusqu’au 08 juin 2025**,<br><br>Nous restons à votre disposition pour tout besoin complémentaire.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:35:16Z",
-          "attachments": []
-        },
-        {
-          "id": 35447054168465,
-          "author_id": 20673817827473,
-          "content": "Date originale: 20/05/2025 13:37<br><br><br><br>Bonjour Amine,<br><br>Pouvez vous me faire un geste commercial et prolonger mon abonnement quelques mois de plus ?<br><br>Cordialement<br><br>Younes ANOUAR<br><br>Le mar. 20 mai 2025 à 13:35, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T13:37:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35453775422481,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 16:33<br><br><br>Bonjour,<br><br>Merci pour votre retour et pour les précisions apportées.<br><br>Je comprends parfaitement votre situation, et je tiens à vous assurer que nous prenons très au sérieux toute difficulté rencontrée sur notre plateforme.<br><br>Après vérification, je vous confirme à nouveau que **le seul incident technique récent**a eu lieu**ce matin**, et il a été **rapidement résolu**par notre équipe.<br><br>Malheureusement,**nous ne pouvons pas donner suite favorablement à une prolongation de votre abonnement**, celui-ci étant toujours actif jusqu’au **08 juin 2025,**<br>Cela dit, pour vous témoigner notre compréhension, je peux vous proposer **une remise spéciale lors de votre prochain renouvellement**. N’hésitez pas à me contacter à ce moment-là, et je me ferai un plaisir de vous en faire bénéficier.<br><br>Nous restons à votre disposition si vous avez besoin d’assistance à tout moment pendant votre parcours.<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T16:33:21Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49888,
-      "subject": "Re: [Alphorm] Objet : URGENT - Probleme de connexion",
-      "description": "Date originale: 20/05/2025 11:25<br><br>Ceci est un suivi concernant votre demande précédente #49874 URGENT - Probleme de connexion.<br><br>Merci<br><br>Le 20/05/2025 à 13:24, Amine (Support Alphorm) a écrit :",
-      "status": "closed",
-      "priority": null,
-      "type": null,
-      "requester_id": 11802303655697,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T11:25:02Z",
-      "updated_at": "2025-05-20T11:26:55Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35441496572305,
-          "author_id": 11802303655697,
-          "content": "Date originale: 20/05/2025 11:25<br><br><br><br>Ceci est un suivi concernant votre demande précédente [#49874](/agent/tickets/49874) URGENT - Probleme de connexion.<br><br>Merci<br><br>Le 20/05/2025 à 13:24, Amine (Support Alphorm) a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T11:25:02Z",
           "attachments": []
         }
       ]
@@ -4909,78 +4017,6 @@
           "content": "Date originale: 23/07/2025 13:09<br><br><br>Bonjour,<br><br>Merci pour votre retour et pour nous avoir signalé ce dysfonctionnement.<br><br>Nous vous informons que le problème rencontré a été résolu.<br><br>Vous pouvez désormais accéder à la vidéo concernée sans difficulté.<br><br>N’hésitez pas à nous recontacter si vous rencontrez un autre souci.<br><br>Excellente journée,<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
           "public": true,
           "created_at": "2025-07-23T13:09:30Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49891,
-      "subject": "Re: [Alphorm] Objet : IMPOSSIBLE DE SE CONNECTER SUR LA PLATEFORME DE FORMATION",
-      "description": "Date originale: 20/05/2025 12:13<br><br>Ceci est un suivi concernant votre demande précédente #49876 IMPOSSIBLE DE SE CONNECTER ....<br><br>Je vous confirme que j'ai de nouveau accès à la plateforme.<br>Cordialement.<br>Patrick MAGNE<br><br>Le mar. 20 mai 2025 à 13:26, Amine (Support Alphorm) <contact@alphorm.com> a écrit :",
-      "status": "closed",
-      "priority": "normal",
-      "type": "question",
-      "requester_id": 19440604220177,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T12:13:02Z",
-      "updated_at": "2025-05-20T15:54:16Z",
-      "tags": [
-        "autre",
-        "bug_cache"
-      ],
-      "comments": [
-        {
-          "id": 35443476433681,
-          "author_id": 19440604220177,
-          "content": "Date originale: 20/05/2025 12:13<br><br><br><br>Ceci est un suivi concernant votre demande précédente [#49876](/agent/tickets/49876) IMPOSSIBLE DE SE CONNECTER ....<br><br>Je vous confirme que j'ai de nouveau accès à la plateforme.<br>Cordialement.<br><br>Patrick MAGNE<br><br>Le mar. 20 mai 2025 à 13:26, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T12:13:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35452557563025,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 15:54<br><br><br>Bonjour,<br><br>Je vous remercie pour votre retour,<br><br>Je reste à votre disposition,<br><br>Excellente journée<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T15:54:16Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49892,
-      "subject": "Re: HODA, Bienvenue sur Alphorm !",
-      "description": "Date originale: 20/05/2025 12:53<br><br>Bonjour .<br>J'espère que tout va bien.<br>Merci pour ce message .<br>Et j ai le plaisir d être parmi vous aussi .<br><br><br>Le mar. 20 mai 2025, 12:09, ALPHORM FORMATIONS <hello@email.alphorm.com> a écrit :<br><br>Bonjour HODA,<br><br><br><br>Bienvenue sur Alphorm, nous sommes heureux de vous avoir parmi nous.<br><br><br><br>Vous êtes à présent membre de la communauté d’Alphorm, la plateforme de formation IT, 100% en ligne, qui vous permet d’acquérir de nouvelles compétences IT et assurer votre succès professionnel en apprenant à votre rythme.<br><br><br><br>Formez-vous à une panoplie de formations IT, réparties en 8 catégories, accessibles à travers :<br><br><br><br>1. La plateforme en ligne Alphorm.com (https://r.email.alphorm.com/tr/cl/h9k1id8xsNYqXSJppcY3Q9j7bAwHsRAoU7rn9PkV6HlzXZwQVhyYzTdXsGziDJ2e-wLPvaAKpSFwifmxJrM4qSHiiY1_-7Kp2UyPoW0eDyXfTnsB2U26oYlhmBqggliOb4eVzED1l7mOqgooymqzA7WxEJkznhOqjCf5pQg1ZFTvzAg3VhM5n6ew3nWsIrFFrPNV7WjyvCNM7vJlQXnEdi1qw-D6QPLMwZ_ZkTve6gY4Wa3Z6E4YfDdVfk57UzhFgDicwqduVJmEB27BORUjQgrIIHh7xX7R_rrtdYQcFtiZv7iWds3LRBoe7QiUr7chzZ4FfdXzMYL-5I5029mb4kzfgHr5liYLRvKK4xyuV7MO4HukyJu26FdHuw)<br>2. Les applications mobiles iOS (https://r.email.alphorm.com/tr/cl/PIbUEw4pst9NIzkArvcNv-Rcx1C0_PjN61OzTZQK-yHBUPwu1rvuh2fS-quyMQadJxkGoEMAp7NgiruNRaDw6UkFDBtFTv2Yq05ZNqd0HRKnuCZSHgfxeygerKqct6U2kf68RqWZZNVZoCpYtUh5Ij3oYz9IxndL_K_GnYed6bTV2GFOG3vFbJgY3sUAfiquoTWBbYf6hYjSiHVqSohoAUEJr6m-a0DilFRKPbkpSK60PO7V9C_2xpFStLTKyvcgvy8USKCOUVb_dvwnG_Gd9SzhINktzmVGPYczH991FUENk6yF_DFiZVbXogGzpb_SfqqC3E1TwK6R33ULccKQ9i3SHZH7kqyZlGNYARWV5wEKgod1ZmMeCq0vApnd0tJJZeL0kf1U55O5_xUzk9F2ML5w3zIKa3X6UxTHq5pfG_z6) et Android (https://r.email.alphorm.com/tr/cl/LSeJUDO0Zl9YvBXw-Kie-YbkZqdcQwkuYE4rDOj7v8D5_ij83hwp-_8W86DuZ4f1wIWfxzZqACuqYCo8C3nq8Lb9silb7fD3unMxdPuiQBaPjZSKMFy9lOwPaOqlr-T-a5iV7lmBxbYS_8WqDJowCKJiM8PX1QMB_ehLqGjhmB1NjglzZoBVZd_1sHST-RWURqogZGj_Gr6B4ahMSWyEzLVyJ7tAT_9UrJsPQHD-5FTDOZFUpWSplbeFN_XAG_SDnHyg7mCdEBJ57l7l1oZ9nJESbr4aNTE0xV9S_lDVhsf3awZvjM7sq5BN10NnW7zOkH98gfRFOvkQM8HmEhGOs7_YLusdp45BuRwfTUXT756U70DY_ThxwHA0xypiOe6u71hRhfK8Ep4k--o8Yw4sgISTPAmHjSWfXNNoNYLLioJ92Nx050qzx-LtaFycXItJy9qMFCX_XkQiSQGU9A)<br>3. L’application Desktop Offline Player (https://r.email.alphorm.com/tr/cl/AqFFoZAhJ2p0VeRviRxNAdIY5wUmSaNZhG2DW34Wsj-fn5yJIK9jxhiGwxE9Esxj99kwHM6d9PhzoUEl8u0Du7xbRcd4MmgB62qJymydxLmlanWdwcrcF_uRttKBkhGTCPLpJAFSodU7_ULuAkUNqqLX55uZTTbLzrlMCuvMofSyuN6vrO8JKJGJBn4ZHsNaklO9F_YbDlgVwR6sy8yM4dyviYLSHQ9cXX5nhK97OtB5qo389zM-5JoMFNXusSl6DtWKC2xrj2Xx-q1D-5i73C6hSceThNml6DizpieMzmHVos4YUFIDd0wY-BCvEY1s20Xt_4Thmzeb2bA6A8yBE2qBoElMQXevuvy2XN4qW72T-ehyygFnjvPv93Uh_Gh_pIIgzYkvbIV8XZ7D1dIudzlZi4bDzg) pour vous former en mode hors ligne<br><br>­<br><br>Merci d’avoir choisi Alphorm pour améliorer votre avenir !<br><br>Cet e-mail a été envoyé à hodaazedine03@gmail.com<br>Vous l'avez reçu parce que vous vous êtes abonné à notre site web.<br><br>Unsubscribe (https://r.email.alphorm.com/tr/un/p-4JIX8kqyWv7NoRZuiJXr2hHSZdIxXp4oXIjijj_duHiGXBIJQGYNxPixH2hLQCM02KstsMCkiN-FeLTHg6nD6cNeGGjBKJgoQcXT4s2XVPtGGvO2vy4TFI_ClVmoyXsFLm5arYfdPUt3TiHiWFv71hUBv2wUGEU3cUZLnJvFAp2pVKjtyqez9n82JXUPw6NQuz3YIsWgaPQqttOm6MwbWN3ftyNAAY1DIdmqa99_CpiF8GkmRhnOZCGNe4-mHkm2v6qsdBwQegIj7fzedf5rhRJ4mgs9qa0Q)<br><br>À bientôt !<br><br>L’équipe Alphorm",
-      "status": "closed",
-      "priority": "normal",
-      "type": "question",
-      "requester_id": 35445040760593,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T12:53:02Z",
-      "updated_at": "2025-05-20T15:58:30Z",
-      "tags": [
-        "info_general",
-        "maroc"
-      ],
-      "comments": [
-        {
-          "id": 35445036518161,
-          "author_id": 35445040760593,
-          "content": "Date originale: 20/05/2025 12:53<br><br><br><br>Bonjour .<br>J'espère que tout va bien.<br>Merci pour ce message .<br>Et j ai le plaisir d être parmi vous aussi .<br><br>Le mar. 20 mai 2025, 12:09, ALPHORM FORMATIONS < [hello@email.alphorm.com](mailto:hello@email.alphorm.com) > a écrit :<br><br>![image](https://r.email.alphorm.com/im/5786163/e90f847519b7c130ba0cee571d5b250dafe752678906b243dfb33887670ccefc.png?e=HGYAGuOB_GMnhF8fG_h4GUJo_u5zXulvGFADnnFLCFXZHsKLT85xR097UkF24Mp88QH-C-K3VT2GMF-KnL6md07aEqM6lQgJIBmo1RKarNi72GUfNhx8eHiY24TQdY60LmCvV4S63Uadwi3x2VBm_4zdH4uhkt4l_In1fOSg1ORr8HmLqDT60-uVI96kcipWwjLB5GZrIrs0c1ly6WrOZzkJ9MNUfmB0725Fej0pyjEVGkvYDsNioLrrSCH7fZoJsn9n5zYKwomHSWXmAuuzavs2VFCXnq54pVwrPrdWnxjJvHbjDI278Mxl4V_RcrI) [ ![image](https://r.email.alphorm.com/im/5786163/90376daa8e2313b32ee33021ae2be5e7b49eba6b0c33537efb23778d1b85ff17.png?e=OlgI8-PMlXlfzJPHy8tmScDsn6jXZPvupde3L9uopETx5Wn1a5nKJUVkXgSqm7m7wJz7TUM-ORaihX-qpOYOL0yUrC57wOKC1X0Wa2px3PPH1UfujtODL6iWRfDC15GP78F150fLl7--MNOvKLIQroDQ7Fvt-9SpN8Csz-CrZbTBng73J0IRalrz5tX7Q_4bKgrrXg-CO7AoR8ejUlD7niIfSJHZPCrKFH8EaY4eBAPE6gxZB_Em3J_xJVDo09s2lA1UmG5fcv89EBNgG6YLJDUmUfPQ5MHb1Pnp0yOW5aMvi5Gi9dRcBethOt0DfCw)](https://r.email.alphorm.com/tr/cl/cH1yFD1WIk5D3LHzplTcfm6uBwWbCucqFJXrYc_RDjGRj4PQeWIk9vYx_7pOIZKVuh7M0BNkE4RCFfzZqBvXXtUVZTGSOraKVWPuv6ZixIUDjbFplsPFMsug5ToQ6ll5r-6cIjx8wHcH-AshMaTnPP2JzCN8s_Sk_NJ59RRVlOU7nqqNPEDTiwrn7aBAo9IKHJXN9Q_jKomVv84HGg8Ts8CMhxSF4wEdBIaB7TqxiRFP2ltzpPNPPrlmUu_hUF7Y2Xvem6dWUPDGBruB_xV8NxMYdX5jSamjvGrtgKNhVx1U2FwvvtCn8fGJLYq9fYjzBE0zWe9JSrfgwUMMaRIqt06olu4sWe-S842GHiK7ScFCOBTOXUH8DXRqlheAldQ)<br><br>Bonjour HODA,<br><br>Bienvenue sur Alphorm, nous sommes heureux de vous avoir parmi nous.<br><br>Vous êtes à présent membre de la communauté d’Alphorm, la plateforme de formation IT, 100% en ligne, qui vous permet d’acquérir de nouvelles compétences IT et assurer votre succès professionnel en apprenant à votre rythme.<br><br>Formez-vous à une panoplie de formations IT, réparties en 8 catégories, accessibles à travers :<br><br>La plateforme en ligne [**Alphorm.com**](https://r.email.alphorm.com/tr/cl/h9k1id8xsNYqXSJppcY3Q9j7bAwHsRAoU7rn9PkV6HlzXZwQVhyYzTdXsGziDJ2e-wLPvaAKpSFwifmxJrM4qSHiiY1_-7Kp2UyPoW0eDyXfTnsB2U26oYlhmBqggliOb4eVzED1l7mOqgooymqzA7WxEJkznhOqjCf5pQg1ZFTvzAg3VhM5n6ew3nWsIrFFrPNV7WjyvCNM7vJlQXnEdi1qw-D6QPLMwZ_ZkTve6gY4Wa3Z6E4YfDdVfk57UzhFgDicwqduVJmEB27BORUjQgrIIHh7xX7R_rrtdYQcFtiZv7iWds3LRBoe7QiUr7chzZ4FfdXzMYL-5I5029mb4kzfgHr5liYLRvKK4xyuV7MO4HukyJu26FdHuw) Les applications mobiles [**iOS**](https://r.email.alphorm.com/tr/cl/PIbUEw4pst9NIzkArvcNv-Rcx1C0_PjN61OzTZQK-yHBUPwu1rvuh2fS-quyMQadJxkGoEMAp7NgiruNRaDw6UkFDBtFTv2Yq05ZNqd0HRKnuCZSHgfxeygerKqct6U2kf68RqWZZNVZoCpYtUh5Ij3oYz9IxndL_K_GnYed6bTV2GFOG3vFbJgY3sUAfiquoTWBbYf6hYjSiHVqSohoAUEJr6m-a0DilFRKPbkpSK60PO7V9C_2xpFStLTKyvcgvy8USKCOUVb_dvwnG_Gd9SzhINktzmVGPYczH991FUENk6yF_DFiZVbXogGzpb_SfqqC3E1TwK6R33ULccKQ9i3SHZH7kqyZlGNYARWV5wEKgod1ZmMeCq0vApnd0tJJZeL0kf1U55O5_xUzk9F2ML5w3zIKa3X6UxTHq5pfG_z6) et [**Android**](https://r.email.alphorm.com/tr/cl/LSeJUDO0Zl9YvBXw-Kie-YbkZqdcQwkuYE4rDOj7v8D5_ij83hwp-_8W86DuZ4f1wIWfxzZqACuqYCo8C3nq8Lb9silb7fD3unMxdPuiQBaPjZSKMFy9lOwPaOqlr-T-a5iV7lmBxbYS_8WqDJowCKJiM8PX1QMB_ehLqGjhmB1NjglzZoBVZd_1sHST-RWURqogZGj_Gr6B4ahMSWyEzLVyJ7tAT_9UrJsPQHD-5FTDOZFUpWSplbeFN_XAG_SDnHyg7mCdEBJ57l7l1oZ9nJESbr4aNTE0xV9S_lDVhsf3awZvjM7sq5BN10NnW7zOkH98gfRFOvkQM8HmEhGOs7_YLusdp45BuRwfTUXT756U70DY_ThxwHA0xypiOe6u71hRhfK8Ep4k--o8Yw4sgISTPAmHjSWfXNNoNYLLioJ92Nx050qzx-LtaFycXItJy9qMFCX_XkQiSQGU9A) L’application Desktop [**Offline Player**](https://r.email.alphorm.com/tr/cl/AqFFoZAhJ2p0VeRviRxNAdIY5wUmSaNZhG2DW34Wsj-fn5yJIK9jxhiGwxE9Esxj99kwHM6d9PhzoUEl8u0Du7xbRcd4MmgB62qJymydxLmlanWdwcrcF_uRttKBkhGTCPLpJAFSodU7_ULuAkUNqqLX55uZTTbLzrlMCuvMofSyuN6vrO8JKJGJBn4ZHsNaklO9F_YbDlgVwR6sy8yM4dyviYLSHQ9cXX5nhK97OtB5qo389zM-5JoMFNXusSl6DtWKC2xrj2Xx-q1D-5i73C6hSceThNml6DizpieMzmHVos4YUFIDd0wY-BCvEY1s20Xt_4Thmzeb2bA6A8yBE2qBoElMQXevuvy2XN4qW72T-ehyygFnjvPv93Uh_Gh_pIIgzYkvbIV8XZ7D1dIudzlZi4bDzg) pour vous former en mode hors ligne<br>­<br><br>Merci d’avoir choisi Alphorm pour améliorer votre avenir !<br><br>Cet e-mail a été envoyé à [hodaazedine03@gmail.com](mailto:hodaazedine03@gmail.com)<br>Vous l'avez reçu parce que vous vous êtes abonné à notre site web.<br><br>[Unsubscribe](https://r.email.alphorm.com/tr/un/p-4JIX8kqyWv7NoRZuiJXr2hHSZdIxXp4oXIjijj_duHiGXBIJQGYNxPixH2hLQCM02KstsMCkiN-FeLTHg6nD6cNeGGjBKJgoQcXT4s2XVPtGGvO2vy4TFI_ClVmoyXsFLm5arYfdPUt3TiHiWFv71hUBv2wUGEU3cUZLnJvFAp2pVKjtyqez9n82JXUPw6NQuz3YIsWgaPQqttOm6MwbWN3ftyNAAY1DIdmqa99_CpiF8GkmRhnOZCGNe4-mHkm2v6qsdBwQegIj7fzedf5rhRJ4mgs9qa0Q)<br><br>![image](https://r.email.alphorm.com/im/5786163/57dc04a14dabba5e4cc8113e29d2798194b71a2ce828faa07b8cde9a67c37693.png?e=bdOLd-d0fOCOI5ePNvN4xQGj--XlZawcEQKudYv7z_CZZbbNcVyszWxtHpJwX9PDE31uiiDBtvqoNNHJ26LmSTbEKr4MaARt8_tLQCFLFWL5Wvjmokar_UzZWRGvpHSRli64tbW71H2wqvh5UU2K6Zv9ch4OOd3trvBuMUzo9Axh202HOPzmnxHhzmQdiF9_1OXYrAdCGt3yF_yDv4XlD5apal9I_TKwZZTS4qfijvDBVKCHCMASHFDeK8letfm-EKoWuMonkCQp1HR3yQGZBj_M0kbNJ_QwXWKFHk1qcSySLLxeTMX_oADkRHUByZ8)<br><br>**À bientôt !**<br><br>L’équipe **Alphorm**<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T12:53:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35452656240913,
-          "author_id": 509356451,
-          "content": "Date originale: 20/05/2025 15:58<br><br><br>**Bonjour,**<br><br>Merci beaucoup pour votre message !<br><br>Nous sommes ravis de vous compter parmi nous et restons à votre disposition pour vous accompagner tout au long de votre parcours de formation.<br><br>N'hésitez pas à nous solliciter si vous avez la moindre question ou besoin d’assistance.<br><br>**À très bientôt sur Alphorm !**<br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T15:58:30Z",
           "attachments": []
         }
       ]
@@ -5162,147 +4198,6 @@
           "content": "Date originale: 15/07/2025 08:55<br><br><br>Bonjour Younes,<br><br>Merci pour votre message, j’espère que votre voyage s’est bien passé.<br><br>Comme convenu, je viens d’affecter les **2 mois d’abonnement supplémentaires**à votre compte. La prolongation prendra effet à partir du**15 juillet**.<br><br>N’hésitez pas à me contacter si vous avez besoin d’assistance ou d’informations complémentaires.<br><br>Bien cordialement,<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
           "public": true,
           "created_at": "2025-07-15T08:55:42Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49894,
-      "subject": "Re: Noël, Bienvenue sur Alphorm !",
-      "description": "Date originale: 20/05/2025 20:07<br><br>Ok merci<br><br><br>Le mar. 20 mai 2025 à 11:06, ALPHORM FORMATIONS <hello@email.alphorm.com> a écrit :<br><br>Bonjour Noël,<br><br><br><br>Bienvenue sur Alphorm, nous sommes heureux de vous avoir parmi nous.<br><br><br><br>Vous êtes à présent membre de la communauté d’Alphorm, la plateforme de formation IT, 100% en ligne, qui vous permet d’acquérir de nouvelles compétences IT et assurer votre succès professionnel en apprenant à votre rythme.<br><br><br><br>Formez-vous à une panoplie de formations IT, réparties en 8 catégories, accessibles à travers :<br><br><br><br>1. La plateforme en ligne Alphorm.com (https://r.email.alphorm.com/tr/cl/hvW4KHwN5hCMRjwKqke3bp21Gb-kyB3FZsWeDC-GuNo8unCjwxJUIoX_Sycf33MqCB6ZOWpV1_1yvAA9lXlLqilsU5oU1trj0JkhQhDUrEGfY8-QoqeURlFYgV7v9Wewt43z_jMZiSpYJcWYSlh3O6DA2VFB894L39RqEv00PO8eNqcMEce9v0gIR7UhP9kroI1DFN1VnhIjU8jc4c8pOtOzWZOgFecamuFsTla_pMMiFDVK1cV6OOLeS3zIHyX_4dhMrJFjvF5lu8jL7BuIr1pW12arY5mNLtDc5XoMFOGJcVk5cAMsKC57xjWner2aE-3N383Yw9HKuCJA2LVUtfMA0QIHm_DAqqoKjKRT6WqVSWqWFxWv5bbrCBE)<br>2. Les applications mobiles iOS (https://r.email.alphorm.com/tr/cl/WtdltEq-UBMWd1m1XQIhzzX_WwJsxEOqsZu0rRHbfkB296N9n6TWmi1KEVb1jTc1zmaiC-8vFKsSisuLUuGiz5IXhAclN49u4sfqECeAjGrulMWUAv7XYi037oEKowSiR2LdHeVwYDaFAM11GmWadNfnywNkuHK67_n3_0j_jgcRlh4g8TM-CuP2MDtiC4Q4Dor295thzyxdL3bESzXurhycGT3nW1yaLfyJsIn77IzPyMydkEgoZvBx94kg96T3Yq2uHA-omjZM81NCOtLp7chkBaqw993Daaeo3nwVBZ0Q6QbQ2-qVnGp4DSneeKbQx8XKxCEc_eAdVq8_fF-mAOaiSN4NsRGWBhbXq_ns8HrJcE12aXefbsUv6pfT24fjhFljOuqTQIT4iyChF7dTTa8_-EvsUsB6xXw4N1EGX4IQag) et Android (https://r.email.alphorm.com/tr/cl/WBZ8a_WDx8gUKvrsAw7PcVASCYJsfKc8MzgCoHijdZfBfr8Yw3TdOnF7lCKmtoqqYJVex5912c2ztJuJ2rE2VvBy8fuoBNRW4vtm6_-TeaGU15qROqGAI_sDfl0jvQpr6wvmLYP3moESEScvu8PrL44zmIxgyIcpfvf4bmTEWgofWNuHOIsXEfrIg4WLTsVvWbqSEXF6jkhfHTv-GRJEOIx9ikB14L-LQBCrtmsTu4CIY8NL3yVZZ0WMYHD-h_8gFff741w56h5fJ8BoUY_hcAxnjgkVqiKmz-ml_apbAO-Xl73fglvDyMvcFeGEpjAihmue44_Y4ZFKN650v9ix-O6TTraEM5oSa4NwIq8yJhKUEbd4e1gggnllpXGEqR9c8L3g8DtBEC5JmcDlz_S2Af4pp6NpBXyrbKCZMV1vY_5OyNXjp8Mkf788fGzCGN8BOir6hqi5zOwmfO5cdJs)<br>3. L’application Desktop Offline Player (https://r.email.alphorm.com/tr/cl/AVK2OfFvpm5LWpw2b_QbKdjvA8X9ekoNmZoJQoFyWOZw6Zt19GsdSX6mh14O9VBvJ39e_7BrzTSr3-aZioD1sAOPwl7dGN0J2MSRVV37t6ZZb6cI1F1WE7XmxM_OjFWlIN0fGmIUfmXsvzk3lLHEpZTUujZ1wfIAVBk5Rp--3hxbdrOkLSManm6on0XUxX9eM2J3H_Ze5aIOQIqJLIviVxXquy40QFs-N5M3JjrFFIRM0VvwOxLqWdHacxZ65xv0joNlwFCFfccnMYbB8esu9CKNjM_V7TR99AH-7Tj2wwc_72DrtWCEk-vz-0QeOyv4qc8v47mvZeueUR9wRanL3ffyMgBDEnNPVQhrxm_gU7teyj8la_IbA0MoLZsdlIKN4pDoyhPVpiyVBudt-dwj_I4Kulck8Hg) pour vous former en mode hors ligne<br><br>­<br><br>Merci d’avoir choisi Alphorm pour améliorer votre avenir !<br><br>Cet e-mail a été envoyé à noelzougouri82@gmail.com<br>Vous l'avez reçu parce que vous vous êtes abonné à notre site web.<br><br>Unsubscribe (https://r.email.alphorm.com/tr/un/hGsWMZA9kfBmzhoIuuB5UBrITwRo_oKJrSRPHCSpU66Dfl1bS4-CVjQenYGg0u2A-Vo9WEg5nVTPv0QArNn7GI7p0lN-tkOos436Ipi5Up-7nlSzZXraYV6tudy4pnoyw95DBRqkBoCyVCL_pXj7TQICulZaPpNcb57ICKntkJ2GDZC9Dvob1B-7H2ooNDSoIxmBmQW--AAeAmL5hyolcnZ7LPVcVhT1O6iOAqnU7nUEYNyCV12DsueSheXOLX8I5alMS5TgNPqwfRQGGq75Cikvd7ADRKFgf90)<br><br>À bientôt !<br><br>L’équipe Alphorm",
-      "status": "closed",
-      "priority": "normal",
-      "type": "question",
-      "requester_id": 35458498936593,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-20T20:07:02Z",
-      "updated_at": "2025-05-21T10:37:37Z",
-      "tags": [
-        "france",
-        "info_general"
-      ],
-      "comments": [
-        {
-          "id": 35458498950545,
-          "author_id": 35458498936593,
-          "content": "Date originale: 20/05/2025 20:07<br><br><br><br>Ok merci<br><br>Le mar. 20 mai 2025 à 11:06, ALPHORM FORMATIONS < [hello@email.alphorm.com](mailto:hello@email.alphorm.com) > a écrit :<br><br>![image](https://r.email.alphorm.com/im/5786163/e90f847519b7c130ba0cee571d5b250dafe752678906b243dfb33887670ccefc.png?e=hZH4hHwXaJJlQhMadL0JIHChBGZj7VDdyF4l1EO2E-V4DI8ZTvMM-T40657phkhwFdFR9ab8l36YeuetRJkvLamAP-4aoyGOSJp4h9M22s1-5nCCIRDhVaKNWJSEjzfbpsTUpGaICLY0kQqIenPjO5U9slPvvUjx35FkIxmcAhCvmjIYzKNCeFEhN0OE6Gl5FXo0esT7qC4KP4pCVnbrPG50596SbKsrz_BoQJxlDG9_x-9ZKX-7CAHuVhBpfKZznGPZlOU6LVtJp1XL8_-kDac1pQgRZOsMy1ppb0-GgwGZ7ux6bCPhC-USbQhvWlj9) [ ![image](https://r.email.alphorm.com/im/5786163/90376daa8e2313b32ee33021ae2be5e7b49eba6b0c33537efb23778d1b85ff17.png?e=G4c6-Jv0pzaXQQoB_147O-aL6V5QpnIiTqsDP7RRviTHdeTjqZl95LJLDfzLCL3UBDlxIhUGpqC3L806TtWFo4yMhGAxcdE99vabq31XQx1XSnLw7F3IUpYVY1p_Db_x6esU0sZnc1yYcagyFypJRqaqDdktsY0jyp6-YIxe0iQT4ChMe81SAhT7eEsM98KIV3IoXdl-PYapMad8mYHyWpfskorsi_Uh_0qToilIAO7oA3j7rlYPLd-92a2KwdgWTIei3TNai-2V2LvGzzM3y2--LQyBVrRt8FULUJytn7Aiw7n5Zzw_3D-i2Ntw00SM)](https://r.email.alphorm.com/tr/cl/ysAPbm27E66c475t3WkuL20fHJbDVkm8nOyvGTbN9bv61C1VhPzd2SqM1CaK3Ya_H2GkdCnTWwNrHM60ytsGPC1sIIGFmDMvJBjMi0XZJ1RAwJ_QEEWOJqGlzBgD9eorLPXRjc-L3ht8KAzUF-MeKrh1P9SjOkicPdU9wpWgyIiEmb1LXv0obg8gGfu5Kng_f4pjdV_Lgw5RnX_g72JV6zKU0yV6j5UnRB1zeiC-hJJjKUwrJoSV38P8JGohoKWKfY8PRrol21oJWyO5zrvfnkr2BGA2eG_caUB9LbICng0JY9Uqk3_ccCp7RKVIHZU6V9V6L3VgajM7nM5dgBjFrLi7kAq6KonterIKrkzfLRAn6oNClhRGIwPbF4z8G3iB)<br><br>Bonjour Noël,<br><br>Bienvenue sur Alphorm, nous sommes heureux de vous avoir parmi nous.<br><br>Vous êtes à présent membre de la communauté d’Alphorm, la plateforme de formation IT, 100% en ligne, qui vous permet d’acquérir de nouvelles compétences IT et assurer votre succès professionnel en apprenant à votre rythme.<br><br>Formez-vous à une panoplie de formations IT, réparties en 8 catégories, accessibles à travers :<br><br>La plateforme en ligne [**Alphorm.com**](https://r.email.alphorm.com/tr/cl/hvW4KHwN5hCMRjwKqke3bp21Gb-kyB3FZsWeDC-GuNo8unCjwxJUIoX_Sycf33MqCB6ZOWpV1_1yvAA9lXlLqilsU5oU1trj0JkhQhDUrEGfY8-QoqeURlFYgV7v9Wewt43z_jMZiSpYJcWYSlh3O6DA2VFB894L39RqEv00PO8eNqcMEce9v0gIR7UhP9kroI1DFN1VnhIjU8jc4c8pOtOzWZOgFecamuFsTla_pMMiFDVK1cV6OOLeS3zIHyX_4dhMrJFjvF5lu8jL7BuIr1pW12arY5mNLtDc5XoMFOGJcVk5cAMsKC57xjWner2aE-3N383Yw9HKuCJA2LVUtfMA0QIHm_DAqqoKjKRT6WqVSWqWFxWv5bbrCBE) Les applications mobiles [**iOS**](https://r.email.alphorm.com/tr/cl/WtdltEq-UBMWd1m1XQIhzzX_WwJsxEOqsZu0rRHbfkB296N9n6TWmi1KEVb1jTc1zmaiC-8vFKsSisuLUuGiz5IXhAclN49u4sfqECeAjGrulMWUAv7XYi037oEKowSiR2LdHeVwYDaFAM11GmWadNfnywNkuHK67_n3_0j_jgcRlh4g8TM-CuP2MDtiC4Q4Dor295thzyxdL3bESzXurhycGT3nW1yaLfyJsIn77IzPyMydkEgoZvBx94kg96T3Yq2uHA-omjZM81NCOtLp7chkBaqw993Daaeo3nwVBZ0Q6QbQ2-qVnGp4DSneeKbQx8XKxCEc_eAdVq8_fF-mAOaiSN4NsRGWBhbXq_ns8HrJcE12aXefbsUv6pfT24fjhFljOuqTQIT4iyChF7dTTa8_-EvsUsB6xXw4N1EGX4IQag) et [**Android**](https://r.email.alphorm.com/tr/cl/WBZ8a_WDx8gUKvrsAw7PcVASCYJsfKc8MzgCoHijdZfBfr8Yw3TdOnF7lCKmtoqqYJVex5912c2ztJuJ2rE2VvBy8fuoBNRW4vtm6_-TeaGU15qROqGAI_sDfl0jvQpr6wvmLYP3moESEScvu8PrL44zmIxgyIcpfvf4bmTEWgofWNuHOIsXEfrIg4WLTsVvWbqSEXF6jkhfHTv-GRJEOIx9ikB14L-LQBCrtmsTu4CIY8NL3yVZZ0WMYHD-h_8gFff741w56h5fJ8BoUY_hcAxnjgkVqiKmz-ml_apbAO-Xl73fglvDyMvcFeGEpjAihmue44_Y4ZFKN650v9ix-O6TTraEM5oSa4NwIq8yJhKUEbd4e1gggnllpXGEqR9c8L3g8DtBEC5JmcDlz_S2Af4pp6NpBXyrbKCZMV1vY_5OyNXjp8Mkf788fGzCGN8BOir6hqi5zOwmfO5cdJs) L’application Desktop [**Offline Player**](https://r.email.alphorm.com/tr/cl/AVK2OfFvpm5LWpw2b_QbKdjvA8X9ekoNmZoJQoFyWOZw6Zt19GsdSX6mh14O9VBvJ39e_7BrzTSr3-aZioD1sAOPwl7dGN0J2MSRVV37t6ZZb6cI1F1WE7XmxM_OjFWlIN0fGmIUfmXsvzk3lLHEpZTUujZ1wfIAVBk5Rp--3hxbdrOkLSManm6on0XUxX9eM2J3H_Ze5aIOQIqJLIviVxXquy40QFs-N5M3JjrFFIRM0VvwOxLqWdHacxZ65xv0joNlwFCFfccnMYbB8esu9CKNjM_V7TR99AH-7Tj2wwc_72DrtWCEk-vz-0QeOyv4qc8v47mvZeueUR9wRanL3ffyMgBDEnNPVQhrxm_gU7teyj8la_IbA0MoLZsdlIKN4pDoyhPVpiyVBudt-dwj_I4Kulck8Hg) pour vous former en mode hors ligne<br>­<br><br>Merci d’avoir choisi Alphorm pour améliorer votre avenir !<br><br>Cet e-mail a été envoyé à [noelzougouri82@gmail.com](mailto:noelzougouri82@gmail.com)<br>Vous l'avez reçu parce que vous vous êtes abonné à notre site web.<br><br>[Unsubscribe](https://r.email.alphorm.com/tr/un/hGsWMZA9kfBmzhoIuuB5UBrITwRo_oKJrSRPHCSpU66Dfl1bS4-CVjQenYGg0u2A-Vo9WEg5nVTPv0QArNn7GI7p0lN-tkOos436Ipi5Up-7nlSzZXraYV6tudy4pnoyw95DBRqkBoCyVCL_pXj7TQICulZaPpNcb57ICKntkJ2GDZC9Dvob1B-7H2ooNDSoIxmBmQW--AAeAmL5hyolcnZ7LPVcVhT1O6iOAqnU7nUEYNyCV12DsueSheXOLX8I5alMS5TgNPqwfRQGGq75Cikvd7ADRKFgf90)<br><br>![image](https://r.email.alphorm.com/im/5786163/57dc04a14dabba5e4cc8113e29d2798194b71a2ce828faa07b8cde9a67c37693.png?e=qeryqnW4OdhrWKJxA7dsHis58Mf5-BOiweH4IMKSpIl-E9h1dEmQkE3APNiFdr_aCej1dWpfJnyM0gV2khqs4fj8JAgePygwuqHy0fw0chQW_IxZijwlWxwsiStisDZVBdjKIfvidqMBoDb0BYfztLFSKZhL8wfoGsHZ4obfXMk_PpIr1EuVFMppdVae_GgPVwrEe3OcyIdhrnmBiQYKi0lNVI5FhUsXzjf7nxhxeKGZtswbwHxpdkZhi7wNV5RZBkhJ47YerPM4F8vglqkH99tb3Z9Jm8FzVAlDisCT5ngf4W2QWun4O7txFSIzp2Hp)<br><br>**À bientôt !**<br><br>L’équipe **Alphorm**<br><br>",
-          "public": true,
-          "created_at": "2025-05-20T20:07:02Z",
-          "attachments": []
-        },
-        {
-          "id": 35475459240977,
-          "author_id": 509356451,
-          "content": "Date originale: 21/05/2025 10:37<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés.<br><br>**Voici nos offres**: Pour accéder à une ou plusieurs formations nous vous proposons 3 formules :<br><br>- **Abonnement mensuel à 25€/Mois**: Vous donne accès à TOUTES les formations quand vous voulez et comme vous voulez.<br>- **Abonnement annuel à 250€/An**: Vous donne accès à TOUTES les formations quand vous voulez et comme vous voulez.<br>-**Formation à la carte** : Vous avez la possibilité de regarder la(les) formation(s) achetée(s) quand vous voulez et comme vous voulez Le prix de chaque formation figure en dessous de celle-ci (voir le [catalogue](https://www.alphorm.com/formations) ) [https://www.alphorm.com/formations](https://www.alphorm.com/formations)<br><br>**Visionnage Hors ligne :**<br>**L'abonnement annuel / mensuel ou l'achat d'une formation à la carte**vous permettent de regarder les vidéos des formations via votre navigateur en se connectant à internet ou sans connexion internet:<br>+ Via l'application **mobile** :<br><br>Play Store pour Android: [https://play.google.com/store/apps/details?id=com.mobilev2&pli=1](https://play.google.com/store/apps/details?id=com.mobilev2&pli=1)<br>App Store pour IOS: [https://apps.apple.com/us/app/alphorm-2/id1016914468](https://apps.apple.com/us/app/alphorm-2/id1016914468) .<br><br>+ Via l'application Alphorm Offline Playersur Windows, Mac Os et Linux [https://www.alphorm.com/formez-vous-en-mobilite](https://www.alphorm.com/formez-vous-en-mobilite) .<br>Il suffit de télécharger les vidéos qui vous intéressent et les visualiser en hors ligne.<br>FORMEZ-VOUS SANS INTERRUPTION 24H/24 7J/7 EN TOUTE MOBILITÉ.<br><br>**Ressources Premium :**<br>**L'abonnement annuel / mensuel ou l'achat d'une formation à la carte**vous donnent aussi accès aux **Ressources Premium** (autres ressources utilisées par le formateur au cours de la formation (code source, base de données, support pdf, ...) des vidéos dont vous avez l'accès.<br><br>Pour plus d’informations : rendez-vous sur notre page : [**Offre et tarifs**](https://www.alphorm.com/tarifs) [https://www.alphorm.com/tarifs](https://www.alphorm.com/tarifs) .<br><br>Je reste à votre disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-21T10:37:37Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49902,
-      "subject": "Re: [Alphorm] Objet : abonnement annuel",
-      "description": "Date originale: 21/05/2025 15:23<br><br>Ceci est un suivi concernant votre demande précédente #49832 abonnement annuel.<br><br>Bonjour Monsieur ,<br><br>Je vous envoie le reçu de l'opération de mon versement pour un abonnement mensuel au nom de Hamid HARABAZAN.<br><br><br>Merci d'activer l'accès de mon compte<br><br><br><br>Le ven. 16 mai 2025 à 15:35, Amine (Support Alphorm) <contact@alphorm.com> a écrit :",
-      "status": "closed",
-      "priority": "normal",
-      "type": "task",
-      "requester_id": 366401179577,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-21T15:23:05Z",
-      "updated_at": "2025-05-21T17:16:04Z",
-      "tags": [
-        "info_paiement",
-        "maroc"
-      ],
-      "comments": [
-        {
-          "id": 35487223459729,
-          "author_id": 366401179577,
-          "content": "Date originale: 21/05/2025 15:23<br><br><br><br>Ceci est un suivi concernant votre demande précédente [#49832](/agent/tickets/49832) abonnement annuel.<br><br>Bonjour Monsieur ,<br><br>Je vous envoie le reçu de l'opération de mon versement pour un abonnement mensuel au nom de Hamid HARABAZAN.<br><br>Merci d'activer l'accès de mon compte<br><br>Le ven. 16 mai 2025 à 15:35, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-21T15:23:05Z",
-          "attachments": [
-            {
-              "url": "https://alphorm.zendesk.com/api/v2/attachments/35487223463057.json",
-              "id": 35487223463057,
-              "file_name": "Abonnement-mensuel.jpg",
-              "content_url": "https://alphorm.zendesk.com/attachments/token/hmpgjdSbD9dydDmWfKwjoZSyg/?name=Abonnement-mensuel.jpg",
-              "mapped_content_url": "https://support.alphorm.com/attachments/token/hmpgjdSbD9dydDmWfKwjoZSyg/?name=Abonnement-mensuel.jpg",
-              "content_type": "image/jpeg",
-              "size": 2928111,
-              "width": null,
-              "height": null,
-              "inline": false,
-              "deleted": false,
-              "malware_access_override": false,
-              "malware_scan_result": "malware_not_found",
-              "thumbnails": [
-                {
-                  "url": "https://alphorm.zendesk.com/api/v2/attachments/35487211906833.json",
-                  "id": 35487211906833,
-                  "file_name": "Abonnement-mensuel_thumb.jpg",
-                  "content_url": "https://alphorm.zendesk.com/attachments/token/rYYFXbIzTkK7kuafXGxpHq7ZH/?name=Abonnement-mensuel_thumb.jpg",
-                  "mapped_content_url": "https://support.alphorm.com/attachments/token/rYYFXbIzTkK7kuafXGxpHq7ZH/?name=Abonnement-mensuel_thumb.jpg",
-                  "content_type": "image/jpeg",
-                  "size": 1402,
-                  "width": 80,
-                  "height": 60,
-                  "inline": false,
-                  "deleted": false,
-                  "malware_access_override": false,
-                  "malware_scan_result": "not_scanned"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 35490683094417,
-          "author_id": 509356451,
-          "content": "Date originale: 21/05/2025 17:16<br><br><br>Bonjour,<br><br>Je vous remercie de nous avoir contactés.<br><br>Je vous confirme la réception du scan de l'opération du paiement. Je viens d'affecter l'abonnement mensuel à votre compte.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-21T17:16:04Z",
-          "attachments": []
-        }
-      ]
-    },
-    {
-      "id": 49903,
-      "subject": "Re: [Alphorm] Objet : Re: [Alphorm] Objet : abonnement annuel",
-      "description": "Date originale: 22/05/2025 08:25<br><br>Ceci est un suivi concernant votre demande précédente #49902 Re: [Alphorm] Objet : abonn....<br><br>Merci pour votre réactivité.<br><br>Le mer. 21 mai 2025 à 18:16, Amine (Support Alphorm) <contact@alphorm.com> a écrit :",
-      "status": "closed",
-      "priority": null,
-      "type": null,
-      "requester_id": 366401179577,
-      "assignee_id": 509356451,
-      "group_id": 22666881,
-      "organization_id": null,
-      "created_at": "2025-05-22T08:25:01Z",
-      "updated_at": "2025-05-22T08:31:35Z",
-      "tags": [
-        "info_paiement",
-        "maroc"
-      ],
-      "comments": [
-        {
-          "id": 35505318740369,
-          "author_id": 366401179577,
-          "content": "Date originale: 22/05/2025 08:25<br><br><br><br>Ceci est un suivi concernant votre demande précédente [#49902](/agent/tickets/49902) Re: [Alphorm] Objet : abonn....<br><br>Merci pour votre réactivité.<br><br>Le mer. 21 mai 2025 à 18:16, Amine (Support Alphorm) < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
-          "public": true,
-          "created_at": "2025-05-22T08:25:01Z",
-          "attachments": []
-        },
-        {
-          "id": 35505587844113,
-          "author_id": 509356451,
-          "content": "Date originale: 22/05/2025 08:31<br><br><br>Bonjour,<br><br>Je vous en prie, merci à vous pour votre retour,<br><br>Nous vous remercions pour votre confiance et, si vous êtes satisfait de nos services, n’hésitez pas à nous laisser un avis sur Trustpilot via ce lien :<br>[https://fr.trustpilot.com/evaluate/alphorm.com](https://fr.trustpilot.com/evaluate/alphorm.com)<br><br>Cela nous aide beaucoup à nous améliorer et à mieux vous servir.<br><br>Je reste à votre entière disposition.<br><br>Bonne journée.<br><br>Support Alphorm | Le meilleur de la formation IT en ligne<br>[www.alphorm.com](http://www.alphorm.com)<br>01 77 62 45 80<br>Demandez-nous l'impossible!<br>Testez notre nouvelle application mobile Alphorm sur Android [https://lc.cx/Sr5K](https://lc.cx/Sr5K) & iOs [https://lc.cx/Sr5j](https://lc.cx/Sr5j)<br><br>",
-          "public": true,
-          "created_at": "2025-05-22T08:31:35Z",
           "attachments": []
         }
       ]
@@ -24032,28 +22927,138 @@
       ]
     },
     {
-      "id": 50840,
-      "subject": "fLmZj来幚我打採eQa76嘌每天給伱3OO+qun1056525776",
-      "description": "Date originale: 17/09/2025 09:22<br><br>hZpBk来幚我打睬lGe79漂每天給伱3OO+qun1056525776",
+      "id": 50848,
+      "subject": "Soutenir votre équipe avec des professionnels qualifiés – Formateur IT Indépendant",
+      "description": "Date originale: 18/09/2025 11:16<br><br>﻿Bonjour,<br><br>J’espère que ce message vous trouve en bonne santé.<br><br>J’ai remarqué que Alphorm recrute actuellement pour un poste de Formateur IT Indépendant. Trouver le bon talent peut être long et compétitif, et c’est là que nous pouvons vous aider.<br><br>Chez TechVerdi, nous sommes spécialisés dans les services de staff augmentation, en fournissant des professionnels qualifiés qui s’intègrent facilement à votre équipe — que vous ayez besoin d’un soutien à court terme ou d’une expertise à long terme. Nos consultants et formateurs IT sont préqualifiés, expérimentés et prêts à contribuer dès le premier jour, vous permettant ainsi d’économiser du temps et des coûts de recrutement.<br><br>Grâce à nos modèles d’engagement flexibles, vous pouvez facilement ajuster vos ressources, réduire vos charges de recrutement et accélérer la livraison de vos projets — tout en garantissant qualité et rentabilité.<br><br>Si vous le souhaitez, je peux vous partager plus de détails sur les profils disponibles correspondant à vos besoins.<br><br>Dans l’attente de votre retour,<br><br>Bien cordialement,<br>Sayda Ouerfelli<br>TechVerdi",
+      "status": "closed",
+      "priority": null,
+      "type": null,
+      "requester_id": 39172838905617,
+      "assignee_id": 509356451,
+      "group_id": 22666881,
+      "organization_id": null,
+      "created_at": "2025-09-18T11:16:03Z",
+      "updated_at": "2025-09-18T14:40:33Z",
+      "tags": [],
+      "comments": [
+        {
+          "id": 39172852686609,
+          "author_id": 39172838905617,
+          "content": "Date originale: 18/09/2025 11:16<br><br><br><br>﻿Bonjour,<br><br>J’espère que ce message vous trouve en bonne santé.<br><br>J’ai remarqué que Alphorm recrute actuellement pour un poste de Formateur IT Indépendant. Trouver le bon talent peut être long et compétitif, et c’est là que nous pouvons vous aider.<br><br>Chez TechVerdi, nous sommes spécialisés dans les services de staff augmentation, en fournissant des professionnels qualifiés qui s’intègrent facilement à votre équipe — que vous ayez besoin d’un soutien à court terme ou d’une expertise à long terme. Nos consultants et formateurs IT sont préqualifiés, expérimentés et prêts à contribuer dès le premier jour, vous permettant ainsi d’économiser du temps et des coûts de recrutement.<br><br>Grâce à nos modèles d’engagement flexibles, vous pouvez facilement ajuster vos ressources, réduire vos charges de recrutement et accélérer la livraison de vos projets — tout en garantissant qualité et rentabilité.<br><br>Si vous le souhaitez, je peux vous partager plus de détails sur les profils disponibles correspondant à vos besoins.<br><br>Dans l’attente de votre retour,<br><br>Bien cordialement,<br>Sayda Ouerfelli<br>TechVerdi<br><br>",
+          "public": true,
+          "created_at": "2025-09-18T11:16:03Z",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 50852,
+      "subject": "Abonnement mensuel",
+      "description": "Date originale: 18/09/2025 23:48<br><br>[No content]",
       "status": "open",
       "priority": null,
       "type": null,
-      "requester_id": 39130284224017,
+      "requester_id": 34779317983121,
+      "assignee_id": 509356451,
+      "group_id": 22666881,
+      "organization_id": null,
+      "created_at": "2025-09-18T23:48:03Z",
+      "updated_at": "2025-09-18T23:50:02Z",
+      "tags": [],
+      "comments": [
+        {
+          "id": 39193374417041,
+          "author_id": 34779317983121,
+          "content": "Date originale: 18/09/2025 23:48<br><br><br><br>![image](https://support.alphorm.com/attachments/token/eL2tFoAgxo9UO6eX3tXkqCQ0q/?name=94887.jpg)<br><br>",
+          "public": true,
+          "created_at": "2025-09-18T23:48:03Z",
+          "attachments": []
+        },
+        {
+          "id": 39193392031121,
+          "author_id": 34779317983121,
+          "content": "Date originale: 18/09/2025 23:50<br><br><br><br>Bonjour<br><br>Je veux un abonnement mensuel 🙏<br><br>Le ven. 19 sept. 2025 à 00:48, Support Alphorm < [contact@alphorm.com](mailto:contact@alphorm.com) > a écrit :<br><br>",
+          "public": true,
+          "created_at": "2025-09-18T23:50:02Z",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 50853,
+      "subject": "Date de résiliation",
+      "description": "Date originale: 19/09/2025 05:06<br><br>Bonjour,<br><br>pouvez me renseigner sur la date de résiliation de mon abonnement svp.<br><br>Merci de votre retour.<br><br>Cordialement.<br><br>BC",
+      "status": "open",
+      "priority": null,
+      "type": null,
+      "requester_id": 39196694709393,
+      "assignee_id": 509356451,
+      "group_id": 22666881,
+      "organization_id": null,
+      "created_at": "2025-09-19T05:06:02Z",
+      "updated_at": "2025-09-19T05:06:02Z",
+      "tags": [],
+      "comments": [
+        {
+          "id": 39196634735505,
+          "author_id": 39196694709393,
+          "content": "Date originale: 19/09/2025 05:06<br><br><br><br>Bonjour,<br><br>pouvez me renseigner sur la date de résiliation de mon abonnement svp.<br><br>Merci de votre retour.<br><br>Cordialement.<br><br>BC<br><br>",
+          "public": true,
+          "created_at": "2025-09-19T05:06:02Z",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 50854,
+      "subject": "eMkYt来幚我打菜hUw96票每天給伱3OO+qun1056486056",
+      "description": "Date originale: 19/09/2025 08:56<br><br>qQsZx来幚我打踩hUo30漂每天給伱3OO+qun1011688910",
+      "status": "open",
+      "priority": null,
+      "type": null,
+      "requester_id": 39203283412113,
       "assignee_id": 509356451,
       "group_id": 22666881,
       "organization_id": 360185725678,
-      "created_at": "2025-09-17T09:22:13Z",
-      "updated_at": "2025-09-17T09:22:13Z",
+      "created_at": "2025-09-19T08:56:59Z",
+      "updated_at": "2025-09-19T08:56:59Z",
       "tags": [
         "web_widget"
       ],
       "comments": [
         {
-          "id": 39130274627857,
-          "author_id": 39130284224017,
-          "content": "Date originale: 17/09/2025 09:22<br><br><br><br>hZpBk来幚我打睬lGe79漂每天給伱3OO+qun1056525776<br><br>",
+          "id": 39203283429777,
+          "author_id": 39203283412113,
+          "content": "Date originale: 19/09/2025 08:56<br><br><br><br>qQsZx来幚我打踩hUo30漂每天給伱3OO+qun1011688910<br><br>",
           "public": true,
-          "created_at": "2025-09-17T09:22:13Z",
+          "created_at": "2025-09-19T08:56:59Z",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 50855,
+      "subject": "oJlRj来幚我打啋dGf59僄每天給伱3OO+qun973383264",
+      "description": "Date originale: 19/09/2025 10:38<br><br>rJnDn来幚我打菜lHq32縹每天給伱3OO+qun1056486056",
+      "status": "open",
+      "priority": null,
+      "type": null,
+      "requester_id": 39207515728017,
+      "assignee_id": 509356451,
+      "group_id": 22666881,
+      "organization_id": 360185725678,
+      "created_at": "2025-09-19T10:38:45Z",
+      "updated_at": "2025-09-19T10:38:45Z",
+      "tags": [
+        "web_widget"
+      ],
+      "comments": [
+        {
+          "id": 39207480317969,
+          "author_id": 39207515728017,
+          "content": "Date originale: 19/09/2025 10:38<br><br><br><br>rJnDn来幚我打菜lHq32縹每天給伱3OO+qun1056486056<br><br>",
+          "public": true,
+          "created_at": "2025-09-19T10:38:45Z",
           "attachments": []
         }
       ]

@@ -1,6 +1,8 @@
 import json
 import os
 from typing import Dict, List
+
+import requests
 from src.api.chatwoot_client import ChatwootClient
 from src.utils.helpers import get_timestamp
 from configs.config import CHATWOOT_OUTPUT_DIR
@@ -33,17 +35,17 @@ def find_specific_conversations(conversations: List[Dict]) -> Dict:
         # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'alexia.victor_masterclass-formation.fr@alphorm.com':
         #     intercom_conv = conv
         
-        # # # Chercher conversation Alberto CAMACHO (Intercom)
-        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'acamacho.hmr_ssss.gouv.qc.ca@alphorm.com':
+        # # Chercher conversation Alberto CAMACHO (Intercom)
+        # if conv.get('intercom_conversation_id') and conv.get('contact_email') == 'florence.courtout_soprasteria.com@alphorm.com':
         #     intercom_conv = conv
-            
-        # # Chercher conversation informatique (Zendesk)  
-        # if conv.get('zendesk_ticket_id') and 'azizhaitchama_gmail.com' in str(conv.get('contact_email', '')):
-        #     zendesk_conv = conv
             
         # Chercher conversation informatique (Zendesk)  
         if conv.get('zendesk_ticket_id') and 'aizen5713_gmail.com@alphorm.com' in str(conv.get('contact_email', '')):
             zendesk_conv = conv
+            
+        # # Chercher conversation informatique (Zendesk)  
+        # if conv.get('zendesk_ticket_id') and 'r.tchegnon_gmail.com@alphorm.com' in str(conv.get('contact_email', '')):
+        #     zendesk_conv = conv
         
         if zendesk_conv and intercom_conv:
             break
@@ -80,13 +82,23 @@ def find_contacts_for_conversations(contacts: List[Dict], sample_conversations: 
 
 
 def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: int) -> Dict:
-    """Importer un contact dans Chatwoot avec toutes ses infos (nom, email, téléphone, ville, pays...)."""
+    """Importer un contact dans Chatwoot avec toutes ses infos"""
     phone = contact.get("phone_number")
-
     if phone and not (phone.startswith("+") and len(phone) > 5):
         phone = None
 
     attrs = contact.get("additional_attributes", {}) or {}
+    
+    # Générer un identifier plus lisible
+    email = contact.get("email", "")
+    
+    if email:
+        email_prefix = email
+        identifier = f"{email_prefix}_{get_timestamp()}"
+    else:
+        # Si pas d'email, utiliser le nom
+        name = contact.get("name", "unknown").lower().replace(' ', '_')
+        identifier = f"{name}_{get_timestamp()}"
 
     # Construire les custom_attributes
     custom_attributes = {
@@ -94,6 +106,7 @@ def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: 
         "imported_from_zd_at": contact.get("imported_from_zd_at"),
         "imported_from_intercom_at": contact.get("imported_from_intercom_at"),
         "migration_source": "zendesk" if contact.get("zendesk_id") else "intercom",
+        "original_id": contact.get('zendesk_id', contact.get('intercom_id'))  # Garder l'ID original
     }
 
     # Construire payload final
@@ -101,7 +114,7 @@ def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: 
         "inbox_id": inbox_id,
         "name": contact.get("name"),
         "email": contact.get("email"),
-        "identifier": f"migrated_{contact.get('zendesk_id', contact.get('intercom_id', 'unknown'))}",
+        "identifier": identifier, 
         "custom_attributes": custom_attributes,
     }
 
@@ -121,49 +134,76 @@ def import_contact_to_chatwoot(client: ChatwootClient, contact: Dict, inbox_id: 
     return client.create_contact(contact_data)
 
 
-
-def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, contact_id: int, source_id: str, inbox_id: int, status: str) -> Dict:
-    """Importer une conversation dans Chatwoot.
-    Étapes :
-    1. Créer la conversation en statut OPEN (évite le message de réouverture auto)
-    2. Importer tous les messages
-    3. Mettre à jour le statut final (résolu/snoozed/open)
-    """
+def import_conversation_to_chatwoot(client: ChatwootClient, conversation: Dict, 
+                                   contact_id: int, source_id: str, 
+                                   inbox_id: int, status: str) -> Dict:
+    """Importer une conversation avec ses pièces jointes"""
     
-    # ✅ Étape 1 : Créer la conversation toujours en "open"
+    # Créer la conversation
     created_conv = client.create_conversation(
         source_id=source_id,
         inbox_id=inbox_id,
         contact_id=contact_id,
-        status="open"  
+        status="open"
     )
     
     conversation_id = created_conv.get('id')
-    if not conversation_id:
-        raise Exception("Conversation ID non reçu")
     
-    # ✅ Étape 2 : Ajouter les messages
+    # Importer les messages avec leurs pièces jointes
     messages_added = 0
     for message in conversation.get('messages', []):
+        attachment_files = []
+        
+        # Télécharger les pièces jointes 
+        for attachment in message.get('attachments', []):
+            try:
+                # Gérer les différents formats d'URL
+                # Pour Zendesk : content_url ou mapped_content_url
+                # Pour Intercom : url directement
+                file_url = (attachment.get('content_url') or      # Pour Zendesk - priorité 1
+                            attachment.get('mapped_content_url') or  # Pour Zendesk - priorité 2
+                            attachment.get('url'))                   # Pour Intercom - dernier
+                
+                if file_url:
+                    # Télécharger le fichier
+                    response = requests.get(file_url, timeout=30)
+                    if response.status_code == 200:
+                        # Utiliser le nom du fichier ou un nom par défaut
+                        filename = attachment.get('name') or attachment.get('file_name', 'attachment')
+                        attachment_files.append((filename, response.content))
+                        print(f"Pièce jointe téléchargée: {filename}")
+            except Exception as e:
+                print(f"Erreur téléchargement pièce jointe: {e}")
+        
+        # Créer le message avec ou sans pièces jointes
         try:
-            client.create_message(
-                conversation_id=conversation_id,
-                content=message['content'],
-                message_type=message.get('message_type', 'incoming'),
-                private=True if message.get('content_type_msg') == 'note' else False
-            )
+            if attachment_files:
+                # Utiliser la méthode spéciale pour les pièces jointes
+                client.create_message_with_attachments(
+                    conversation_id=conversation_id,
+                    content=message['content'],
+                    message_type=message.get('message_type', 'incoming'),
+                    private=True if message.get('content_type_msg') == 'note' else False,
+                    attachment_files=attachment_files
+                )
+            else:
+                # Message normal sans pièces jointes
+                client.create_message(
+                    conversation_id=conversation_id,
+                    content=message['content'],
+                    message_type=message.get('message_type', 'incoming'),
+                    private=True if message.get('content_type_msg') == 'note' else False
+                )
             messages_added += 1
         except Exception as e:
             print(f"Erreur message: {e}")
     
     print(f"Conversation {conversation_id}: {messages_added} messages ajoutés")
-  
+    
+    # Mettre à jour le statut final
     client.update_conversation_status(conversation_id, status)
-    print(f"Conversation {conversation_id} mise à jour avec statut final: {status}")
     
     return created_conv
-
-
 
 def test_import_sample_data():
     """Test d'import avec échantillons Zendesk + Intercom"""
